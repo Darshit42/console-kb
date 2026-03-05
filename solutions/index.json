@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-05T19:00:13.487Z",
+  "generatedAt": "2026-03-05T21:50:22.754Z",
   "count": 397,
   "missions": [
     {
@@ -27,7 +27,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/antrea/antrea-2121-packet-in-rate-limiting-with-of-meter.json",
@@ -53,7 +55,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 68
     },
     {
       "path": "solutions/cncf-generated/antrea/antrea-1196-use-specific-kustomize-version-when-generating-manifests.json",
@@ -81,7 +85,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/argo-events/argo-events-1395-feat-redis-streams-as-event-source.json",
@@ -111,7 +117,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 71
     },
     {
       "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-1001-feat-implement-rollout-status-command-fixes-596.json",
@@ -139,7 +147,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 67
     },
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-1716-feat-added-onexit-handlers-to-arbitrary-templates.json",
@@ -171,7 +181,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 70
     },
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-12722-feat-allow-lastretry-variables-in-expressions.json",
@@ -201,7 +213,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 65
     },
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-1758-feat-support-for-scheduled-workflows-with-cronworkflow-crd.json",
@@ -231,7 +245,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6282-feat-ui-inject-custom-css.json",
@@ -263,7 +279,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 66
     },
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-15107-fix-avoid-resetting-resourceversion-for-watch-fixes-15106.json",
@@ -290,7 +308,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-14766-fix-cluster-workflow-template-store-is-not-initialized-in-n.json",
@@ -318,7 +338,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 66
     },
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-1320-wip-add-task-names-to-pod-names.json",
@@ -346,7 +368,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/argo/argo-6280-feat-extra-helm-values-from-external-git-repo-5826.json",
@@ -374,7 +398,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 70
     },
     {
       "path": "solutions/cncf-generated/argo/argo-9755-feat-applications-in-any-namespace.json",
@@ -402,7 +428,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/argo/argo-10432-feat-multiple-sources-for-applications.json",
@@ -430,7 +458,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 67
     },
     {
       "path": "solutions/cncf-generated/argo/argo-11183-feat-appset-add-stringtemplate-field-to-spec.json",
@@ -456,7 +486,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/argo/argo-11567-feat-appset-advanced-templating-for-applicationset.json",
@@ -484,7 +516,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/argo/argo-14893-feat-appset-advanced-templating-using-templatepatch.json",
@@ -510,7 +544,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/atlantis/atlantis-2261-feat-stream-output-for-custom-workflows.json",
@@ -539,7 +575,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/atlantis/atlantis-2002-fix-retry-files-requests-to-github.json",
@@ -565,7 +603,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/backstage/backstage-6341-techdocs-use-an-event-stream-for-the-sync-endpoint-to-give-access.json",
@@ -593,7 +633,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/bank-vaults/bank-vaults-1613-operator-filter-vault-operator-cache-to-reduce-memory-usage.json",
@@ -622,7 +664,9 @@
         "analyze"
       ],
       "type": "analyze",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/buildpacks/buildpacks-2086-implementation-of-the-multi-platform-support-for-builders-and-bu.json",
@@ -650,7 +694,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/cedar/cedar-123-resolve-issue-114-expose-evaluationerror.json",
@@ -676,7 +722,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/cert-manager/cert-manager-2840-wip-implement-route-controller.json",
@@ -714,7 +762,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 68
     },
     {
       "path": "solutions/cncf-generated/cert-manager/cert-manager-5084-wip-configurable-context-timeout.json",
@@ -746,7 +796,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/chaos-mesh/chaos-mesh-3476-chore-configure-qps-and-burst-for-chaos-dashboard.json",
@@ -778,7 +830,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/chaos-mesh/chaos-mesh-3066-helm-chart-support-latest-api-version-of-dashboard-ingress.json",
@@ -811,7 +865,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/cilium/cilium-15383-add-wireguard-support.json",
@@ -842,7 +898,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 65
     },
     {
       "path": "solutions/cncf-generated/cilium/cilium-18463-adding-support-for-aws-eni-prefix-delegation-ipv4-only.json",
@@ -874,7 +932,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/cilium/cilium-20090-k8s-allow-setting-multiple-k8s-api-server-addresses.json",
@@ -903,7 +963,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/cilium/cilium-37601-kpr-support-kube-apiserver-ha.json",
@@ -935,7 +997,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/cilium/cilium-41406-policy-return-icmp-destination-unreachable-on-ipv4-egress-policy-de.json",
@@ -968,7 +1032,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/containerd/containerd-8287-add-support-for-userns-in-stateless-and-stateful-pods-with-idmap.json",
@@ -1001,7 +1067,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/containerd/containerd-6702-cri-improve-image-pulling-performance.json",
@@ -1032,7 +1100,9 @@
         "analyze"
       ],
       "type": "analyze",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 68
     },
     {
       "path": "solutions/cncf-generated/containerd/containerd-10177-multipart-layer-fetch.json",
@@ -1063,7 +1133,9 @@
         "analyze"
       ],
       "type": "analyze",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/containerd/containerd-3085-shim-pluggable-logging.json",
@@ -1091,7 +1163,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/continuous-optimization/continuous-optimization-10-added-node-chaos-scenarios.json",
@@ -1119,7 +1193,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/contour/contour-5672-wait-for-cache-sync-and-dag-build-before-starting-xds-server.json",
@@ -1146,7 +1222,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/cri-o/cri-o-2447-add-support-for-dual-stack-ipv6.json",
@@ -1182,7 +1260,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 70
     },
     {
       "path": "solutions/cncf-generated/cri-o/cri-o-579-implement-non-terminal-attach.json",
@@ -1210,7 +1290,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/crossplane/crossplane-4444-add-usage-type-for-deletion-ordering-and-resource-protection.json",
@@ -1238,7 +1320,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 67
     },
     {
       "path": "solutions/cncf-generated/crossplane/crossplane-2352-add-combine-from-to-composite-patch-types.json",
@@ -1264,7 +1348,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/crossplane/crossplane-2938-feat-composition-add-patch-fromobjectfieldpath.json",
@@ -1293,7 +1379,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/crossplane/crossplane-3007-feat-compositions-support-patching-from-environment.json",
@@ -1322,7 +1410,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/crossplane/crossplane-5540-feat-configurable-ports.json",
@@ -1352,7 +1442,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/crossplane/crossplane-2093-implement-multiple-source-field-patch-type.json",
@@ -1381,7 +1473,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/crossplane/crossplane-3939-proposal-break-up-large-providers-by-service.json",
@@ -1412,7 +1506,9 @@
         "analyze"
       ],
       "type": "analyze",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/crossplane/crossplane-5543-support-passing-credentials-to-composition-functions.json",
@@ -1443,7 +1539,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 67
     },
     {
       "path": "solutions/cncf-generated/crossplane/crossplane-2880-use-serviceaccountname-for-service-account-creation.json",
@@ -1477,7 +1575,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/dapr/dapr-1864-add-windows-containers-to-the-docker-multiarch-manifest.json",
@@ -1509,7 +1609,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 66
     },
     {
       "path": "solutions/cncf-generated/dapr/dapr-962-initial-prometheus-metrics-endpoint.json",
@@ -1537,7 +1639,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/distribution/distribution-2973-support-ecs-taskrole-in-s3-storage-driver.json",
@@ -1566,7 +1670,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/envoy/envoy-36369-tls-support-for-ecdsa-p-384-and-p-521-certificates.json",
@@ -1596,7 +1702,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/etcd/etcd-12196-etcdserver-fix-incorrect-metrics-generated-when-clients-cancel-watche.json",
@@ -1624,7 +1732,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/etcd/etcd-11375-etcdserver-fix-watch-metrics.json",
@@ -1653,7 +1763,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/etcd/etcd-11776-fix-cluster-peer-http-srv-discovery-when-no-https-records-exist.json",
@@ -1679,7 +1791,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/external-secrets/external-secrets-5930-chore-update-controller-runtime.json",
@@ -1711,7 +1825,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 65
     },
     {
       "path": "solutions/cncf-generated/external-secrets/external-secrets-3603-feat-add-bitwarden-secret-manager-support.json",
@@ -1739,7 +1855,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/external-secrets/external-secrets-5470-feat-dynamic-target-implementation-for-external-secrets-so.json",
@@ -1770,7 +1888,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/external-secrets/external-secrets-917-feat-replace-prometheus-annotations-with-servicemonitor.json",
@@ -1798,7 +1918,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/external-secrets/external-secrets-4538-feat-aws-support-for-aws-tags.json",
@@ -1828,7 +1950,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/flagger/flagger-593-implement-progressive-promotion.json",
@@ -1857,7 +1981,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/flagger/flagger-670-skipper-ingress-controller-support.json",
@@ -1889,7 +2015,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 66
     },
     {
       "path": "solutions/cncf-generated/fluent-bit/fluent-bit-1166-gelf-replace-with-in-keys-when-converting-from-msgpack.json",
@@ -1917,7 +2045,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/fluent-bit/fluent-bit-8279-filter-kubernetes-add-kubernetes-namespace-metadata.json",
@@ -1950,7 +2080,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/fluent-bit/fluent-bit-4197-in-tail-create-stream-id-by-file-inode-4190.json",
@@ -1980,7 +2112,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/fluent-bit/fluent-bit-2043-in-tail-support-multiline-functionality-not-filter-in-dockermode.json",
@@ -2007,7 +2141,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/fluent-bit/fluent-bit-5590-mp-sort-flb-record-accessor-by-a-number-of-subkeys-5546.json",
@@ -2040,7 +2176,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 69
     },
     {
       "path": "solutions/cncf-generated/fluent-bit/fluent-bit-2783-retrieve-kubernetes-pod-ip-address-if-it-is-set-in-status-podip.json",
@@ -2069,7 +2207,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 65
     },
     {
       "path": "solutions/cncf-generated/fluentd/fluentd-4185-in-tail-use-inode-for-key-of-tailwatcher-when-follow-inodes.json",
@@ -2098,7 +2238,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/flux/flux-3675-feat-add-reconcile-source-chart-command.json",
@@ -2126,7 +2268,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/grpc/grpc-22062-add-compatibility-for-python-s-eventlet-library.json",
@@ -2157,7 +2301,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/grpc/grpc-27121-drop-msse4-compiler-flag.json",
@@ -2187,7 +2333,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/grpc/grpc-22594-fix-generating-method-output-with-nested-resource.json",
@@ -2216,7 +2364,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 70
     },
     {
       "path": "solutions/cncf-generated/grpc/grpc-8601-node-electron-build.json",
@@ -2246,7 +2396,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/harbor/harbor-17932-aws-auth-use-default-creds-when-none-are-supplied.json",
@@ -2276,7 +2428,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/headlamp/headlamp-2231-frontend-introduce-react-query-and-v2-api.json",
@@ -2302,7 +2456,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 65
     },
     {
       "path": "solutions/cncf-generated/helm/helm-8841-add-include-file-flag-for-external-files.json",
@@ -2329,7 +2485,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/helm/helm-7649-adopt-resources-into-release-with-correct-instance-and-managed-by-labe.json",
@@ -2359,7 +2517,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 70
     },
     {
       "path": "solutions/cncf-generated/helm/helm-9534-allow-configuring-install-order-of-custom-resources.json",
@@ -2394,7 +2554,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/helm/helm-12879-bugfix-override-subcharts-with-null-values.json",
@@ -2422,7 +2584,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/helm/helm-11760-fail-strict-lints-when-unused-values-are-provided.json",
@@ -2453,7 +2617,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 70
     },
     {
       "path": "solutions/cncf-generated/helm/helm-5492-feat-helm-add-app-version-flag-to-helm-install-upgrade.json",
@@ -2481,7 +2647,9 @@
         "upgrade"
       ],
       "type": "upgrade",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 66
     },
     {
       "path": "solutions/cncf-generated/helm/helm-9426-feat-helm-add-ability-for-dry-run-to-do-lookup-functions.json",
@@ -2508,7 +2676,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/helm/helm-7431-feat-helm-add-recreate-upgrade-rollback-strategy.json",
@@ -2542,7 +2712,9 @@
         "upgrade"
       ],
       "type": "upgrade",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 66
     },
     {
       "path": "solutions/cncf-generated/helm/helm-9782-implement-changes-proposed-in-hip-6-oci-support.json",
@@ -2571,7 +2743,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/helm/helm-10603-trigger-hook-delete-policy-after-log-retrieval-for-helm-test.json",
@@ -2604,7 +2778,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 70
     },
     {
       "path": "solutions/cncf-generated/inspektor-gadget/inspektor-gadget-1396-making-gadgets-self-contained-adding-metadata-operators-in.json",
@@ -2634,7 +2810,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 69
     },
     {
       "path": "solutions/cncf-install/install-aeraki-mesh.json",
@@ -2667,7 +2845,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "1.4.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-akri.json",
@@ -2702,7 +2883,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "latest",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-alertmanager.json",
@@ -2738,7 +2922,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.31.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-eks.json",
@@ -2770,7 +2957,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 99
     },
     {
       "path": "solutions/cncf-install/install-antrea.json",
@@ -2803,7 +2991,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.5.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-argocd-operator.json",
@@ -2835,7 +3026,8 @@
       "type": "deploy",
       "installMethods": [
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-argo-events.json",
@@ -2875,7 +3067,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.9.10",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-argo.json",
@@ -2909,7 +3104,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v3.3.2",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-argo-rollouts.json",
@@ -2945,7 +3143,10 @@
       "installMethods": [
         "helm",
         "kubectl"
-      ]
+      ],
+      "projectVersion": "v1.8.4",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-argo-workflows.json",
@@ -2981,7 +3182,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v4.0.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-armada.json",
@@ -3015,7 +3219,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.20.34",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-artifact-hub.json",
@@ -3048,7 +3255,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.22.0",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-atlantis.json",
@@ -3081,7 +3291,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.40.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-aks.json",
@@ -3113,7 +3326,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 98
     },
     {
       "path": "solutions/cncf-install/install-backstage.json",
@@ -3147,7 +3361,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.48.3",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-bank-vaults.json",
@@ -3182,7 +3399,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.32.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-bfe.json",
@@ -3216,7 +3436,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.8.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-bootc.json",
@@ -3250,7 +3473,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.13.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-bpfman.json",
@@ -3284,7 +3510,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.5.6",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-cadence-workflow.json",
@@ -3318,7 +3547,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.4.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-capsule.json",
@@ -3351,7 +3583,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.12.4",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-carina.json",
@@ -3383,7 +3618,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.14.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-cartography.json",
@@ -3417,7 +3655,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "0.130.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-carvel.json",
@@ -3450,7 +3691,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.53.2",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-cdk-for-kubernetes-cdk8s.json",
@@ -3482,7 +3726,10 @@
       "type": "deploy",
       "installMethods": [
         "npm"
-      ]
+      ],
+      "projectVersion": "redirect",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-cedar.json",
@@ -3517,7 +3764,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v4.9.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-cert-manager.json",
@@ -3552,7 +3802,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.19.4",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-chaos-mesh.json",
@@ -3585,7 +3838,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.8.1",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-chaosblade.json",
@@ -3620,7 +3876,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.8.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-charmed-kubernetes.json",
@@ -3652,7 +3911,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 96
     },
     {
       "path": "solutions/cncf-install/install-cilium.json",
@@ -3687,7 +3947,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.19.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-postgres-operator.json",
@@ -3720,7 +3983,8 @@
       "installMethods": [
         "helm",
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-cluster-api.json",
@@ -3753,7 +4017,8 @@
       "installMethods": [
         "kubectl",
         "helm"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-clusternet.json",
@@ -3786,7 +4051,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.18.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-clusterpedia.json",
@@ -3819,7 +4087,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.9.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-composefs.json",
@@ -3853,7 +4124,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.0.8",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-confidential-containers.json",
@@ -3888,7 +4162,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.17.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-connect-rpc.json",
@@ -3922,7 +4199,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.19.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-container-network-interface-cni.json",
@@ -3957,7 +4237,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.3.0",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-container2wasm.json",
@@ -3990,7 +4273,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.8.3",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-containerd.json",
@@ -4024,7 +4310,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.2.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-containerssh.json",
@@ -4058,7 +4347,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.5.2",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-continuous-optimization.json",
@@ -4093,7 +4385,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v5.0.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-contour.json",
@@ -4126,7 +4421,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.33.2",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-copa.json",
@@ -4159,7 +4457,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.13.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-coredns.json",
@@ -4193,7 +4494,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.14.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-cortex.json",
@@ -4227,7 +4531,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.20.1",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-cubefs.json",
@@ -4261,7 +4568,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v3.5.3",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-dalec.json",
@@ -4295,7 +4605,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.20.3",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-dapr.json",
@@ -4328,7 +4641,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.17.0",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-devfile.json",
@@ -4363,7 +4679,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.3.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-devspace.json",
@@ -4396,7 +4715,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v6.3.20",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-dex.json",
@@ -4430,7 +4752,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.45.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-doks.json",
@@ -4462,7 +4787,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-distribution.json",
@@ -4496,7 +4822,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v3.0.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-docker-desktop-k8s.json",
@@ -4528,7 +4857,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 96
     },
     {
       "path": "solutions/cncf-install/install-dragonfly.json",
@@ -4561,7 +4891,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.4.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-drasi.json",
@@ -4595,7 +4928,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "latest",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-easegress.json",
@@ -4629,7 +4965,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.10.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-elastic-cloud-on-k8s.json",
@@ -4662,7 +5001,8 @@
       "installMethods": [
         "helm",
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-emissary-ingress.json",
@@ -4697,7 +5037,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v3.10.0",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-envoy.json",
@@ -4731,7 +5074,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.37.0",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-eraser.json",
@@ -4763,7 +5109,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.4.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-external-secrets.json",
@@ -4799,7 +5148,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "helm-chart-2.0.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-external-dns-operator.json",
@@ -4832,7 +5184,8 @@
       "installMethods": [
         "helm",
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-falco.json",
@@ -4865,7 +5218,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "0.43.0",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-falcosidekick.json",
@@ -4901,7 +5257,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "2.32.0",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-flagger.json",
@@ -4937,7 +5296,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.42.0",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-fluent-bit.json",
@@ -4972,7 +5334,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v4.2.3",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-fluentd.json",
@@ -5005,7 +5370,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.19.2",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-fluid.json",
@@ -5037,7 +5405,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.0.8",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-gke.json",
@@ -5069,7 +5440,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-grafana-operator.json",
@@ -5102,7 +5474,8 @@
       "installMethods": [
         "helm",
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-grpc.json",
@@ -5136,7 +5509,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.78.1",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-hami.json",
@@ -5171,7 +5547,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.8.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-harbor.json",
@@ -5205,7 +5584,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.14.2",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-headlamp.json",
@@ -5238,7 +5620,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.40.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-helm.json",
@@ -5270,7 +5655,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v4.1.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-holmesgpt.json",
@@ -5303,7 +5691,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "0.20.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-hwameistor.json",
@@ -5336,7 +5727,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.0.2",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-hyperlight.json",
@@ -5370,7 +5764,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.12.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-iks.json",
@@ -5402,7 +5799,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-inclavare-containers.json",
@@ -5437,7 +5835,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.6.2",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-ingress-nginx-operator.json",
@@ -5470,7 +5871,8 @@
       "installMethods": [
         "helm",
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-inspektor-gadget.json",
@@ -5504,7 +5906,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.49.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-interlink.json",
@@ -5538,7 +5943,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "0.6.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-istio.json",
@@ -5571,7 +5979,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "1.29.0",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-jaeger.json",
@@ -5604,7 +6015,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.15.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-k0s.json",
@@ -5636,7 +6050,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-k3s.json",
@@ -5668,7 +6083,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 96
     },
     {
       "path": "solutions/cncf-install/install-k8gb.json",
@@ -5702,7 +6118,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.18.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-k8sgpt.json",
@@ -5737,7 +6156,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.4.30",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-k8up.json",
@@ -5771,7 +6193,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "k8up-4.8.6",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kagent.json",
@@ -5805,7 +6230,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.7.19",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/install-kagenti.json",
@@ -5841,7 +6269,10 @@
       "installMethods": [
         "ansible",
         "helm"
-      ]
+      ],
+      "projectVersion": "latest",
+      "maturity": "incubation",
+      "qualityScore": 95
     },
     {
       "path": "solutions/cncf-install/install-kairos.json",
@@ -5875,7 +6306,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v4.0.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-karmada.json",
@@ -5909,7 +6343,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.17.0",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kcl.json",
@@ -5943,7 +6380,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.11.2",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kcp.json",
@@ -5980,7 +6420,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.30.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-keda.json",
@@ -6013,7 +6456,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.19.0",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kepler.json",
@@ -6047,7 +6493,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.11.4",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-keycloak.json",
@@ -6079,7 +6528,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "26.5.4",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-keylime.json",
@@ -6113,7 +6565,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v7.14.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kgateway.json",
@@ -6146,7 +6601,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.2.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-kind.json",
@@ -6178,7 +6636,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kitops.json",
@@ -6212,7 +6671,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.11.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kmesh.json",
@@ -6246,7 +6708,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.2.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-knative-eventing.json",
@@ -6281,7 +6746,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "knative-v1.21.0",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-knative.json",
@@ -6315,7 +6783,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "knative-v1.21.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-konveyor.json",
@@ -6349,7 +6820,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.9.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kpt.json",
@@ -6383,7 +6857,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.0.0-beta.61",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kserve.json",
@@ -6417,7 +6894,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.16.0",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kuadrant.json",
@@ -6450,7 +6930,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.4.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kuasar.json",
@@ -6484,7 +6967,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.0.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kube-ovn.json",
@@ -6517,7 +7003,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.15.4",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kube-vip.json",
@@ -6551,7 +7040,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.0.4",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-kubeadm.json",
@@ -6583,7 +7075,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 94
     },
     {
       "path": "solutions/cncf-install/install-kubean.json",
@@ -6620,7 +7113,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.32.4",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kubearmor.json",
@@ -6657,7 +7153,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.6.9",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kubeclipper.json",
@@ -6691,7 +7190,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.4.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kubeedge.json",
@@ -6725,7 +7227,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.22.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kubeelasti.json",
@@ -6758,7 +7263,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.1.21",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kubefleet.json",
@@ -6795,7 +7303,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.2.2",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kubeflow.json",
@@ -6828,7 +7339,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.10.0",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kuberhealthy.json",
@@ -6861,7 +7375,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.7.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kubescape.json",
@@ -6895,7 +7412,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v4.0.2",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kubeslice.json",
@@ -6927,7 +7447,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "kubeslice-worker-1.5.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kubevela.json",
@@ -6962,7 +7485,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.10.7",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kubevirt.json",
@@ -6994,7 +7520,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.7.0",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kubewarden.json",
@@ -7026,7 +7555,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.32.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kudo.json",
@@ -7062,7 +7594,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.19.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kuma.json",
@@ -7096,7 +7631,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.13.2",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kured.json",
@@ -7132,7 +7670,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "1.21.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kusionstack.json",
@@ -7166,7 +7707,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.15.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-kyverno.json",
@@ -7199,7 +7743,8 @@
       "installMethods": [
         "helm",
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-kyverno.json",
@@ -7231,7 +7776,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.17.1",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-linkerd.json",
@@ -7264,7 +7812,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "edge-26.2.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-linkerd-viz.json",
@@ -7299,7 +7850,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "edge-26.2.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-lke.json",
@@ -7331,7 +7885,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-litmus.json",
@@ -7364,7 +7919,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "3.26.0",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-logging-operator-kube-logging.json",
@@ -7398,7 +7956,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "6.4.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-longhorn.json",
@@ -7432,7 +7993,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.11.0",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-loxilb.json",
@@ -7466,7 +8030,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.9.8.4",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-meshery.json",
@@ -7500,7 +8067,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.8.205",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-metal3-io.json",
@@ -7534,7 +8104,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.12.2",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-metallb.json",
@@ -7566,7 +8139,8 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-metallb.json",
@@ -7600,7 +8174,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.15.3",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-microcks.json",
@@ -7633,7 +8210,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "1.13.2",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-microk8s.json",
@@ -7665,7 +8245,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 94
     },
     {
       "path": "solutions/platform-install/platform-minikube.json",
@@ -7697,7 +8278,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-mongodb-community-operator.json",
@@ -7730,7 +8312,8 @@
       "installMethods": [
         "helm",
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-monocle.json",
@@ -7763,7 +8346,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.7.6",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-mysql-operator.json",
@@ -7796,7 +8382,8 @@
       "installMethods": [
         "kubectl",
         "helm"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-nats.json",
@@ -7829,7 +8416,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.12.4",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-network-service-mesh.json",
@@ -7863,7 +8453,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.16.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-node-exporter.json",
@@ -7899,7 +8492,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.10.2",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-notary-project.json",
@@ -7933,7 +8529,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.3.2",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-oauth2-proxy.json",
@@ -7967,7 +8566,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v7.14.3",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-open-cluster-management.json",
@@ -8001,7 +8603,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.2.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-open-policy-agent-opa.json",
@@ -8036,7 +8641,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.14.0",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-opencost.json",
@@ -8070,7 +8678,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.119.2",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-openebs.json",
@@ -8102,7 +8713,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v4.4.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-openfga.json",
@@ -8136,7 +8750,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.11.6",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-openfunction.json",
@@ -8169,7 +8786,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.2.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-opengemini.json",
@@ -8202,7 +8822,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.5.2",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-openkruise.json",
@@ -8235,7 +8858,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.8.3",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-opentelemetry-collector.json",
@@ -8271,7 +8897,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.146.1",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-opentelemetry.json",
@@ -8304,7 +8933,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "latest",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-opentelemetry-operator.json",
@@ -8339,7 +8971,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.145.0",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-opentofu.json",
@@ -8373,7 +9008,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.11.5",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-openyurt.json",
@@ -8407,7 +9045,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.6.1",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-operator-framework.json",
@@ -8442,7 +9083,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.42.0",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-oke.json",
@@ -8474,7 +9118,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-oras.json",
@@ -8508,7 +9153,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.3.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-oscal-compass.json",
@@ -8542,7 +9190,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v3.12.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-ovn-kubernetes.json",
@@ -8574,7 +9225,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.2.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-oxia.json",
@@ -8608,7 +9262,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.15.3",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-paralus.json",
@@ -8642,7 +9299,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.3.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-parsec.json",
@@ -8676,7 +9336,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "1.4.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-perses.json",
@@ -8709,7 +9372,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.53.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-pipecd.json",
@@ -8742,7 +9408,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.55.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-piraeus-datastore.json",
@@ -8774,7 +9443,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.10.4",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-pixie.json",
@@ -8808,7 +9480,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "release/cloud/v0.1.9",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-porter.json",
@@ -8841,7 +9516,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.4.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-prometheus.json",
@@ -8874,7 +9552,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v3.10.0",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-prometheus-operator.json",
@@ -8906,7 +9587,8 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-pushgateway.json",
@@ -8942,7 +9624,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.11.2",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-rabbitmq-cluster-operator.json",
@@ -8974,7 +9659,8 @@
       "type": "deploy",
       "installMethods": [
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-radius.json",
@@ -9008,7 +9694,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.54.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-rancher.json",
@@ -9041,7 +9730,8 @@
       "installMethods": [
         "cli",
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-ratify.json",
@@ -9074,7 +9764,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.4.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-openshift.json",
@@ -9106,7 +9799,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 99
     },
     {
       "path": "solutions/platform-install/platform-redis-operator.json",
@@ -9139,7 +9833,8 @@
       "installMethods": [
         "helm",
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-rook-ceph-operator.json",
@@ -9172,7 +9867,8 @@
       "installMethods": [
         "kubectl",
         "helm"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-rook.json",
@@ -9205,7 +9901,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.19.2",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-runme-notebooks.json",
@@ -9239,7 +9938,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v3.16.5",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-score.json",
@@ -9273,7 +9975,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "0.3.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-security-compliance.json",
@@ -9307,7 +10012,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.1.14",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-sermant.json",
@@ -9341,7 +10049,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.3.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-slimfaas.json",
@@ -9375,7 +10086,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "0.61.14",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-slimtoolkit.json",
@@ -9409,7 +10123,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "1.40.11",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-spiderpool.json",
@@ -9442,7 +10159,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.1.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-spiffe.json",
@@ -9475,7 +10195,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "latest",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-spinkube.json",
@@ -9508,7 +10231,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.6.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-spire.json",
@@ -9541,7 +10267,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.14.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-stacker.json",
@@ -9575,7 +10304,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.1.6",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-strimzi-kafka-operator.json",
@@ -9608,7 +10340,8 @@
       "installMethods": [
         "helm",
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-strimzi.json",
@@ -9640,7 +10373,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "0.50.1",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-submariner.json",
@@ -9672,7 +10408,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.22.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-telepresence.json",
@@ -9705,7 +10444,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.27.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-tikv.json",
@@ -9738,12 +10480,15 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v8.5.5",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-tokenetes.json",
       "title": "Install and Configure Tokenetes on Kubernetes",
-      "description": "Tokenetes is an open source Transaction Tokens (TraTs) Service that allows for the management and deployment of transaction tokens. Installing Tokenetes enables you to utilize its features for handlin",
+      "description": "Tokenetes is an open source Transaction Tokens (TraTs) Service — an implementation of the IETF OAuth Transaction Tokens draft specification. It enables secure propagation of identity and context acros",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -9753,7 +10498,7 @@
         "installation",
         "configuration",
         "cncf",
-        "app-definition",
+        "security",
         "sandbox"
       ],
       "cncfProjects": [
@@ -9762,17 +10507,21 @@
       "targetResourceKinds": [
         "Deployment",
         "Service",
+        "ServiceAccount",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
-      ]
+        "kubectl"
+      ],
+      "projectVersion": "latest",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-tremor.json",
@@ -9806,7 +10555,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.13.0-rc.33",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-trickster.json",
@@ -9840,7 +10592,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v2.0.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-trivy-operator.json",
@@ -9873,7 +10628,8 @@
       "installMethods": [
         "helm",
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-velero.json",
@@ -9906,7 +10662,8 @@
       "installMethods": [
         "cli",
         "kubectl"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-vineyard.json",
@@ -9939,7 +10696,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v0.24.4",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-virtual-kubelet.json",
@@ -9974,7 +10734,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.12.0",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-vitess.json",
@@ -10008,7 +10771,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v23.0.3",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-tanzu.json",
@@ -10040,7 +10806,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-volcano.json",
@@ -10073,7 +10840,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.14.1",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/platform-install/platform-vke.json",
@@ -10105,7 +10875,8 @@
       "type": "deploy",
       "installMethods": [
         "cli"
-      ]
+      ],
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-wasmcloud.json",
@@ -10139,7 +10910,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "v1.9.2",
+      "maturity": "incubating",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-wasmedge-runtime.json",
@@ -10173,7 +10947,10 @@
       "type": "deploy",
       "installMethods": [
         "helm"
-      ]
+      ],
+      "projectVersion": "0.16.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
     },
     {
       "path": "solutions/llm-d/install-llmd-inference-scheduling.json",
@@ -10211,7 +10988,8 @@
       "installMethods": [
         "helmfile",
         "helm"
-      ]
+      ],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/llm-d/install-llmd-precise-prefix-cache.json",
@@ -10249,7 +11027,8 @@
       "installMethods": [
         "helmfile",
         "helm"
-      ]
+      ],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/llm-d/install-llmd-predicted-latency.json",
@@ -10286,7 +11065,8 @@
       "installMethods": [
         "kubectl",
         "docker"
-      ]
+      ],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/llm-d/install-llmd-pd-disaggregation.json",
@@ -10325,7 +11105,8 @@
       "installMethods": [
         "helmfile",
         "helm"
-      ]
+      ],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/llm-d/install-llmd-simulated-accelerators.json",
@@ -10362,7 +11143,8 @@
       "installMethods": [
         "helmfile",
         "helm"
-      ]
+      ],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/llm-d/install-llmd-tiered-prefix-cache.json",
@@ -10398,7 +11180,8 @@
       "type": "deploy",
       "installMethods": [
         "helmfile"
-      ]
+      ],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/llm-d/install-llmd-wide-ep-lws.json",
@@ -10439,7 +11222,8 @@
         "helm",
         "kustomize",
         "kubectl"
-      ]
+      ],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/llm-d/install-llmd-workload-autoscaling.json",
@@ -10476,7 +11260,8 @@
       "installMethods": [
         "helmfile",
         "helm"
-      ]
+      ],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/istio/istio-52320-do-not-add-pod-to-ipset-if-we-have-a-partial-failure-adding-to-the-d.json",
@@ -10509,7 +11294,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/istio/istio-46603-feat-gateway-api-customize-gateway-deployments-via-class-annotations.json",
@@ -10544,7 +11331,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/istio/istio-55283-implement-gateway-waypoint-customization.json",
@@ -10578,7 +11367,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 65
     },
     {
       "path": "solutions/cncf-generated/istio/istio-13500-wip-add-support-for-using-jaeger-operator-if-installed-and-enabled-t.json",
@@ -10608,7 +11399,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 65
     },
     {
       "path": "solutions/cncf-generated/k0s/k0s-1165-add-support-for-external-etcd-cluster.json",
@@ -10634,7 +11427,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 65
     },
     {
       "path": "solutions/cncf-generated/k3s/k3s-3049-add-dual-stack-support-to-k3s.json",
@@ -10663,7 +11458,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 69
     },
     {
       "path": "solutions/cncf-generated/k3s/k3s-141-preload-a-docker-image-on-the-k3s-node-agents.json",
@@ -10691,7 +11488,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/keda/keda-2418-add-predictkube-scaler.json",
@@ -10721,7 +11520,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/keda/keda-6191-add-scaler-for-temporal.json",
@@ -10749,7 +11550,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/keylime/keylime-319-update-verifier-rest-api-to-return-error-for-invalid-exclude-list.json",
@@ -10776,7 +11579,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/kmesh/kmesh-1094-update-hostname-and-record-unknown-services-of-service-metrics.json",
@@ -10812,7 +11617,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/knative-eventing/knative-eventing-7525-authenticate-requests-from-pingsources.json",
@@ -10845,7 +11652,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 66
     },
     {
       "path": "solutions/cncf-generated/knative-eventing/knative-eventing-5818-moving-placeable-type-and-new-scheduler-to-eventing-core.json",
@@ -10880,7 +11689,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/knative/knative-12715-add-support-for-topology-spread-constraint.json",
@@ -10915,7 +11726,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/kserve/kserve-4603-feat-add-catboost-model-format-supported-by-mlserver-runtime.json",
@@ -10944,7 +11757,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 66
     },
     {
       "path": "solutions/cncf-generated/kubeelasti/kubeelasti-178-helm-forward-values-to-elasti-trough-env-variables.json",
@@ -10974,7 +11789,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/kubeflow/kubeflow-5237-add-support-for-tolerations-and-affinity-in-notebooks.json",
@@ -11009,7 +11826,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 70
     },
     {
       "path": "solutions/cncf-generated/kubeflow/kubeflow-7622-fix-notebook-server-images-with-non-root-securitycontext.json",
@@ -11046,7 +11865,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/kubeflow/kubeflow-6374-support-k8s-1-22-in-notebook-controller.json",
@@ -11080,7 +11901,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 68
     },
     {
       "path": "solutions/cncf-generated/kubernetes/kubernetes-102819-add-o-extra-columns-format-option-to-kubectl-get.json",
@@ -11118,7 +11941,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 70
     },
     {
       "path": "solutions/cncf-generated/kubernetes/kubernetes-42873-add-kubectl-api-resources-command.json",
@@ -11161,7 +11986,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/kubernetes/kubernetes-96087-move-all-bash-custom-completions-to-go.json",
@@ -11205,7 +12032,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 67
     },
     {
       "path": "solutions/cncf-generated/kubernetes/kubernetes-97743-support-m1-macbooks-darwin-arm64-on-the-client-side.json",
@@ -11241,7 +12070,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/kubernetes/kubernetes-75831-support-mixed-protocol-lbs.json",
@@ -11279,7 +12110,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/kubescape/kubescape-1332-feat-add-kubescape-patch-command.json",
@@ -11305,7 +12138,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/kubevirt/kubevirt-11256-rpm-update-virtualization-packages.json",
@@ -11338,7 +12173,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/kubevirt/kubevirt-10015-usb-host-pass-through.json",
@@ -11373,7 +12210,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/kured/kured-660-add-multiple-concurrent-node-reboot-feature.json",
@@ -11404,7 +12243,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/kured/kured-814-add-signal-reboot.json",
@@ -11436,7 +12277,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/kyverno/kyverno-6248-extends-foreach-to-cover-generate-rules.json",
@@ -11469,7 +12312,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/kyverno/kyverno-1930-add-special-variable-substitution-logic-for-preconditions.json",
@@ -11502,7 +12347,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/kyverno/kyverno-4461-feat-use-standard-selector-for-validationfailureactionoverrides.json",
@@ -11533,7 +12380,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 71
     },
     {
       "path": "solutions/cncf-generated/kyverno/kyverno-13635-feat-engine-support-platform-selection-in-imageregistry-context.json",
@@ -11562,7 +12411,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 66
     },
     {
       "path": "solutions/cncf-generated/kyverno/kyverno-4199-fix-updaterequest-labeling.json",
@@ -11598,7 +12449,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/kyverno/kyverno-13350-make-sure-that-imagepullsecrets-are-properly-formatted.json",
@@ -11631,7 +12484,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/lima/lima-2306-add-command-to-generate-jsonschema-for-limayaml.json",
@@ -11657,7 +12512,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/lima/lima-188-replace-reverse-sshfs-with-samba.json",
@@ -11684,7 +12541,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/lima/lima-4595-support-macos-guests.json",
@@ -11712,7 +12571,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/linkerd-viz/linkerd-viz-9113-add-podmonitor-resources-to-the-helm-chart.json",
@@ -11742,7 +12603,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/linkerd-viz/linkerd-viz-2893-added-anti-affinity-when-ha-is-configured.json",
@@ -11770,7 +12633,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/linkerd-viz/linkerd-viz-13615-expose-issuer-certificate-ttl-as-a-prometheus-metric.json",
@@ -11798,7 +12663,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/linkerd-viz/linkerd-viz-5412-ignore-pods-with-status-phase-succeeded-when-watching-ip-addres.json",
@@ -11826,7 +12693,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/linkerd-viz/linkerd-viz-3470-the-linkerd-proxy-does-not-work-with-headless-services.json",
@@ -11855,7 +12724,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/linkerd/linkerd-9113-add-podmonitor-resources-to-the-helm-chart.json",
@@ -11885,7 +12756,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/linkerd/linkerd-2893-added-anti-affinity-when-ha-is-configured.json",
@@ -11913,7 +12786,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/linkerd/linkerd-13615-expose-issuer-certificate-ttl-as-a-prometheus-metric.json",
@@ -11941,7 +12816,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/linkerd/linkerd-5412-ignore-pods-with-status-phase-succeeded-when-watching-ip-addresses.json",
@@ -11969,7 +12846,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/linkerd/linkerd-3470-the-linkerd-proxy-does-not-work-with-headless-services.json",
@@ -11998,7 +12877,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/metallb/metallb-562-rfc-fix-conflicting-arp-when-ip-is-shared.json",
@@ -12031,7 +12912,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/metallb/metallb-833-design-metallb-crd-controller-enhancement.json",
@@ -12060,7 +12943,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/metallb/metallb-895-implement-leveled-logging.json",
@@ -12086,7 +12971,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 69
     },
     {
       "path": "solutions/cncf-generated/metallb/metallb-658-re-add-helm-chart-under-charts-metallb.json",
@@ -12118,7 +13005,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 73
     },
     {
       "path": "solutions/cncf-generated/notary-project/notary-project-916-feat-upgrade-to-oci-1-1.json",
@@ -12144,7 +13033,9 @@
         "upgrade"
       ],
       "type": "upgrade",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/oauth2-proxy/oauth2-proxy-1500-implementation-of-multiple-providers.json",
@@ -12171,7 +13062,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/open-policy-agent-opa-/open-policy-agent-opa-4254-ci-publish-multi-arch-image-manifest-lists.json",
@@ -12197,7 +13090,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/open-policy-agent-opa-/open-policy-agent-opa-4029-implement-distributed-tracing-using-opentelemtry.json",
@@ -12225,7 +13120,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/opencost/opencost-2423-use-node-label-instead-of-extracting-from-instance.json",
@@ -12260,7 +13157,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/opentelemetry-operator/opentelemetry-operator-689-choose-target-container-injection-with-annotation.json",
@@ -12286,7 +13185,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/opentelemetry-operator/opentelemetry-operator-976-support-dotnet-auto-instrumentation.json",
@@ -12312,7 +13213,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 66
     },
     {
       "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-4215-add-squash-all-fix-squash-option-in-build.json",
@@ -12343,7 +13246,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 60
     },
     {
       "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-13490-pod-logs-enhancements-option-to-color-logs.json",
@@ -12374,7 +13279,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 62
     },
     {
       "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-9423-rootless-cni-without-infra-container.json",
@@ -12408,7 +13315,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-6442-shell-completion.json",
@@ -12440,7 +13349,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/prometheus/prometheus-5031-docker-images-for-arm32v7-and-arm64v8.json",
@@ -12466,7 +13377,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 64
     },
     {
       "path": "solutions/cncf-generated/prometheus/prometheus-7420-docker-swarm-service-discovery.json",
@@ -12494,7 +13407,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 67
     },
     {
       "path": "solutions/cncf-generated/rook/rook-3228-cassandra-jmx-prometheus-exporter.json",
@@ -12520,7 +13435,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/rook/rook-3128-ceph-add-metrics-for-flexvolume-driver.json",
@@ -12546,7 +13463,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/llm-d/install-llmd-benchmark.json",
@@ -12582,7 +13501,8 @@
       "installMethods": [
         "kubectl",
         "script"
-      ]
+      ],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/spin/spin-786-feat-bump-bindle-to-v0-9-0-rc-1.json",
@@ -12610,7 +13530,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 73
     },
     {
       "path": "solutions/cncf-generated/strimzi/strimzi-11210-add-support-for-volumeattributesclassname-on-persistent-storage.json",
@@ -12640,7 +13562,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 68
     },
     {
       "path": "solutions/cncf-generated/strimzi/strimzi-6180-fix-renewal-of-user-provided-cas.json",
@@ -12671,7 +13595,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/submariner/submariner-1202-add-e2e-tests-for-external-connectivity-use-case.json",
@@ -12699,7 +13625,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 63
     },
     {
       "path": "solutions/cncf-generated/virtual-kubelet/virtual-kubelet-258-consolidate-helm-charts.json",
@@ -12731,7 +13659,9 @@
         "deploy"
       ],
       "type": "deploy",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "sandbox",
+      "qualityScore": 70
     },
     {
       "path": "solutions/cncf-generated/vitess/vitess-12194-bug-fix-cache-filtered-out-tablets-in-topology-watcher-to-avoid-unn.json",
@@ -12762,7 +13692,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/volcano/volcano-4581-feat-add-ray-plugin-for-job.json",
@@ -12797,7 +13729,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 61
     },
     {
       "path": "solutions/cncf-generated/volcano/volcano-2203-fix-deploy-add-helm-pre-delete-hook-to-delete-orphan-resources.json",
@@ -12827,7 +13761,9 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
-      "installMethods": []
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 63
     }
   ]
 }
