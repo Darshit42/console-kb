@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-06T14:43:53.101Z",
+  "generatedAt": "2026-03-06T15:50:48.342Z",
   "count": 397,
   "missions": [
     {
@@ -4882,7 +4882,7 @@
     {
       "path": "solutions/cncf-install/install-drasi.json",
       "title": "Install and Configure Drasi on Kubernetes",
-      "description": "Drasi is a data processing platform that simplifies detecting changes in data and taking immediate action. It provides real-time actionable insights without the overhead of traditional data processing",
+      "description": "Drasi is a data processing platform that simplifies detecting changes in data and taking immediate action. It uses a dedicated CLI tool to deploy its control plane (including Dapr) onto a Kubernetes c",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4899,7 +4899,6 @@
         "drasi"
       ],
       "targetResourceKinds": [
-        "Deployment",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -4909,7 +4908,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "cli"
       ],
       "projectVersion": "latest",
       "maturity": "sandbox",
@@ -6517,43 +6516,6 @@
       "qualityScore": 100
     },
     {
-      "path": "solutions/cncf-install/install-keylime.json",
-      "title": "Install and Configure Keylime on Kubernetes",
-      "description": "Keylime is an open-source scalable trust system that leverages TPM technology to bootstrap and maintain trust on edge, cloud, and IoT devices. Installing Keylime allows you to ensure the integrity of ",
-      "category": "cncf-install",
-      "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "installation",
-        "configuration",
-        "cncf",
-        "app-definition",
-        "sandbox"
-      ],
-      "cncfProjects": [
-        "keylime"
-      ],
-      "targetResourceKinds": [
-        "Service",
-        "Namespace",
-        "Serviceaccount"
-      ],
-      "difficulty": "intermediate",
-      "issueTypes": [
-        "installation",
-        "configuration"
-      ],
-      "type": "deploy",
-      "installMethods": [
-        "kubectl"
-      ],
-      "projectVersion": "v7.14.1",
-      "maturity": "sandbox",
-      "qualityScore": 100
-    },
-    {
       "path": "solutions/cncf-install/install-kgateway.json",
       "title": "Install and Configure Kgateway on Kubernetes",
       "description": "Kgateway is a cloud-native API gateway designed for microservices, providing a resilient and performance-oriented control plane that implements the Kubernetes Gateway API. Installing kgateway allows y",
@@ -6770,43 +6732,6 @@
       "qualityScore": 100
     },
     {
-      "path": "solutions/cncf-install/install-konveyor.json",
-      "title": "Install and Configure Konveyor on Kubernetes",
-      "description": "Konveyor is an open-source project that provides tools for developers and platform teams to analyze and transform legacy applications for Kubernetes and cloud-native technologies. Installing the Konve",
-      "category": "cncf-install",
-      "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "installation",
-        "configuration",
-        "cncf",
-        "app-definition",
-        "sandbox"
-      ],
-      "cncfProjects": [
-        "konveyor"
-      ],
-      "targetResourceKinds": [
-        "Service",
-        "Namespace",
-        "Ingress"
-      ],
-      "difficulty": "intermediate",
-      "issueTypes": [
-        "installation",
-        "configuration"
-      ],
-      "type": "deploy",
-      "installMethods": [
-        "helm"
-      ],
-      "projectVersion": "v0.9.0",
-      "maturity": "sandbox",
-      "qualityScore": 100
-    },
-    {
       "path": "solutions/cncf-install/install-kpt.json",
       "title": "Install and Configure Kpt on Kubernetes",
       "description": "kpt is a package-centric toolchain that automates Kubernetes configuration editing, simplifying the management of Kubernetes platforms and KRM-driven infrastructure. Installing kpt allows you to lever",
@@ -6877,42 +6802,6 @@
       ],
       "projectVersion": "v0.16.0",
       "maturity": "incubating",
-      "qualityScore": 100
-    },
-    {
-      "path": "solutions/cncf-install/install-kuadrant.json",
-      "title": "Install and Configure Kuadrant on Kubernetes",
-      "description": "Kuadrant is an operator that manages the lifecycle of Kuadrant components, enhancing gateway providers with features like TLS, DNS, application authentication, and rate limiting. Installing Kuadrant a",
-      "category": "cncf-install",
-      "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "installation",
-        "configuration",
-        "cncf",
-        "app-definition",
-        "sandbox"
-      ],
-      "cncfProjects": [
-        "kuadrant"
-      ],
-      "targetResourceKinds": [
-        "Deployment",
-        "Namespace"
-      ],
-      "difficulty": "beginner",
-      "issueTypes": [
-        "installation",
-        "configuration"
-      ],
-      "type": "deploy",
-      "installMethods": [
-        "helm"
-      ],
-      "projectVersion": "v1.4.1",
-      "maturity": "sandbox",
       "qualityScore": 100
     },
     {
@@ -7135,43 +7024,6 @@
         "helm"
       ],
       "projectVersion": "v1.6.9",
-      "maturity": "sandbox",
-      "qualityScore": 100
-    },
-    {
-      "path": "solutions/cncf-install/install-kubeclipper.json",
-      "title": "Install and Configure Kubeclipper on Kubernetes",
-      "description": "KubeClipper is a lightweight web service that provides a user-friendly web console, APIs, and CLI tools for managing Kubernetes clusters. Installing KubeClipper allows you to efficiently deploy and ma",
-      "category": "cncf-install",
-      "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "installation",
-        "configuration",
-        "cncf",
-        "app-definition",
-        "sandbox"
-      ],
-      "cncfProjects": [
-        "kubeclipper"
-      ],
-      "targetResourceKinds": [
-        "Deployment",
-        "Service",
-        "Namespace"
-      ],
-      "difficulty": "beginner",
-      "issueTypes": [
-        "installation",
-        "configuration"
-      ],
-      "type": "deploy",
-      "installMethods": [
-        "kubectl"
-      ],
-      "projectVersion": "v1.4.1",
       "maturity": "sandbox",
       "qualityScore": 100
     },
@@ -8402,43 +8254,6 @@
       "qualityScore": 100
     },
     {
-      "path": "solutions/cncf-install/install-network-service-mesh.json",
-      "title": "Install and Configure Network Service Mesh on Kubernetes",
-      "description": "Network Service Mesh provides a way to manage and connect network services in a Kubernetes environment. Installing it allows you to leverage its capabilities for service connectivity and management.",
-      "category": "cncf-install",
-      "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "installation",
-        "configuration",
-        "cncf",
-        "networking",
-        "sandbox"
-      ],
-      "cncfProjects": [
-        "network-service-mesh"
-      ],
-      "targetResourceKinds": [
-        "Deployment",
-        "Service",
-        "Namespace"
-      ],
-      "difficulty": "intermediate",
-      "issueTypes": [
-        "installation",
-        "configuration"
-      ],
-      "type": "deploy",
-      "installMethods": [
-        "kubectl"
-      ],
-      "projectVersion": "v1.16.0",
-      "maturity": "sandbox",
-      "qualityScore": 100
-    },
-    {
       "path": "solutions/cncf-install/install-node-exporter.json",
       "title": "Install and Configure Node Exporter (Prometheus) on Kubernetes",
       "description": "Node Exporter is a Prometheus exporter that collects and exposes hardware and OS metrics from *NIX kernels. Installing Node Exporter allows you to monitor your machine's performance and resource usage",
@@ -8586,44 +8401,6 @@
       ],
       "projectVersion": "v1.2.0",
       "maturity": "sandbox",
-      "qualityScore": 100
-    },
-    {
-      "path": "solutions/cncf-install/install-open-policy-agent-opa.json",
-      "title": "Install and Configure Open Policy Agent Opa- on Kubernetes",
-      "description": "Open Policy Agent (OPA) is an open-source, general-purpose policy engine that enables unified, context-aware policy enforcement across your stack. Installing OPA allows you to manage and enforce polic",
-      "category": "cncf-install",
-      "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "installation",
-        "configuration",
-        "cncf",
-        "security",
-        "graduated"
-      ],
-      "cncfProjects": [
-        "open-policy-agent-opa-"
-      ],
-      "targetResourceKinds": [
-        "Deployment",
-        "Service",
-        "Namespace",
-        "Serviceaccount"
-      ],
-      "difficulty": "intermediate",
-      "issueTypes": [
-        "installation",
-        "configuration"
-      ],
-      "type": "deploy",
-      "installMethods": [
-        "kubectl"
-      ],
-      "projectVersion": "v1.14.0",
-      "maturity": "graduated",
       "qualityScore": 100
     },
     {
@@ -10930,6 +10707,160 @@
       "qualityScore": 100
     },
     {
+      "path": "solutions/cncf-install/install-keylime.json",
+      "title": "Install Keylime Attestation Operator on Kubernetes",
+      "description": "Keylime is a TPM-based remote boot attestation and runtime integrity measurement system. The Keylime Attestation Operator deploys Keylime components (registrar, verifier, and agent) on Kubernetes to p",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "security",
+        "sandbox"
+      ],
+      "cncfProjects": [
+        "keylime"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "DaemonSet",
+        "Service",
+        "Namespace"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "make",
+        "helm"
+      ],
+      "projectVersion": "latest",
+      "maturity": "sandbox",
+      "qualityScore": 100
+    },
+    {
+      "path": "solutions/cncf-install/install-konveyor.json",
+      "title": "Install Konveyor (Tackle) on Kubernetes",
+      "description": "Konveyor is an open-source application modernization platform that helps developers and platform teams analyze, assess, and transform legacy applications for Kubernetes. The Tackle toolkit is deployed",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "app-definition",
+        "sandbox"
+      ],
+      "cncfProjects": [
+        "konveyor"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service",
+        "Namespace",
+        "Subscription"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "olm",
+        "kubectl"
+      ],
+      "projectVersion": "latest",
+      "maturity": "sandbox",
+      "qualityScore": 100
+    },
+    {
+      "path": "solutions/cncf-install/install-kuadrant.json",
+      "title": "Install Kuadrant on Kubernetes",
+      "description": "Kuadrant is a Kubernetes operator that enhances Gateway API providers (Istio or Envoy Gateway) with policy capabilities including TLS management, DNS routing, application authentication (AuthPolicy), ",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "networking",
+        "sandbox"
+      ],
+      "cncfProjects": [
+        "kuadrant"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Namespace",
+        "Kuadrant",
+        "AuthPolicy",
+        "RateLimitPolicy"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "v1.4.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
+    },
+    {
+      "path": "solutions/cncf-install/install-kubeclipper.json",
+      "title": "Install KubeClipper on Linux Nodes",
+      "description": "KubeClipper is a lightweight web service that provides a friendly web console, APIs, and CLI tools for Kubernetes cluster lifecycle management. It uses the kcctl CLI to deploy components via SSH to yo",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "app-definition",
+        "sandbox"
+      ],
+      "cncfProjects": [
+        "kubeclipper"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "cli"
+      ],
+      "projectVersion": "v1.4.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
+    },
+    {
       "path": "solutions/llm-d/install-llmd-inference-scheduling.json",
       "title": "Install llm-d Intelligent Inference Scheduling",
       "description": "Deploy the recommended out-of-the-box scheduling configuration for vLLM deployments using llm-d. This well-lit path reduces tail latency and increases throughput through load-aware and approximate pre",
@@ -11239,6 +11170,82 @@
         "helm"
       ],
       "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-install/install-network-service-mesh.json",
+      "title": "Install Network Service Mesh on Kubernetes",
+      "description": "Network Service Mesh (NSM) is a hybrid/multi-cloud IP service mesh that provides advanced L2/L3 networking capabilities to Kubernetes pods. NSM uses SPIRE for workload identity and provides secure, ze",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "networking",
+        "sandbox"
+      ],
+      "cncfProjects": [
+        "network-service-mesh"
+      ],
+      "targetResourceKinds": [
+        "DaemonSet",
+        "Deployment",
+        "Service",
+        "Namespace",
+        "MutatingWebhookConfiguration"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "kustomize"
+      ],
+      "projectVersion": "latest",
+      "maturity": "sandbox",
+      "qualityScore": 100
+    },
+    {
+      "path": "solutions/cncf-install/install-open-policy-agent-opa.json",
+      "title": "Install OPA Gatekeeper on Kubernetes",
+      "description": "OPA Gatekeeper is the recommended way to run Open Policy Agent on Kubernetes. It acts as a customizable admission webhook that enforces policies executed by OPA. Gatekeeper uses constraint templates a",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "security",
+        "graduated"
+      ],
+      "cncfProjects": [
+        "open-policy-agent-opa"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "ConstraintTemplate"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm",
+        "kubectl"
+      ],
+      "projectVersion": "v3.21.1",
+      "maturity": "graduated",
+      "qualityScore": 100
     },
     {
       "path": "solutions/cncf-generated/istio/istio-52320-do-not-add-pod-to-ipset-if-we-have-a-partial-failure-adding-to-the-d.json",
