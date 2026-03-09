@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-06T16:00:11.884Z",
+  "generatedAt": "2026-03-09T14:17:24.879Z",
   "count": 397,
   "missions": [
     {
@@ -9699,43 +9699,6 @@
       "qualityScore": 100
     },
     {
-      "path": "solutions/cncf-install/install-score.json",
-      "title": "Install and Configure Score on Kubernetes",
-      "description": "The Score Specification provides a developer-centric and platform-agnostic workload specification to improve developer productivity and experience. Installing Score allows you to define and manage you",
-      "category": "cncf-install",
-      "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "installation",
-        "configuration",
-        "cncf",
-        "app-definition",
-        "sandbox"
-      ],
-      "cncfProjects": [
-        "score"
-      ],
-      "targetResourceKinds": [
-        "Deployment",
-        "Service",
-        "Namespace"
-      ],
-      "difficulty": "beginner",
-      "issueTypes": [
-        "installation",
-        "configuration"
-      ],
-      "type": "deploy",
-      "installMethods": [
-        "kubectl"
-      ],
-      "projectVersion": "0.3.0",
-      "maturity": "sandbox",
-      "qualityScore": 100
-    },
-    {
       "path": "solutions/cncf-install/install-security-compliance.json",
       "title": "Install and Configure Security Compliance on Kubernetes",
       "description": "Zot is a production-ready vendor-neutral OCI image registry that allows you to store and manage container images in a compliant manner. Installing Zot will enable you to have a reliable and scalable s",
@@ -9811,8 +9774,8 @@
     },
     {
       "path": "solutions/cncf-install/install-slimfaas.json",
-      "title": "Install and Configure Slimfaas on Kubernetes",
-      "description": "SlimFaas is a lightweight, plug-and-play Function-as-a-Service (FaaS) platform for Kubernetes. It is designed to be fast, simple, and extremely slim, making it an excellent choice for deploying server",
+      "title": "Install and Configure SlimFaas on Kubernetes",
+      "description": "SlimFaas is a lightweight, plug-and-play Function-as-a-Service (FaaS) platform for Kubernetes. It scales functions to zero and back up on demand, with built-in pub/sub (sync and async) and a consensus",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -9822,16 +9785,21 @@
         "installation",
         "configuration",
         "cncf",
-        "app-definition",
+        "serverless",
+        "faas",
         "sandbox"
       ],
       "cncfProjects": [
         "slimfaas"
       ],
       "targetResourceKinds": [
-        "Deployment",
+        "StatefulSet",
         "Service",
-        "Namespace"
+        "Namespace",
+        "ServiceAccount",
+        "Role",
+        "RoleBinding",
+        "ConfigMap"
       ],
       "difficulty": "beginner",
       "issueTypes": [
@@ -9957,8 +9925,8 @@
     },
     {
       "path": "solutions/cncf-install/install-spinkube.json",
-      "title": "Install and Configure Spinkube on Kubernetes",
-      "description": "Spin Operator is a Kubernetes operator that enables platform engineers to deploy Spin applications as custom resources to their Kubernetes clusters. Installing it allows you to manage Spin application",
+      "title": "Install and Configure SpinKube (Spin Operator) on Kubernetes",
+      "description": "Spin Operator is a Kubernetes operator that enables platform engineers to deploy Spin applications (WebAssembly workloads) as custom resources. It requires cert-manager, a containerd-shim-spin runtime",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -9969,14 +9937,19 @@
         "configuration",
         "cncf",
         "runtime",
-        "sandbox"
+        "sandbox",
+        "webassembly",
+        "wasm"
       ],
       "cncfProjects": [
         "spinkube"
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Namespace"
+        "Service",
+        "Namespace",
+        "CustomResourceDefinition",
+        "RuntimeClass"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -9985,7 +9958,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "helm"
       ],
       "projectVersion": "v0.6.1",
       "maturity": "sandbox",
@@ -10703,6 +10676,45 @@
         "kubectl"
       ],
       "projectVersion": "0.16.1",
+      "maturity": "sandbox",
+      "qualityScore": 100
+    },
+    {
+      "path": "solutions/cncf-install/install-score.json",
+      "title": "Install and Use Score for Kubernetes Workload Deployment",
+      "description": "Score is a developer-centric, platform-agnostic workload specification. The score-k8s CLI translates Score YAML into Kubernetes manifests, letting you define workloads once and deploy across environme",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "app-definition",
+        "sandbox",
+        "developer-tools"
+      ],
+      "cncfProjects": [
+        "score"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "binary",
+        "brew",
+        "go-install"
+      ],
+      "projectVersion": "0.10.1",
       "maturity": "sandbox",
       "qualityScore": 100
     },
