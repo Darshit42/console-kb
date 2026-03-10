@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-10T03:40:19.542Z",
-  "count": 245,
+  "generatedAt": "2026-03-10T04:40:55.324Z",
+  "count": 246,
   "missions": [
     {
       "path": "solutions/cncf-install/install-aeraki-mesh.json",
@@ -8851,6 +8851,36 @@
       "projectVersion": "v3.21.1",
       "maturity": "graduated",
       "qualityScore": 100
+    },
+    {
+      "path": "solutions/cncf-generated/kuberay/kuberay-639-feat-update-raycluster-status-reason-field-with-pod-creation-error.json",
+      "title": "kuberay: feat: update RayCluster `.status.reason` field with pod creation error",
+      "description": "## Why are these changes needed?\n\nMakes RayCluster errors related to Pod creation easier more apparent to user.\n\n### example before if Pod can't be created due to ResourceQuota exceeded\n\n```\nkubectl g",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kuberay",
+        "community",
+        "ml-platform",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kuberay"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 69
     },
     {
       "path": "solutions/llm-d/install-llmd-benchmark.json",
