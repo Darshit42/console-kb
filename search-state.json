@@ -1,28 +1,27 @@
 {
   "version": 1,
-  "lastUpdated": "2026-03-10T04:35:20.328Z",
+  "lastUpdated": "2026-03-10T04:38:24.388Z",
   "projects": {
     "cert-manager/cert-manager": {
       "github-issues": {
-        "lastSearched": "2026-03-10T04:34:59.396Z",
+        "lastSearched": "2026-03-10T04:38:03.097Z",
         "processedIds": [
-          "gh:cert-manager/cert-manager#7540",
-          "gh:cert-manager/cert-manager#4821"
+          "gh:cert-manager/cert-manager#7540"
         ],
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-03-10T04:35:00.897Z",
+        "lastSearched": "2026-03-10T04:38:04.525Z",
         "processedIds": [],
         "cursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMC0wNlQxNTozNjowM1rOADcTSA=="
       },
       "reddit": {
-        "lastSearched": "2026-03-10T04:35:09.165Z",
+        "lastSearched": "2026-03-10T04:38:12.616Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-03-10T04:35:11.441Z",
+        "lastSearched": "2026-03-10T04:38:14.848Z",
         "processedIds": [],
         "cursor": null
       }
