@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-11T03:06:05.384Z",
-  "count": 335,
+  "generatedAt": "2026-03-11T03:19:25.608Z",
+  "count": 341,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo/argo-4116-add-option-to-create-one-off-job-from-cron-job.json",
@@ -1075,6 +1075,91 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/flux/flux-971-cannot-seem-to-get-the-completions-working-in-zsh.json",
+      "title": "flux: Cannot seem to get the completions working in zsh",
+      "description": "Cannot seem to get the completions working in zsh. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flux",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "flux"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Replicaset"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/flux/flux-1153-flux-fails-to-bootstrap-a-repo-in-a-different-windows-drive-than-the-o.json",
+      "title": "flux: flux fails to bootstrap a repo in a different Windows drive than the one in $env:TEMP",
+      "description": "flux fails to bootstrap a repo in a different Windows drive than the one in $env:TEMP. This issue affects 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flux",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "flux"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/flux/flux-918-kustomize-v4-high-impact-breaking-changes.json",
+      "title": "flux: kustomize v4 high-impact breaking changes",
+      "description": "kustomize v4 high-impact breaking changes. This issue affects 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flux",
+        "graduated",
+        "app-definition",
+        "upgrade"
+      ],
+      "cncfProjects": [
+        "flux"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "upgrade"
+      ],
+      "type": "upgrade",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -11485,6 +11570,87 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/vitess/vitess-11880-bug-report-select-expansion-only-considers-subquery-in-column-list-.json",
+      "title": "vitess: Bug Report: `SELECT *` expansion only considers subquery in column list on unsharded queries",
+      "description": "Bug Report: `SELECT *` expansion only considers subquery in column list on unsharded queries. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vitess",
+        "graduated",
+        "storage",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "vitess"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/vitess/vitess-11621-rfc-new-vexplain-command-having-a-format-to-glean-information-about.json",
+      "title": "vitess: RFC: New vexplain command having a format to glean information about vtgate and MySQL plans",
+      "description": "RFC: New vexplain command having a format to glean information about vtgate and MySQL plans. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vitess",
+        "graduated",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "vitess"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/vitess/vitess-7981-vtgate-queries-randomly-routed-to-unhealthy-or-non-existent-replicas.json",
+      "title": "vitess: vtgate queries randomly routed to unhealthy or non-existent replicas",
+      "description": "vtgate queries randomly routed to unhealthy or non-existent replicas. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vitess",
+        "graduated",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "vitess"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
     }
   ]
 }
