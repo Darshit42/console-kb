@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-11T01:05:56.885Z",
-  "count": 308,
+  "generatedAt": "2026-03-11T01:18:27.606Z",
+  "count": 312,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo/argo-4116-add-option-to-create-one-off-job-from-cron-job.json",
@@ -1072,6 +1072,35 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/helm/helm-3353-helm-upgrade-install-doesn-t-perform-an-install-upgrade-if-the-first-e.json",
+      "title": "helm: `helm upgrade --install` doesn't perform an install/upgrade if the first ever install fails",
+      "description": "`helm upgrade --install` doesn't perform an install/upgrade if the first ever install fails. This issue affects 87+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/helm/helm-3555-add-helm-install-app-version-command-versioning-a-chart-against-an-app.json",
       "title": "helm: Add 'helm install --app-version' command/versioning a chart against an app version",
       "description": "Add 'helm install --app-version' command/versioning a chart against an app version. This issue affects 184+ users.",
@@ -1090,6 +1119,69 @@
         "helm"
       ],
       "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "deploy"
+      ],
+      "type": "deploy",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/helm/helm-5595-app-name-has-no-deployed-releases.json",
+      "title": "helm: app-name has no deployed releases",
+      "description": "app-name has no deployed releases. Requested by 94+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "deploy"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "deploy"
+      ],
+      "type": "deploy",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/helm/helm-2378-feature-request-helm-delete-wait.json",
+      "title": "helm: Feature Request: helm delete --wait",
+      "description": "Feature Request: helm delete --wait. Requested by 111+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "deploy"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Configmap",
+        "Service",
+        "Secret"
+      ],
       "difficulty": "intermediate",
       "issueTypes": [
         "deploy"
@@ -1125,6 +1217,38 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/helm/helm-3920-usable-sub-charts-templates-from-parent-chart.json",
+      "title": "helm: Usable sub-charts templates from parent chart",
+      "description": "Usable sub-charts templates from parent chart. Requested by 86+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [
+        "Configmap",
+        "Namespace",
+        "Service",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
