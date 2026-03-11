@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-11T14:02:23.901Z",
+  "generatedAt": "2026-03-11T15:02:33.861Z",
   "count": 439,
   "missions": [
     {
@@ -3045,7 +3045,7 @@
     {
       "path": "solutions/cncf-install/install-armada.json",
       "title": "Install and Configure Armada on Kubernetes",
-      "description": "Armada is a multi-cluster batch queuing system designed for high-throughput workloads on Kubernetes. It enables efficient scheduling and management of jobs across multiple clusters, making it ideal fo",
+      "description": "Armada is a CNCF sandbox project for multi-cluster batch job scheduling. It enables efficient queuing, scheduling, and management of high-throughput compute workloads across multiple Kubernetes cluste",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3063,9 +3063,10 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Namespace"
+        "Namespace",
+        "Service"
       ],
-      "difficulty": "intermediate",
+      "difficulty": "advanced",
       "issueTypes": [
         "installation",
         "configuration"
@@ -5131,8 +5132,8 @@
     },
     {
       "path": "solutions/cncf-install/install-falcosidekick.json",
-      "title": "Install and Configure Falcosidekick (Falco) on Kubernetes",
-      "description": "Falcosidekick is a daemon that connects Falco to your ecosystem, forwarding Falco events to various outputs. Installing Falcosidekick allows you to enhance your security monitoring by integrating Falc",
+      "title": "Install and Configure Falcosidekick on Kubernetes",
+      "description": "Falcosidekick is a daemon that connects Falco to your ecosystem, forwarding Falco events to various outputs such as Slack, Teams, Elasticsearch, Loki, and many more. Installing Falcosidekick enhances ",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -5164,7 +5165,7 @@
       "installMethods": [
         "helm"
       ],
-      "projectVersion": "2.32.0",
+      "projectVersion": "2.31.1",
       "maturity": "graduated",
       "qualityScore": 100
     },
@@ -8817,8 +8818,8 @@
     },
     {
       "path": "solutions/cncf-install/install-openkruise.json",
-      "title": "Install and Configure Openkruise on Kubernetes",
-      "description": "OpenKruise is an incubating CNCF project that automates the management of large-scale applications on Kubernetes. It provides advanced workload controllers that enhance Kubernetes' native capabilities",
+      "title": "Install and Configure OpenKruise on Kubernetes",
+      "description": "OpenKruise is a CNCF incubating project that extends Kubernetes with advanced workload controllers including CloneSet, Advanced StatefulSet, SidecarSet, BroadcastJob, Advanced DaemonSet, and more. It ",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -8836,6 +8837,7 @@
       ],
       "targetResourceKinds": [
         "Deployment",
+        "DaemonSet",
         "Namespace"
       ],
       "difficulty": "intermediate",
