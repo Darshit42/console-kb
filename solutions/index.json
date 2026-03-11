@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-11T03:19:25.608Z",
-  "count": 341,
+  "generatedAt": "2026-03-11T03:25:06.892Z",
+  "count": 344,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo/argo-4116-add-option-to-create-one-off-job-from-cron-job.json",
@@ -796,6 +796,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/etcd/etcd-12526-can-not-go-get-benchmark-cli-tool.json",
+      "title": "etcd: Can not go get benchmark CLI tool",
+      "description": "Can not go get benchmark CLI tool. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "etcd",
+        "graduated",
+        "orchestration",
+        "feature"
+      ],
+      "cncfProjects": [
+        "etcd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/etcd/etcd-11563-clientv3-grpc-go-v1-27-0-made-api-changes-to-balancer-resolver.json",
       "title": "etcd: clientv3: grpc-go (v1.27.0) made API changes to balancer / resolver.",
       "description": "clientv3: grpc-go (v1.27.0) made API changes to balancer / resolver.. Users encounter: \"occurred while pulling etcd / clientv3. The steps to reproduce it are as follows:\".",
@@ -823,9 +850,63 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/etcd/etcd-11154-go-get-error-for-3-4-0.json",
+      "title": "etcd: go get error for 3.4.0",
+      "description": "go get error for 3.4.0. This issue affects 37+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "etcd",
+        "graduated",
+        "orchestration",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "etcd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/etcd/etcd-11650-is-there-a-plan-to-update-google-golang-org-grpc.json",
       "title": "etcd: Is there a plan to update google.golang.org/grpc?",
       "description": "Is there a plan to update google.golang.org/grpc?. This issue affects 42+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "etcd",
+        "graduated",
+        "orchestration",
+        "feature"
+      ],
+      "cncfProjects": [
+        "etcd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/etcd/etcd-9975-output-inconsistency-with-json-writer.json",
+      "title": "etcd: Output Inconsistency with json writer ",
+      "description": "Output Inconsistency with json writer . Requested by 9+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
