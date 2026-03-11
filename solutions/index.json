@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-11T01:22:21.804Z",
-  "count": 312,
+  "generatedAt": "2026-03-11T02:05:31.179Z",
+  "count": 315,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo/argo-4116-add-option-to-create-one-off-job-from-cron-job.json",
@@ -10641,6 +10641,73 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/linkerd/linkerd-11157-distributed-tracing-service-name-should-be-dynamic.json",
+      "title": "linkerd: Distributed Tracing Service Name should be dynamic",
+      "description": "Distributed Tracing Service Name should be dynamic. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node",
+        "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/linkerd/linkerd-5988-linkerd-proxy-grpc-connections-to-unmeshed-services-result-in-too-m.json",
+      "title": "linkerd: Linkerd proxy gRPC connections to unmeshed services result in `TOO MANY PINGs` with specific keepalive settings",
+      "description": "Linkerd proxy gRPC connections to unmeshed services result in `TOO MANY PINGs` with specific keepalive settings. Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Ingress",
+        "Namespace",
+        "Serviceaccount",
+        "Clusterrole",
+        "Clusterrolebinding",
+        "Customresourcedefinition",
+        "Mutatingwebhookconfiguration"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/linkerd/linkerd-4582-multicluster-doesn-t-work-on-eks.json",
       "title": "linkerd: multicluster doesn't work on EKS",
       "description": "multicluster doesn't work on EKS. Users encounter: \"```msg=\"Error processing RemoteGatewayCreated: {gatewaySpec: GatewaySpec: {gatewayName: linkerd-gate\".",
@@ -10668,6 +10735,42 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/linkerd/linkerd-5394-traffic-stops-when-two-pods-have-the-same-ip-address.json",
+      "title": "linkerd: Traffic stops when two pods have the same IP address",
+      "description": "Traffic stops when two pods have the same IP address. This issue affects 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Ingress",
+        "Namespace",
+        "Serviceaccount",
+        "Clusterrole",
+        "Clusterrolebinding",
+        "Customresourcedefinition",
+        "Mutatingwebhookconfiguration"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
