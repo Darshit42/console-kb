@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T02:35:12.127Z",
-  "count": 446,
+  "generatedAt": "2026-03-13T02:35:35.624Z",
+  "count": 448,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -12947,6 +12947,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/langflow/langflow-4322-notify-and-listen-components-throw-error-object-has-no-attribute-b.json",
+      "title": "langflow: Notify and Listen components throw error: object has no attribute 'build_results' + incompatible component inputs",
+      "description": "Notify and Listen components throw error: object has no attribute 'build_results' + incompatible component inputs. Users encounter: \"Error building Component Notify:\".",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "langflow",
+        "community",
+        "ai-app",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "langflow"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/linkerd/linkerd-10762-can-t-deploy-linkerd-v2-13-x-with-argocd.json",
       "title": "linkerd: Can't deploy Linkerd v2.13.x with ArgoCD",
       "description": "Can't deploy Linkerd v2.13.x with ArgoCD. This issue affects 26+ users.",
@@ -14614,6 +14641,35 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/vllm/vllm-14721-feature-support-openai-responses-api-interface.json",
+      "title": "vllm: Support OpenAI Responses API interface",
+      "description": "Add support for the OpenAI Responses API interface in vLLM, keeping compatibility with OpenAI's latest API updates. Requested by 52+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vllm",
+        "community",
+        "llm-serving",
+        "feature",
+        "openai-api",
+        "responses-api"
+      ],
+      "cncfProjects": [
+        "vllm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
