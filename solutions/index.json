@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T02:33:02.508Z",
-  "count": 440,
+  "generatedAt": "2026-03-13T02:34:07.160Z",
+  "count": 441,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -13816,6 +13816,33 @@
       "path": "solutions/cncf-generated/sops/sops-900-configurable-indentation-for-yaml-output-in-sops-yaml.json",
       "title": "sops: Configurable indentation for yaml output in .sops.yaml",
       "description": "Configurable indentation for yaml output in .sops.yaml. Requested by 64+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "sops",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "sops"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/sops/sops-594-creation-rules-from-can-t-be-matched-when-encrypting-from-stdin.json",
+      "title": "sops: creation_rules from can't be matched when encrypting from stdin ",
+      "description": "creation_rules from can't be matched when encrypting from stdin . Requested by 6+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
