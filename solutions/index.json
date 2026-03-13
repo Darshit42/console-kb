@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T02:40:32.981Z",
-  "count": 490,
+  "generatedAt": "2026-03-13T02:41:07.879Z",
+  "count": 498,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -12417,6 +12417,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/keycloak/keycloak-15344-support-configurable-custom-identity-providers.json",
+      "title": "keycloak: Support configurable custom Identity Providers",
+      "description": "Support configurable custom Identity Providers. Requested by 23+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keycloak",
+        "community",
+        "identity",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keycloak"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/keycloak/keycloak-33804-support-multiple-mail-domains-for-linked-idps-per-organization.json",
       "title": "keycloak: Support multiple mail domains for linked IDPs per organization",
       "description": "Support multiple mail domains for linked IDPs per organization. Requested by 27+ users.",
@@ -12658,6 +12685,93 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/kpt/kpt-1544-kpt-doesn-t-work-with-symlinks.json",
+      "title": "kpt: kpt doesn't work with symlinks",
+      "description": "kpt doesn't work with symlinks. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kpt",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kpt"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Persistentvolumeclaim"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/kube-ovn/kube-ovn-5280-bug-ovn-eip-fip-snat-mode-packet-loss-and-asymmetric-return-traffi.json",
+      "title": "kube-ovn: [BUG] OVN EIP, FIP, SNAT mode. Packet loss and asymmetric return traffic on Hetzner vSwitch",
+      "description": "[BUG] OVN EIP, FIP, SNAT mode. Packet loss and asymmetric return traffic on Hetzner vSwitch. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kube-ovn",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kube-ovn"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/kube-ovn/kube-ovn-2707-support-for-using-talos-linux.json",
+      "title": "kube-ovn: Support for using Talos Linux",
+      "description": "Support for using Talos Linux. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kube-ovn",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kube-ovn"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "sandbox"
     },
@@ -13746,6 +13860,114 @@
         "deploy"
       ],
       "type": "deploy",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/microcks/microcks-1846-enable-google-pubsub-emulator.json",
+      "title": "microcks: Enable Google PubSub Emulator",
+      "description": "Enable Google PubSub Emulator. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "microcks",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "microcks"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/modelpack/modelpack-19-rfc-model-annotation-and-config-guidelines.json",
+      "title": "modelpack: [RFC] Model annotation and config guidelines",
+      "description": "[RFC] Model annotation and config guidelines. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "modelpack",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "modelpack"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/modelpack/modelpack-91-ci-should-not-pass-when-new-fields-are-added-in-go-structs-but-json.json",
+      "title": "modelpack: ci should not pass when new fields are added in GO structs but json schema is not corresponding changed",
+      "description": "ci should not pass when new fields are added in GO structs but json schema is not corresponding changed. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "modelpack",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "modelpack"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/modelpack/modelpack-22-defining-the-diffid-generation-order-in-the-model-spec.json",
+      "title": "modelpack: Defining the diffID Generation Order in the Model Spec",
+      "description": "Defining the diffID Generation Order in the Model Spec. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "modelpack",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "modelpack"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
     },
