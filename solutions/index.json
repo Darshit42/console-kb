@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T02:36:01.898Z",
-  "count": 451,
+  "generatedAt": "2026-03-13T02:36:13.975Z",
+  "count": 453,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -12974,6 +12974,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/langflow/langflow-4572-langflow-not-starting-with-postgres-giving-sqlite-error.json",
+      "title": "langflow: Langflow not starting with postgres - giving Sqlite error",
+      "description": "Langflow not starting with postgres - giving Sqlite error. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "langflow",
+        "community",
+        "ai-app",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "langflow"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/langflow/langflow-4322-notify-and-listen-components-throw-error-object-has-no-attribute-b.json",
       "title": "langflow: Notify and Listen components throw error: object has no attribute 'build_results' + incompatible component inputs",
       "description": "Notify and Listen components throw error: object has no attribute 'build_results' + incompatible component inputs. Users encounter: \"Error building Component Notify:\".",
@@ -14722,6 +14749,36 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/vllm/vllm-2081-inquiry-regarding-vllm-support-for-mac-metal-api.json",
+      "title": "vllm: Mac Metal API support",
+      "description": "Enable vLLM to run on Apple Silicon Macs using the Metal Performance Shaders (MPS) backend via PyTorch's MPS fallback mode. Requested by 48+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vllm",
+        "community",
+        "llm-serving",
+        "feature",
+        "apple-silicon",
+        "metal",
+        "mps"
+      ],
+      "cncfProjects": [
+        "vllm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
