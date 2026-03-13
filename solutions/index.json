@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T02:38:51.154Z",
-  "count": 477,
+  "generatedAt": "2026-03-13T02:39:38.063Z",
+  "count": 481,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -12309,6 +12309,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/keycloak/keycloak-31285-make-domains-for-organisations-optional.json",
+      "title": "keycloak: Make domains for organisations optional",
+      "description": "Make domains for organisations optional. Requested by 25+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keycloak",
+        "community",
+        "identity",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keycloak"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/keycloak/keycloak-10803-persist-session-in-jdbc-store-without-using-external-infinispan-c.json",
       "title": "keycloak: Persist session in JDBC store without using external infinispan cluster",
       "description": "Persist session in JDBC store without using external infinispan cluster. Requested by 33+ users.",
@@ -14569,6 +14596,60 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/spin/spin-3364-i-d-really-like-to-opt-in-to-wasm-features.json",
+      "title": "spin: I’d really like to opt-in to Wasm features",
+      "description": "I’d really like to opt-in to Wasm features. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "spin",
+        "sandbox",
+        "runtime",
+        "feature"
+      ],
+      "cncfProjects": [
+        "spin"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/spin/spin-1543-plugin-upgrades.json",
+      "title": "spin: Plugin upgrades",
+      "description": "Plugin upgrades. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "spin",
+        "sandbox",
+        "runtime",
+        "upgrade"
+      ],
+      "cncfProjects": [
+        "spin"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "upgrade"
+      ],
+      "type": "upgrade",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/spire/spire-1975-rfc-registrations-rbac.json",
       "title": "spire: [RFC] Registrations RBAC",
       "description": "[RFC] Registrations RBAC. Requested by 3+ users.",
@@ -15446,6 +15527,35 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/vllm/vllm-12083-feature-support-python-3-13.json",
+      "title": "vllm: Support Python 3.13",
+      "description": "Add Python 3.13 support to vLLM. Python 3.13 was released on October 7, 2024, and most ML-related packages have added support. Users had to downgrade Python just for vLLM. Requested by 27+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vllm",
+        "community",
+        "llm-serving",
+        "feature",
+        "python",
+        "compatibility"
+      ],
+      "cncfProjects": [
+        "vllm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
