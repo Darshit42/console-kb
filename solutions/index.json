@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T14:58:39.443Z",
-  "count": 526,
+  "generatedAt": "2026-03-13T15:00:02.734Z",
+  "count": 538,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -2802,6 +2802,65 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/helm/helm-4824-ignore-existing-resource-on-install-if-resource-policy-is-keep.json",
+      "title": "helm: Ignore existing resource on install if resource-policy is keep",
+      "description": "Ignore existing resource on install if resource-policy is keep. Requested by 64+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [
+        "Service",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/helm/helm-9136-nested-null-values-do-not-remove-keys-from-sub-charts.json",
+      "title": "helm: Nested `null` values do not remove keys from sub-charts",
+      "description": "Nested `null` values do not remove keys from sub-charts. This issue affects 84+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/helm/helm-1193-upgrade-failed-no-resource-with-the-name-found.json",
       "title": "helm: UPGRADE FAILED: No resource with the name \"\" found",
       "description": "UPGRADE FAILED: No resource with the name \"\" found. This issue affects 124+ users.",
@@ -2860,6 +2919,35 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/helm/helm-3480-write-broken-pipe.json",
+      "title": "helm: write: broken pipe",
+      "description": "write: broken pipe. This issue affects 83+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -14097,6 +14185,37 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/metallb/metallb-462-remove-the-config-reloading-fail-static-behavior.json",
+      "title": "metallb: Remove the config reloading fail-static behavior",
+      "description": "Remove the config reloading fail-static behavior. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "metallb",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "metallb"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Configmap",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/microcks/microcks-1846-enable-google-pubsub-emulator.json",
       "title": "microcks: Enable Google PubSub Emulator",
       "description": "Enable Google PubSub Emulator. Community-requested feature.",
@@ -15213,6 +15332,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/parsec/parsec-122-memory-cleanup-of-sensitive-data.json",
+      "title": "parsec: Memory cleanup of sensitive data",
+      "description": "Memory cleanup of sensitive data. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "parsec",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "parsec"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/piraeus-datastore/piraeus-datastore-647-resizing-of-lvm-after-host-reboot-not-working.json",
       "title": "piraeus-datastore: Resizing of LVM after Host-Reboot not working",
       "description": "Resizing of LVM after Host-Reboot not working. Community-reported issue.",
@@ -16203,6 +16349,117 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/thanos/thanos-4923-query-error-deadlineexceeded-missing-error-details.json",
+      "title": "thanos: query: error DeadlineExceeded missing error details",
+      "description": "query: error DeadlineExceeded missing error details. This issue affects 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "thanos",
+        "incubating",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "thanos"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/thanos/thanos-5501-query-with-grafana-gives-inconsistent-dashboard-with-every-refresh.json",
+      "title": "thanos: query: with grafana gives inconsistent dashboard with every refresh",
+      "description": "query: with grafana gives inconsistent dashboard with every refresh. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "thanos",
+        "incubating",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "thanos"
+      ],
+      "targetResourceKinds": [
+        "Service",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/thanos/thanos-3975-sidecar-support-https-and-basic-auth-access-to-prometheus.json",
+      "title": "thanos: sidecar support https and basic auth access to Prometheus",
+      "description": "sidecar support https and basic auth access to Prometheus. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "thanos",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "thanos"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/thanos/thanos-1874-store-gateway-fails-to-sync-block-meta-json.json",
+      "title": "thanos: Store gateway fails to sync block meta.json",
+      "description": "Store gateway fails to sync block meta.json. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "thanos",
+        "incubating",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "thanos"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/thanos/thanos-1507-thanos-ingress-nginx-grpc-impossible-setup-due-missing-host-header.json",
       "title": "thanos: thanos+ingress-nginx+grpc: impossible setup due missing host header",
       "description": "thanos+ingress-nginx+grpc: impossible setup due missing host header. Requested by 12+ users.",
@@ -16288,6 +16545,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/tikv/tikv-13673-refine-pd-client.json",
+      "title": "tikv: Refine PD client",
+      "description": "Refine PD client. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "tikv",
+        "graduated",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "tikv"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/tikv/tikv-9192-support-build-on-apple-silicon-m1.json",
       "title": "tikv: Support build on Apple Silicon/M1",
       "description": "Support build on Apple Silicon/M1. Requested by 7+ users.",
@@ -16311,6 +16595,60 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/tikv/tikv-10483-support-online-recovery-for-raft-majority-failure.json",
+      "title": "tikv: Support online recovery for Raft majority failure",
+      "description": "Support online recovery for Raft majority failure. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "tikv",
+        "graduated",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "tikv"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/tikv/tikv-11217-tikv-gckeys-task-doesn-t-work-when-called-with-multiple-keys-at-least.json",
+      "title": "tikv: TiKV GcKeys task doesn't work when called with multiple keys (at least in 5.1 but I think for everything)",
+      "description": "TiKV GcKeys task doesn't work when called with multiple keys (at least in 5.1 but I think for everything). Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "tikv",
+        "graduated",
+        "storage",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "tikv"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
