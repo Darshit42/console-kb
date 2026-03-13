@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T15:00:02.734Z",
-  "count": 538,
+  "generatedAt": "2026-03-13T15:00:36.219Z",
+  "count": 544,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -2857,6 +2857,37 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/helm/helm-7891-post-renderer-not-receiving-chart-hook-manifests.json",
+      "title": "helm: Post-renderer not receiving chart hook manifests?",
+      "description": "Post-renderer not receiving chart hook manifests?. Requested by 71+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Job",
+        "Service"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -13362,6 +13393,37 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/kubevela/kubevela-1144-feature-applicationdeployment-crd-to-support-application-level-rol.json",
+      "title": "kubevela: [Feature] ApplicationDeployment CRD to support application level rollout, traffic, and multi-cluster strategies",
+      "description": "[Feature] ApplicationDeployment CRD to support application level rollout, traffic, and multi-cluster strategies. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubevela",
+        "incubating",
+        "app-definition",
+        "deploy"
+      ],
+      "cncfProjects": [
+        "kubevela"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Ingress",
+        "Statefulset"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "deploy"
+      ],
+      "type": "deploy",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/kubevirt/kubevirt-6462-dhcp-gateway-option-severely-broken-since-0-43.json",
       "title": "kubevirt: DHCP Gateway Option severely broken since 0.43",
       "description": "DHCP Gateway Option severely broken since 0.43. This issue affects 10+ users.",
@@ -14150,6 +14212,37 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/metallb/metallb-195-get-rid-of-leader-election-for-layer-2-mode.json",
+      "title": "metallb: Get rid of leader election for layer-2 mode",
+      "description": "Get rid of leader election for layer-2 mode. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "metallb",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "metallb"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
     },
@@ -16349,6 +16442,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/thanos/thanos-297-donwsampling-optimize-downsample-memory-usage.json",
+      "title": "thanos: donwsampling: Optimize downsample memory usage ",
+      "description": "donwsampling: Optimize downsample memory usage . Requested by 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "thanos",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "thanos"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/thanos/thanos-4923-query-error-deadlineexceeded-missing-error-details.json",
       "title": "thanos: query: error DeadlineExceeded missing error details",
       "description": "query: error DeadlineExceeded missing error details. This issue affects 10+ users.",
@@ -16460,6 +16580,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/thanos/thanos-448-store-store-gateway-consuming-lots-of-memory-ooming.json",
+      "title": "thanos: store: Store gateway consuming lots of memory / OOMing",
+      "description": "store: Store gateway consuming lots of memory / OOMing. This issue affects 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "thanos",
+        "incubating",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "thanos"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/thanos/thanos-1507-thanos-ingress-nginx-grpc-impossible-setup-due-missing-host-header.json",
       "title": "thanos: thanos+ingress-nginx+grpc: impossible setup due missing host header",
       "description": "thanos+ingress-nginx+grpc: impossible setup due missing host header. Requested by 12+ users.",
@@ -16489,6 +16636,33 @@
       "type": "deploy",
       "installMethods": [],
       "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/the-update-framework-tuf-/the-update-framework-tuf-1793-yearly-maintainer-list-cleanup.json",
+      "title": "the-update-framework-tuf-: Yearly maintainer list cleanup",
+      "description": "Yearly maintainer list cleanup. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "the-update-framework-tuf-",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "the-update-framework-tuf-"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "solutions/cncf-generated/tikv/tikv-7724-full-chunk-based-computing-in-coprocessor.json",
