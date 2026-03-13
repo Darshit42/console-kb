@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T02:36:13.975Z",
-  "count": 453,
+  "generatedAt": "2026-03-13T02:36:44.815Z",
+  "count": 458,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -12174,6 +12174,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/keycloak/keycloak-28220-admin-api-user-put-operation-clears-firstname-lastname-email-fiel.json",
+      "title": "keycloak: Admin API: User PUT operation clears firstname, lastname email fields",
+      "description": "Admin API: User PUT operation clears firstname, lastname email fields. This issue affects 32+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keycloak",
+        "community",
+        "identity",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "keycloak"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/keycloak/keycloak-14644-external-idp-tokens-are-not-refreshed-automatically-for-oauth2-oi.json",
       "title": "keycloak: External IDP tokens are not refreshed automatically for OAuth2 & OIDC IDPs when retrieving the external token",
       "description": "External IDP tokens are not refreshed automatically for OAuth2 & OIDC IDPs when retrieving the external token. Requested by 62+ users.",
@@ -12974,6 +13001,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/langflow/langflow-1432-error-in-db-migration-with-postgresql-for-langflow-v0-6.json",
+      "title": "langflow: Error in DB migration with PostgreSQL for Langflow v0.6",
+      "description": "Error in DB migration with PostgreSQL for Langflow v0.6. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "langflow",
+        "community",
+        "ai-app",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "langflow"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/langflow/langflow-4572-langflow-not-starting-with-postgres-giving-sqlite-error.json",
       "title": "langflow: Langflow not starting with postgres - giving Sqlite error",
       "description": "Langflow not starting with postgres - giving Sqlite error. Community-reported issue.",
@@ -12993,6 +13047,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/langflow/langflow-7039-modulenotfounderror-module-langflow-base-astra-assistants-util-not.json",
+      "title": "langflow: ModuleNotFoundError: Module langflow.base.astra_assistants.util not found. Please install it and try again",
+      "description": "ModuleNotFoundError: Module langflow.base.astra_assistants.util not found. Please install it and try again. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "langflow",
+        "community",
+        "ai-app",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "langflow"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "troubleshoot"
       ],
@@ -13690,6 +13771,33 @@
       "path": "solutions/cncf-generated/opentofu/opentofu-388-enable-variables-in-backend-config-block.json",
       "title": "opentofu: Enable Variables in backend config block",
       "description": "Enable Variables in backend config block. Requested by 61+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentofu",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentofu"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/opentofu/opentofu-286-feature-variabilize-module-source.json",
+      "title": "opentofu: feature: variabilize module source ",
+      "description": "feature: variabilize module source . Requested by 25+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -14779,6 +14887,36 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/vllm/vllm-12073-new-model-support-minimax-01.json",
+      "title": "vllm: Support MiniMax-01 model",
+      "description": "Add support for the MiniMax-01 family of models (MiniMax-Text-01 and MiniMax-VL-01) in vLLM. MiniMax-VL-01 is a multimodal vision-language model using the ViT-MLP-LLM architecture. Requested by 38+ us",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vllm",
+        "community",
+        "llm-serving",
+        "feature",
+        "minimax",
+        "multimodal",
+        "vision-language"
+      ],
+      "cncfProjects": [
+        "vllm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
