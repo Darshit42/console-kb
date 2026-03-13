@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T15:21:26.177Z",
-  "count": 687,
+  "generatedAt": "2026-03-13T16:06:38.247Z",
+  "count": 693,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -1394,6 +1394,60 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/backstage/backstage-12844-rfc-standardize-aws-authentication-in-backstage.json",
+      "title": "backstage: [RFC] Standardize AWS authentication in Backstage",
+      "description": "[RFC] Standardize AWS authentication in Backstage. Requested by 36+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "backstage",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "backstage"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/backstage/backstage-17188-bug-report-publish-github-pull-request-fails-with-httperror-you-.json",
+      "title": "backstage: 🐛 Bug Report: `publish:github:pull-request` fails with `HttpError: You have exceeded a secondary rate limit.`",
+      "description": "🐛 Bug Report: `publish:github:pull-request` fails with `HttpError: You have exceeded a secondary rate limit.`. This issue affects 37+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "backstage",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "backstage"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "incubating"
     },
@@ -17977,6 +18031,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/oauth2-proxy/oauth2-proxy-431-make-it-configurable-which-claim-is-user-id-currently-email.json",
+      "title": "oauth2-proxy: Make it configurable which claim is user id (currently = email)",
+      "description": "Make it configurable which claim is user id (currently = email). Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "oauth2-proxy",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "oauth2-proxy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/oauth2-proxy/oauth2-proxy-612-new-feature-support-oauth2-token-introspection-as-per-rfc7662-s.json",
       "title": "oauth2-proxy: New Feature: Support Oauth2 token introspection as per rfc7662#section2.1",
       "description": "New Feature: Support Oauth2 token introspection as per rfc7662#section2.1. Requested by 12+ users.",
@@ -18326,6 +18407,36 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/open-cluster-management/open-cluster-management-514-natively-support-ocm-on-eks.json",
+      "title": "open-cluster-management: Natively support OCM on EKS",
+      "description": "Natively support OCM on EKS. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-cluster-management",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-cluster-management"
+      ],
+      "targetResourceKinds": [
+        "ManagedCluster",
+        "ManagedClusterSet"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
     },
     {
       "path": "solutions/cncf-generated/open-policy-agent-opa-/open-policy-agent-opa-1469-add-opentracing-census-telemetry-support-for-opa-api-.json",
@@ -19083,6 +19194,60 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/perses/perses-1733-dashboard-tags.json",
+      "title": "perses: Dashboard tags",
+      "description": "Dashboard tags. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "perses",
+        "sandbox",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "perses"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/perses/perses-3071-panels-should-have-the-option-to-see-the-queries-being-executed-from.json",
+      "title": "perses: Panels should have the option to see the queries being executed from the UI",
+      "description": "Panels should have the option to see the queries being executed from the UI. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "perses",
+        "sandbox",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "perses"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
     },
