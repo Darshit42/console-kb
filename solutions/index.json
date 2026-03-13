@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T14:56:20.283Z",
-  "count": 522,
+  "generatedAt": "2026-03-13T14:56:35.558Z",
+  "count": 523,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -16223,6 +16223,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/tikv/tikv-6087-make-tikv-compilable-with-cargo-build.json",
+      "title": "tikv: Make TiKV compilable with `cargo build`",
+      "description": "Make TiKV compilable with `cargo build`. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "tikv",
+        "graduated",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "tikv"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
