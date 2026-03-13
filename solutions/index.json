@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T15:00:36.219Z",
-  "count": 544,
+  "generatedAt": "2026-03-13T15:00:56.271Z",
+  "count": 547,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -2823,6 +2823,33 @@
         "Service",
         "Secret"
       ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/helm/helm-6982-install-chart-from-registry.json",
+      "title": "helm: Install chart from registry",
+      "description": "Install chart from registry. Requested by 66+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [],
       "difficulty": "intermediate",
       "issueTypes": [
         "feature"
@@ -13454,6 +13481,35 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/kubevirt/kubevirt-11259-kubevirt-coding-guidelines-or-best-practices.json",
+      "title": "kubevirt: KubeVirt coding guidelines or best practices",
+      "description": "KubeVirt coding guidelines or best practices. Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubevirt",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kubevirt"
+      ],
+      "targetResourceKinds": [
+        "VirtualMachineInstance"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/kudo/kudo-1147-provide-a-way-to-run-a-trigger-a-plan-based-on-parameter-value.json",
       "title": "kudo: provide a way to run a trigger a plan based on parameter value",
       "description": "provide a way to run a trigger a plan based on parameter value. Requested by 1+ users.",
@@ -16969,6 +17025,33 @@
       "path": "solutions/cncf-generated/vitess/vitess-11880-bug-report-select-expansion-only-considers-subquery-in-column-list-.json",
       "title": "vitess: Bug Report: `SELECT *` expansion only considers subquery in column list on unsharded queries",
       "description": "Bug Report: `SELECT *` expansion only considers subquery in column list on unsharded queries. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vitess",
+        "graduated",
+        "storage",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "vitess"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/vitess/vitess-13801-bug-report-empty-listshardtablet-result-when-remote-cell-topology-i.json",
+      "title": "vitess: Bug Report: empty ListShardTablet result when remote cell topology is down",
+      "description": "Bug Report: empty ListShardTablet result when remote cell topology is down. Community-reported issue.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
