@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-14T06:52:48.819Z",
-  "count": 698,
+  "generatedAt": "2026-03-14T06:53:39.138Z",
+  "count": 708,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -14538,6 +14538,92 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/k8up/k8up-116-support-auto-schedules.json",
+      "title": "k8up: Support \"auto\" schedules",
+      "description": "Support \"auto\" schedules. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "k8up",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "k8up"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/k8up/k8up-106-unexpected-status-code-200-while-pushing-to-pushgateway.json",
+      "title": "k8up: unexpected status code 200 while pushing to pushgateway",
+      "description": "unexpected status code 200 while pushing to pushgateway. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "k8up",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "k8up"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/kagent/kagent-183-feature-add-support-for-aws-bedrock-models.json",
+      "title": "kagent: [FEATURE] Add support for AWS Bedrock models",
+      "description": "[FEATURE] Add support for AWS Bedrock models. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kagent",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kagent"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/kagenti/kagenti-115-bug-question-keycloak-connection-recovery-long-lived-kind-cluster.json",
       "title": "kagenti: bug/question: Keycloak connection recovery (long-lived KIND cluster?)",
       "description": "bug/question: Keycloak connection recovery (long-lived KIND cluster?). This issue affects 0+ users.",
@@ -14567,6 +14653,37 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/kanister/kanister-1622-bug-problem-with-long-running-phase.json",
+      "title": "kanister: [BUG] Problem with long running phase",
+      "description": "[BUG] Problem with long running phase. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kanister",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kanister"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Namespace",
+        "Node"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
     },
     {
       "path": "solutions/cncf-generated/kcp/kcp-333-epic-reverse-tunnel-to-pclusters-through-syncer-for-pod-subresources.json",
@@ -15963,6 +16080,122 @@
       "targetResourceKinds": [
         "Pod",
         "Daemonset",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/kubearmor/kubearmor-1390-feat-leverage-oci-hooks-for-container-events.json",
+      "title": "kubearmor: feat: Leverage OCI Hooks for Container Events",
+      "description": "feat: Leverage OCI Hooks for Container Events. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubearmor",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kubearmor"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/kubearmor/kubearmor-889-go-vulnerability-scan.json",
+      "title": "kubearmor: go vulnerability scan",
+      "description": "go vulnerability scan. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubearmor",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kubearmor"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/kubearmor/kubearmor-1179-index-out-of-bound-on-containers-with-short-names.json",
+      "title": "kubearmor: Index out of bound on containers with short names",
+      "description": "Index out of bound on containers with short names. Users encounter: \"runtime error: slice bounds out of range\".",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubearmor",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kubearmor"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/kubearmor/kubearmor-756-minikube-start-is-failing-with-latest-version-of-minikube-1-26-and.json",
+      "title": "kubearmor: Minikube Start is failing with latest version of minikube (1.26) and k8s(1.24)",
+      "description": "Minikube Start is failing with latest version of minikube (1.26) and k8s(1.24). Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubearmor",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kubearmor"
+      ],
+      "targetResourceKinds": [
+        "Pod",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -18328,6 +18561,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/ollama/ollama-4051-enable-flash-attention-on-ggml-gguf-feature-now-merged-into-llama-cp.json",
+      "title": "ollama: Enable Flash Attention on GGML/GGUF (feature now merged into llama.cpp)",
+      "description": "Enable Flash Attention on GGML/GGUF (feature now merged into llama.cpp). Requested by 31+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "ollama",
+        "community",
+        "llm-serving",
+        "feature"
+      ],
+      "cncfProjects": [
+        "ollama"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/ollama/ollama-2637-integrated-amd-gpu-support.json",
       "title": "ollama: Integrated AMD GPU support",
       "description": "Integrated AMD GPU support. Requested by 57+ users.",
@@ -19275,6 +19535,36 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/piraeus-datastore/piraeus-datastore-53-drbd-kernel-module-injector-fails-when-using-drbd9-centos7-.json",
+      "title": "piraeus-datastore: drbd-kernel-module-injector fails when using drbd9-centos7:v9.0.23 on CentOS 7.8",
+      "description": "drbd-kernel-module-injector fails when using drbd9-centos7:v9.0.23 on CentOS 7.8. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "piraeus-datastore",
+        "sandbox",
+        "storage",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "piraeus-datastore"
+      ],
+      "targetResourceKinds": [
+        "Job",
+        "Node"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "sandbox"
     },
