@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-14T00:06:30.702Z",
-  "count": 693,
+  "generatedAt": "2026-03-14T06:52:11.537Z",
+  "count": 694,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -20924,6 +20924,33 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/vault/vault-27772-vault-oidc-flow-breaks-fails-to-prompt-users-to-login-when-their-cli.json",
+      "title": "vault: Vault OIDC flow breaks fails to prompt users to login when their client tokens have expired",
+      "description": "Vault OIDC flow breaks fails to prompt users to login when their client tokens have expired. This issue affects 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vault",
+        "community",
+        "secrets",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "vault"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
     },
