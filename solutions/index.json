@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-15T01:12:15.398Z",
-  "count": 771,
+  "generatedAt": "2026-03-15T01:14:47.473Z",
+  "count": 789,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -318,6 +318,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-events/argo-events-594-patch-option-in-sensor.json",
+      "title": "argo-events: Patch option in Sensor",
+      "description": "Patch option in Sensor. Requested by 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-events",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-events"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -1606,6 +1633,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/atlantis/atlantis-2026-streaming-does-not-appear-to-work-properly-with-alb.json",
+      "title": "atlantis: Streaming does not appear to work properly with ALB",
+      "description": "Streaming does not appear to work properly with ALB. This issue affects 51+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "atlantis",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "atlantis"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/atlantis/atlantis-217-support-atlantis-import-subcommand.json",
       "title": "atlantis: Support `atlantis import` subcommand",
       "description": "Support `atlantis import` subcommand. Requested by 95+ users.",
@@ -1982,6 +2036,60 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/backstage/backstage-6039-bug-prevents-rendering-in-safari.json",
+      "title": "backstage: Bug prevents rendering in Safari",
+      "description": "Bug prevents rendering in Safari. This issue affects 26+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "backstage",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "backstage"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/backstage/backstage-9461-provide-some-default-values-secrets-for-the-scaffolder-context.json",
+      "title": "backstage: Provide some default values + secrets for the Scaffolder context",
+      "description": "Provide some default values + secrets for the Scaffolder context. Requested by 22+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "backstage",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "backstage"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "incubating"
     },
@@ -5472,6 +5580,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/helm/helm-2798-can-helm-support-to-ignore-expr-which-is-just-for-configuration-but-no.json",
+      "title": "helm: Can Helm support to ignore {{expr}} which is just for configuration but not render?",
+      "description": "Can Helm support to ignore {{expr}} which is just for configuration but not render?. Requested by 57+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/helm/helm-6794-enable-release-namespace-creation-in-helm3.json",
       "title": "helm: Enable Release Namespace Creation in Helm3",
       "description": "Enable Release Namespace Creation in Helm3. Requested by 61+ users.",
@@ -5673,6 +5808,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/helm/helm-12637-nested-null-values-do-not-remove-keys-from-sub-charts.json",
+      "title": "helm: Nested `null` values do not remove keys from sub-charts",
+      "description": "Nested `null` values do not remove keys from sub-charts. This issue affects 57+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/helm/helm-9136-nested-null-values-do-not-remove-keys-from-sub-charts.json",
       "title": "helm: Nested `null` values do not remove keys from sub-charts",
       "description": "Nested `null` values do not remove keys from sub-charts. This issue affects 84+ users.",
@@ -5724,6 +5886,60 @@
         "Job",
         "Service"
       ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/helm/helm-2730-proposal-helm-commandeer.json",
+      "title": "helm: Proposal: helm commandeer",
+      "description": "Proposal: helm commandeer. Requested by 61+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/helm/helm-8137-unable-to-debug-lookup-function-as-its-disabled-with-helm-template.json",
+      "title": "helm: Unable to debug \"lookup\" function, as its disabled with `helm template`",
+      "description": "Unable to debug \"lookup\" function, as its disabled with `helm template`. Requested by 58+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [],
       "difficulty": "expert",
       "issueTypes": [
         "feature"
@@ -14720,6 +14936,33 @@
       "qualityScore": 100
     },
     {
+      "path": "solutions/cncf-generated/istio/istio-16458-any-http-service-will-block-all-https-tcp-traffic-on-the-same-port.json",
+      "title": "istio: Any HTTP service will block all HTTPS/TCP traffic on the same port",
+      "description": "Any HTTP service will block all HTTPS/TCP traffic on the same port. Requested by 18+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "istio",
+        "graduated",
+        "networking",
+        "bug"
+      ],
+      "cncfProjects": [
+        "istio"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "bug"
+      ],
+      "type": "bug",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/istio/istio-6324-better-support-for-sidecar-containers-in-batch-jobs.json",
       "title": "istio: Better support for sidecar containers in batch jobs",
       "description": "Better support for sidecar containers in batch jobs. This issue affects 76+ users.",
@@ -14857,6 +15100,37 @@
       "targetResourceKinds": [
         "Pod",
         "Node"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "bug"
+      ],
+      "type": "bug",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/istio/istio-29359-multi-cluster-multi-network-cannot-use-a-hostname-based-gateway-for-.json",
+      "title": "istio: Multi-Cluster/Multi-Network - Cannot use a hostname-based gateway for east-west traffic",
+      "description": "Multi-Cluster/Multi-Network - Cannot use a hostname-based gateway for east-west traffic. Requested by 20+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "istio",
+        "graduated",
+        "networking",
+        "bug"
+      ],
+      "cncfProjects": [
+        "istio"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace",
+        "Service"
       ],
       "difficulty": "expert",
       "issueTypes": [
@@ -15708,6 +15982,33 @@
         "Service"
       ],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/kcp/kcp-1074-rename-workloadcluster-to-synctarget.json",
+      "title": "kcp: Rename WorkloadCluster to SyncTarget",
+      "description": "Rename WorkloadCluster to SyncTarget. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kcp",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kcp"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
@@ -17177,6 +17478,37 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/kubearmor/kubearmor-1186-securing-kubearmor-pods-and-policies-policing-the-police.json",
+      "title": "kubearmor: securing KubeArmor pods and policies (Policing the Police!)",
+      "description": "securing KubeArmor pods and policies (Policing the Police!). Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubearmor",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kubearmor"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Statefulset"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/kubeflow/kubeflow-3259-ambassador-and-vizier-core-not-starting.json",
       "title": "kubeflow: ambassador and vizier-core not starting",
       "description": "ambassador and vizier-core not starting. This issue affects 4+ users.",
@@ -17922,6 +18254,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/kubevirt/kubevirt-1063-increase-code-coverage-by-10.json",
+      "title": "kubevirt: Increase code coverage by 10%",
+      "description": "Increase code coverage by 10%. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubevirt",
+        "incubating",
+        "app-definition",
+        "test"
+      ],
+      "cncfProjects": [
+        "kubevirt"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "test"
+      ],
+      "type": "test",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/kubevirt/kubevirt-11259-kubevirt-coding-guidelines-or-best-practices.json",
       "title": "kubevirt: KubeVirt coding guidelines or best practices",
       "description": "KubeVirt coding guidelines or best practices. Requested by 8+ users.",
@@ -18506,6 +18865,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/kyverno/kyverno-7718-allow-updating-generate-rules-in-clusterpolicy.json",
+      "title": "kyverno: allow updating \"generate\" rules in ClusterPolicy",
+      "description": "allow updating \"generate\" rules in ClusterPolicy. Requested by 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kyverno",
+        "incubating",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kyverno"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/kyverno/kyverno-2229-delete-generated-resource-when-triggering-resource-is-deleted.json",
       "title": "kyverno: Delete generated resource when triggering resource is deleted",
       "description": "Delete generated resource when triggering resource is deleted. Requested by 12+ users.",
@@ -18922,6 +19308,33 @@
       "path": "solutions/cncf-generated/localai/localai-3714-add-support-for-realtime-api.json",
       "title": "localai: Add support for realtime API",
       "description": "Add support for realtime API. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "localai",
+        "community",
+        "llm-serving",
+        "feature"
+      ],
+      "cncfProjects": [
+        "localai"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/localai/localai-1273-feat-assistant-api.json",
+      "title": "localai: feat: Assistant API",
+      "description": "feat: Assistant API. Requested by 6+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -19653,6 +20066,33 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/ollama/ollama-2416-v1-embeddings-openai-compatible-api-endpoint.json",
+      "title": "ollama: `/v1/embeddings` OpenAI compatible API endpoint",
+      "description": "`/v1/embeddings` OpenAI compatible API endpoint. Requested by 27+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "ollama",
+        "community",
+        "llm-serving",
+        "feature"
+      ],
+      "cncfProjects": [
+        "ollama"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/ollama/ollama-2430-v1-models-openai-compatibility-api.json",
@@ -20989,6 +21429,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-17403-bug-podman-machine-fails-to-start-with-exit-status-.json",
+      "title": "podman-container-tools: [Bug]: Podman machine fails to start with exit status 255 on Mac",
+      "description": "[Bug]: Podman machine fails to start with exit status 255 on Mac. This issue affects 21+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-9169-rfe-make-docker-compose-work-with-rootless-podman.json",
       "title": "podman-container-tools: [RFE]Make docker-compose work with rootless podman",
       "description": "[RFE]Make docker-compose work with rootless podman. Requested by 13+ users.",
@@ -21100,6 +21567,33 @@
       "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-21681-mac-current-head-errors-out-on-add-host-using-host-.json",
       "title": "podman-container-tools: Mac: current HEAD errors out on `--add-host` using `host-gateway` with \"host containers internal IP address is empty\"",
       "description": "Mac: current HEAD errors out on `--add-host` using `host-gateway` with \"host containers internal IP address is empty\". This issue affects 21+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-11541-os-x-podman-machine-time-stops-sometime.json",
+      "title": "podman-container-tools: OS X, podman machine time stops sometime",
+      "description": "OS X, podman machine time stops sometime. This issue affects 33+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
