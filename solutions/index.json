@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-15T01:06:20.782Z",
-  "count": 753,
+  "generatedAt": "2026-03-15T01:09:52.336Z",
+  "count": 757,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -401,6 +401,36 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-events/argo-events-726-the-joinchannel-api-call-is-fully-deprecated-for-new-slack-appli.json",
+      "title": "argo-events: The `JoinChannel` api call is fully deprecated for new Slack applications",
+      "description": "The `JoinChannel` api call is fully deprecated for new Slack applications. Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-events",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-events"
+      ],
+      "targetResourceKinds": [
+        "Configmap",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
@@ -1408,6 +1438,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/atlantis/atlantis-1306-atlantis-outputs-all-refreshed-resources-before-outputting-the-fin.json",
+      "title": "atlantis: Atlantis outputs all refreshed resources before outputting the final plan output in the PR comments (tf 0.14.2)",
+      "description": "Atlantis outputs all refreshed resources before outputting the final plan output in the PR comments (tf 0.14.2). This issue affects 23+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "atlantis",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "atlantis"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/atlantis/atlantis-5389-atlantis-runs-plans-on-prs-even-when-no-files-matching-when-modifi.json",
       "title": "atlantis: Atlantis runs plans on PRs even when no files matching when_modified patterns have changed",
       "description": "Atlantis runs plans on PRs even when no files matching when_modified patterns have changed. This issue affects 23+ users.",
@@ -1428,6 +1485,33 @@
       "targetResourceKinds": [
         "Deployment"
       ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/atlantis/atlantis-3845-atlantis-unlock-fails-to-delete-plan-of-environment-with-project-n.json",
+      "title": "atlantis: Atlantis unlock fails to delete plan of environment with project name",
+      "description": "Atlantis unlock fails to delete plan of environment with project name. This issue affects 28+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "atlantis",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "atlantis"
+      ],
+      "targetResourceKinds": [],
       "difficulty": "intermediate",
       "issueTypes": [
         "troubleshoot"
@@ -1649,6 +1733,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/atlantis/atlantis-2054-terraform-log-streaming-for-custom-workflows.json",
+      "title": "atlantis: Terraform log streaming for custom workflows",
+      "description": "Terraform log streaming for custom workflows. Requested by 38+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "atlantis",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "atlantis"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
