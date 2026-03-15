@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-15T01:17:02.771Z",
-  "count": 794,
+  "generatedAt": "2026-03-15T06:58:21.601Z",
+  "count": 827,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -1467,6 +1467,63 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/atlantis/atlantis-4243-bug-unable-to-unmarshal-conftest-output-or-anyone-able-to-approve-.json",
+      "title": "atlantis: [Bug] unable to unmarshal conftest output or Anyone able to approve Atlantis policy failures ",
+      "description": "[Bug] unable to unmarshal conftest output or Anyone able to approve Atlantis policy failures . This issue affects 21+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "atlantis",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "atlantis"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/atlantis/atlantis-2949-api-plan-does-not-create-workspace-if-it-does-not-exist.json",
+      "title": "atlantis: /api/plan does not create workspace if it does not exist",
+      "description": "/api/plan does not create workspace if it does not exist. This issue affects 21+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "atlantis",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "atlantis"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/atlantis/atlantis-3909-add-support-for-bitbucket-cloud-webhook-secrets.json",
       "title": "atlantis: Add support for bitbucket cloud webhook secrets",
       "description": "Add support for bitbucket cloud webhook secrets. Requested by 26+ users.",
@@ -1662,9 +1719,63 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/atlantis/atlantis-1834-feature-request-halt-execution-on-pre-workflow-hook-failure.json",
+      "title": "atlantis: Feature Request: Halt execution on pre-workflow hook failure",
+      "description": "Feature Request: Halt execution on pre-workflow hook failure. Requested by 20+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "atlantis",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "atlantis"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/atlantis/atlantis-1019-intermittent-404-not-found-on-pulls-github-calls.json",
       "title": "atlantis: intermittent 404 Not Found on /pulls github calls",
       "description": "intermittent 404 Not Found on /pulls github calls. This issue affects 21+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "atlantis",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "atlantis"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/atlantis/atlantis-1905-intermittent-404-not-found-on-pulls-github-calls.json",
+      "title": "atlantis: intermittent 404 Not Found on /pulls github calls",
+      "description": "intermittent 404 Not Found on /pulls github calls. This issue affects 20+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -2231,6 +2342,37 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/bank-vaults/bank-vaults-159-auto-renew-tls-certificate.json",
+      "title": "bank-vaults: Auto renew TLS certificate",
+      "description": "Auto renew TLS certificate. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "bank-vaults",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "bank-vaults"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Statefulset",
+        "Secret"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/caddy/caddy-7192-allow-global-dns-resolvers-directive.json",
       "title": "caddy: Allow global DNS `resolvers` directive",
       "description": "Allow global DNS `resolvers` directive. This issue affects 10+ users.",
@@ -2445,6 +2587,116 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/cadence-workflow/cadence-workflow-4162-cadence-workflow-0-20-0-build-issue-on-apple-arm64.json",
+      "title": "cadence-workflow: cadence-workflow 0.20.0 build issue on apple arm64",
+      "description": "cadence-workflow 0.20.0 build issue on apple arm64. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cadence-workflow",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cadence-workflow"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/capsule/capsule-407-support-namespace-labeling-for-tenant-owners.json",
+      "title": "capsule: support namespace labeling for tenant owners",
+      "description": "support namespace labeling for tenant owners. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "capsule",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "capsule"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/cartography/cartography-773-aws-sync-try-all-aws-accounts-and-raise-exception-afterwards.json",
+      "title": "cartography: AWS Sync: Try all AWS accounts, and raise Exception afterwards",
+      "description": "AWS Sync: Try all AWS accounts, and raise Exception afterwards. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cartography",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cartography"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/cdk-for-kubernetes-cdk8s-/cdk-for-kubernetes-cdk8s-773-support-compatibility-with-aws-cdk-v2-upgrade-to-co.json",
+      "title": "cdk-for-kubernetes-cdk8s-: Support compatibility with AWS CDK v2 / upgrade to constructs v10",
+      "description": "Support compatibility with AWS CDK v2 / upgrade to constructs v10. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cdk-for-kubernetes-cdk8s-",
+        "sandbox",
+        "app-definition",
+        "upgrade"
+      ],
+      "cncfProjects": [
+        "cdk-for-kubernetes-cdk8s-"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "upgrade"
+      ],
+      "type": "upgrade",
+      "installMethods": [],
+      "maturity": "sandbox"
     },
     {
       "path": "solutions/cncf-generated/cert-manager/cert-manager-4821-allow-ingressclassname-to-be-set-for-http01-solver-ingresses.json",
@@ -3176,6 +3428,227 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/consul/consul-3073-feature-http-2-and-grpc-health-checks-support.json",
+      "title": "consul: [feature] HTTP/2 and gRPC health-checks support",
+      "description": "[feature] HTTP/2 and gRPC health-checks support. Requested by 27+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "consul",
+        "community",
+        "service-mesh",
+        "feature"
+      ],
+      "cncfProjects": [
+        "consul"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/consul/consul-10563-connect-envoy-sidecars-enter-state-where-they-fail-to-receive-xds-u.json",
+      "title": "consul: Connect: Envoy sidecars enter state where they fail to receive xds updates from Consul",
+      "description": "Connect: Envoy sidecars enter state where they fail to receive xds updates from Consul. This issue affects 19+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "consul",
+        "community",
+        "service-mesh",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "consul"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/consul/consul-5231-consul-connect-ability-to-configure-envoy-access-log-path.json",
+      "title": "consul: Consul Connect - Ability to configure envoy access_log_path",
+      "description": "Consul Connect - Ability to configure envoy access_log_path. Requested by 32+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "consul",
+        "community",
+        "service-mesh",
+        "feature"
+      ],
+      "cncfProjects": [
+        "consul"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/consul/consul-4741-duplicate-node-ids-after-upgrading-to-1-2-3.json",
+      "title": "consul: Duplicate Node IDs after upgrading to 1.2.3",
+      "description": "Duplicate Node IDs after upgrading to 1.2.3. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "consul",
+        "community",
+        "service-mesh",
+        "feature"
+      ],
+      "cncfProjects": [
+        "consul"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/consul/consul-10603-new-warn-in-1-10-0-caused-by-shuffling-the-servers-in-the-grpc-clie.json",
+      "title": "consul: New WARN in 1.10.0 caused by shuffling the servers in the gRPC ClientConn pool",
+      "description": "New WARN in 1.10.0 caused by shuffling the servers in the gRPC ClientConn pool. Users encounter: \"desc = \"transport: Error while dialing dial tcp 10.200.65.16:8300: operation was canceled\". Reconnec\".",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "consul",
+        "community",
+        "service-mesh",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "consul"
+      ],
+      "targetResourceKinds": [
+        "Serviceaccount",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/consul/consul-8283-support-http-connection-protocol-upgrades-thru-envoy.json",
+      "title": "consul: Support HTTP connection protocol upgrades thru Envoy",
+      "description": "Support HTTP connection protocol upgrades thru Envoy. This issue affects 44+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "consul",
+        "community",
+        "service-mesh",
+        "upgrade"
+      ],
+      "cncfProjects": [
+        "consul"
+      ],
+      "targetResourceKinds": [
+        "Ingress"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "upgrade"
+      ],
+      "type": "upgrade",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/consul/consul-16429-ui-rendering-issues-with-consul-v1-15-0.json",
+      "title": "consul: UI rendering issues with Consul v1.15.0",
+      "description": "UI rendering issues with Consul v1.15.0. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "consul",
+        "community",
+        "service-mesh",
+        "feature"
+      ],
+      "cncfProjects": [
+        "consul"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/consul/consul-5937-vendor-directory-causes-type-mismatch.json",
+      "title": "consul: Vendor directory causes type mismatch",
+      "description": "Vendor directory causes type mismatch. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "consul",
+        "community",
+        "service-mesh",
+        "feature"
+      ],
+      "cncfProjects": [
+        "consul"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/cozystack/cozystack-2084-monitor-agents-failed-to-install-after-upgraded-to-v1-0-0-rc-1.json",
@@ -19415,6 +19888,141 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/litellm/litellm-20743-bug-claude-code-not-working-with-vercel-models-due-to-thinking-err.json",
+      "title": "litellm: [Bug]: Claude Code not working with Vercel models due to \"thinking\" error",
+      "description": "[Bug]: Claude Code not working with Vercel models due to \"thinking\" error. This issue affects 30+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "litellm",
+        "community",
+        "llm-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "litellm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/litellm/litellm-13710-bug-importerror-with-openai-1-100.json",
+      "title": "litellm: [Bug]: ImportError with openai 1.100",
+      "description": "[Bug]: ImportError with openai 1.100. This issue affects 22+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "litellm",
+        "community",
+        "llm-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "litellm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/litellm/litellm-14762-bug-latest-litellm-introduced-dependency-on-madoka-which-lacks-whe.json",
+      "title": "litellm: [Bug]: latest LiteLLM introduced dependency on \"madoka\" - which lacks wheels for most environments",
+      "description": "[Bug]: latest LiteLLM introduced dependency on \"madoka\" - which lacks wheels for most environments. This issue affects 36+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "litellm",
+        "community",
+        "llm-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "litellm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/litellm/litellm-13711-bug-litellm-incompatible-with-newest-release-of-openai-v1-100-0.json",
+      "title": "litellm: [Bug]: litellm incompatible with newest release of openAI v1.100.0",
+      "description": "[Bug]: litellm incompatible with newest release of openAI v1.100.0. This issue affects 28+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "litellm",
+        "community",
+        "llm-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "litellm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/litellm/litellm-10349-bug-modulenotfounderror-no-module-named-enterprise.json",
+      "title": "litellm: [Bug]: ModuleNotFoundError: No module named 'enterprise'",
+      "description": "[Bug]: ModuleNotFoundError: No module named 'enterprise'. This issue affects 21+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "litellm",
+        "community",
+        "llm-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "litellm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/localai/localai-3714-add-support-for-realtime-api.json",
       "title": "localai: Add support for realtime API",
       "description": "Add support for realtime API. Requested by 11+ users.",
@@ -19442,6 +20050,60 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/localai/localai-404-clblast-support.json",
+      "title": "localai: CLBlast support",
+      "description": "CLBlast support. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "localai",
+        "community",
+        "llm-serving",
+        "feature"
+      ],
+      "cncfProjects": [
+        "localai"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/localai/localai-4761-deepseek-r1-distill-qwen-7b-and-seemingly-other-reasoning-models-ex.json",
+      "title": "localai: deepseek-r1-distill-qwen-7b (and seemingly other reasoning models) exclude initial <think> tag",
+      "description": "deepseek-r1-distill-qwen-7b (and seemingly other reasoning models) exclude initial <think> tag. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "localai",
+        "community",
+        "llm-serving",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "localai"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/localai/localai-1273-feat-assistant-api.json",
       "title": "localai: feat: Assistant API",
       "description": "feat: Assistant API. Requested by 6+ users.",
@@ -19465,6 +20127,60 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/localai/localai-973-getting-sigsegv-with-llama-backend.json",
+      "title": "localai: Getting SIGSEGV with llama backend",
+      "description": "Getting SIGSEGV with llama backend. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "localai",
+        "community",
+        "llm-serving",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "localai"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/localai/localai-1467-parallel-requests-true-has-no-effect-on-gguf-models.json",
+      "title": "localai: PARALLEL_REQUESTS=true has no effect on gguf models",
+      "description": "PARALLEL_REQUESTS=true has no effect on gguf models. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "localai",
+        "community",
+        "llm-serving",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "localai"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
     },
@@ -21701,6 +22417,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-16054-error-qemu-exited-unexpectedly-with-exit-code-1-std.json",
+      "title": "podman-container-tools: Error: qemu exited unexpectedly with exit code 1, stderr: qemu-system-x86_64: cannot create PID file: Cannot lock pid file: Resource temporarily unavailable",
+      "description": "Error: qemu exited unexpectedly with exit code 1, stderr: qemu-system-x86_64: cannot create PID file: Cannot lock pid file: Resource temporarily unavailable. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-21681-mac-current-head-errors-out-on-add-host-using-host-.json",
       "title": "podman-container-tools: Mac: current HEAD errors out on `--add-host` using `host-gateway` with \"host containers internal IP address is empty\"",
       "description": "Mac: current HEAD errors out on `--add-host` using `host-gateway` with \"host containers internal IP address is empty\". This issue affects 21+ users.",
@@ -21751,6 +22494,87 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-18111-podman-relies-in-config-on-specific-qemu-version-to.json",
+      "title": "podman-container-tools: Podman relies in config on specific qemu version to start a machine",
+      "description": "Podman relies in config on specific qemu version to start a machine. This issue affects 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-8323-unable-to-authenticate-with-podman-remote-over-ssh-t.json",
+      "title": "podman-container-tools: Unable to authenticate with podman-remote over ssh to drive remote podman.sock",
+      "description": "Unable to authenticate with podman-remote over ssh to drive remote podman.sock. This issue affects 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/podman-desktop/podman-desktop-279-remote-management-of-podman-hosts.json",
+      "title": "podman-desktop: Remote management of podman hosts",
+      "description": "Remote management of podman hosts. Requested by 15+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-desktop",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "podman-desktop"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
     },
@@ -21807,6 +22631,33 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/qdrant/qdrant-2474-jemalloc-unsupported-system-page-size-on-arm64-system.json",
+      "title": "qdrant: <jemalloc>: Unsupported system page size on ARM64 system",
+      "description": "<jemalloc>: Unsupported system page size on ARM64 system. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "qdrant",
+        "community",
+        "vector-db",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "qdrant"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/radius/radius-6532-hard-to-use-self-signed-tls-certificates-signed-by-custom-ca.json",
@@ -24377,6 +25228,60 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/weaviate/weaviate-3683-feature-request-add-not-operator-in-filter-to-support-not-like-etc.json",
+      "title": "weaviate: [Feature Request] Add \"Not\" operator in filter to support \"Not Like\" etc. in Get queries",
+      "description": "[Feature Request] Add \"Not\" operator in filter to support \"Not Like\" etc. in Get queries. Requested by 79+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "weaviate",
+        "community",
+        "vector-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "weaviate"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/weaviate/weaviate-3513-fr-add-a-containsnone-operator.json",
+      "title": "weaviate: FR: Add a `ContainsNone` operator",
+      "description": "FR: Add a `ContainsNone` operator. Requested by 34+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "weaviate",
+        "community",
+        "vector-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "weaviate"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/werf/werf-3411-forward-values-with-werf-image-path-to-subcharts.json",
