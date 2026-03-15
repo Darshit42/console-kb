@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-15T01:09:52.336Z",
-  "count": 757,
+  "generatedAt": "2026-03-15T01:10:36.326Z",
+  "count": 762,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -15456,6 +15456,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/kagent/kagent-171-expose-kagent-functionality-through-the-api-for-external-consumption.json",
+      "title": "kagent: expose kagent functionality through the API for external consumption",
+      "description": "expose kagent functionality through the API for external consumption. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kagent",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kagent"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/kagenti/kagenti-115-bug-question-keycloak-connection-recovery-long-lived-kind-cluster.json",
       "title": "kagenti: bug/question: Keycloak connection recovery (long-lived KIND cluster?)",
       "description": "bug/question: Keycloak connection recovery (long-lived KIND cluster?). This issue affects 0+ users.",
@@ -18108,6 +18135,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/kyverno/kyverno-13310-bug-imagepullsecret-doesn-t-render-properly.json",
+      "title": "kyverno: [Bug] imagePullSecret doesn't render properly",
+      "description": "[Bug] imagePullSecret doesn't render properly. This issue affects 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kyverno",
+        "incubating",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kyverno"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/kyverno/kyverno-9930-bug-kyverno-processes-all-pods-in-a-mutate-existing-namespaced-poli.json",
       "title": "kyverno: [Bug] Kyverno processes all Pods in a mutate existing Namespaced Policy",
       "description": "[Bug] Kyverno processes all Pods in a mutate existing Namespaced Policy. This issue affects 11+ users.",
@@ -18218,6 +18272,37 @@
         "kyverno"
       ],
       "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/kyverno/kyverno-3542-feature-extend-foreach-to-cover-generate-rules.json",
+      "title": "kyverno: [Feature] Extend `foreach` to cover generate rules",
+      "description": "[Feature] Extend `foreach` to cover generate rules. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kyverno",
+        "incubating",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kyverno"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Configmap",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -20631,6 +20716,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-17382-bug-podman-build-secrets-with-environment-variables.json",
+      "title": "podman-container-tools: [Bug]: podman build --secrets with environment variables does not work on MacOS",
+      "description": "[Bug]: podman build --secrets with environment variables does not work on MacOS. This issue affects 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-9169-rfe-make-docker-compose-work-with-rootless-podman.json",
       "title": "podman-container-tools: [RFE]Make docker-compose work with rootless podman",
       "description": "[RFE]Make docker-compose work with rootless podman. Requested by 13+ users.",
@@ -22117,6 +22229,33 @@
       "path": "solutions/cncf-generated/tikv/tikv-7724-full-chunk-based-computing-in-coprocessor.json",
       "title": "tikv: Full chunk-based computing in coprocessor",
       "description": "Full chunk-based computing in coprocessor. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "tikv",
+        "graduated",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "tikv"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/tikv/tikv-18838-implement-compareanddelete-for-the-rawkv-api.json",
+      "title": "tikv: Implement CompareAndDelete for the RawKV API",
+      "description": "Implement CompareAndDelete for the RawKV API. Requested by 5+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
