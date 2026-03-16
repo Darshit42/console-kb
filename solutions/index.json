@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-16T12:10:10.261Z",
-  "count": 865,
+  "generatedAt": "2026-03-16T12:28:08.579Z",
+  "count": 888,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -487,6 +487,156 @@
         "Secret"
       ],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-455-ability-to-add-ephemeral-labels-to-canary-stable-pods.json",
+      "title": "argo-rollouts: Ability to add ephemeral labels to canary/stable pods",
+      "description": "Ability to add ephemeral labels to canary/stable pods. Requested by 19+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Replicaset"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-3991-add-an-option-to-proceed-to-the-next-rollout-step-based-on-a-.json",
+      "title": "argo-rollouts: Add an option to proceed to the next rollout step based on a percentage of available replicas",
+      "description": "Add an option to proceed to the next rollout step based on a percentage of available replicas. Requested by 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Replicaset"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-2050-argo-rollouts-will-scale-down-stable-when-canary-is-missing-p.json",
+      "title": "argo-rollouts: Argo rollouts will scale down stable when canary is missing pods",
+      "description": "Argo rollouts will scale down stable when canary is missing pods. This issue affects 19+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace",
+        "Replicaset"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-1191-istio-integrated-canary-in-multi-cluster-setup.json",
+      "title": "argo-rollouts: Istio integrated canary in multi-cluster setup",
+      "description": "Istio integrated canary in multi-cluster setup. Requested by 19+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-574-rollback-windows-for-fast-tracked-rollbacks.json",
+      "title": "argo-rollouts: Rollback windows for fast-tracked rollbacks",
+      "description": "Rollback windows for fast-tracked rollbacks. Requested by 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Replicaset"
+      ],
+      "difficulty": "advanced",
       "issueTypes": [
         "feature"
       ],
@@ -2814,6 +2964,37 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-7331-clusterissuer-secrets-and-challenges-unable-to-find-secret.json",
+      "title": "cert-manager: ClusterIssuer Secrets and Challenges unable to find secret",
+      "description": "ClusterIssuer Secrets and Challenges unable to find secret. This issue affects 24+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [
+        "Ingress",
+        "Namespace",
+        "Secret"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/cert-manager/cert-manager-7138-failed-to-generate-serving-certificate.json",
       "title": "cert-manager: Failed to generate serving certificate",
       "description": "Failed to generate serving certificate. Users encounter: \"in the logs of cert-manager webhook pod:\".",
@@ -2841,6 +3022,117 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-1083-godaddy-dns01-support.json",
+      "title": "cert-manager: Godaddy dns01 support",
+      "description": "Godaddy dns01 support. Requested by 19+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-3958-sane-defaults-for-certificate-revision-history-limit.json",
+      "title": "cert-manager: Sane defaults for Certificate revision history limit ",
+      "description": "Sane defaults for Certificate revision history limit . Requested by 20+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-2237-set-a-commonname-when-using-ingress-shim.json",
+      "title": "cert-manager: Set a CommonName when using ingress-shim ",
+      "description": "Set a CommonName when using ingress-shim . Requested by 20+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [
+        "Ingress",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-5904-support-azure-private-dns-zones-for-dns-challenge.json",
+      "title": "cert-manager: Support Azure Private DNS Zones for DNS Challenge",
+      "description": "Support Azure Private DNS Zones for DNS Challenge. Requested by 20+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -3486,6 +3778,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/consul/consul-4977-allow-setting-of-secretid-and-accessorid-on-acl-tokens-on-consul-1-4.json",
+      "title": "consul: Allow setting of SecretID and AccessorID on ACL tokens on Consul 1.4+",
+      "description": "Allow setting of SecretID and AccessorID on ACL tokens on Consul 1.4+. Requested by 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "consul",
+        "community",
+        "service-mesh",
+        "feature"
+      ],
+      "cncfProjects": [
+        "consul"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/consul/consul-9319-config-entry-replication-of-ingress-gateway-entries-fails-validation.json",
       "title": "consul: Config Entry replication of ingress-gateway entries fails validation in secondary datacenter",
       "description": "Config Entry replication of ingress-gateway entries fails validation in secondary datacenter. This issue affects 9+ users.",
@@ -3707,6 +4026,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/consul/consul-9852-prebuilts-for-darwin-arm64-m1-apple-silicon.json",
+      "title": "consul: Prebuilts for darwin/arm64 (M1 Apple Silicon)",
+      "description": "Prebuilts for darwin/arm64 (M1 Apple Silicon). Requested by 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "consul",
+        "community",
+        "service-mesh",
+        "feature"
+      ],
+      "cncfProjects": [
+        "consul"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "community"
     },
@@ -16942,6 +17288,60 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/keda/keda-5355-add-option-for-the-datadog-scaler-to-use-the-datadog-cluster-agent-as-.json",
+      "title": "keda: Add option for the Datadog scaler to use the Datadog Cluster Agent as source of metrics",
+      "description": "Add option for the Datadog scaler to use the Datadog Cluster Agent as source of metrics. Requested by 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/keda/keda-853-apache-pulsar-scaler.json",
+      "title": "keda: Apache Pulsar Scaler",
+      "description": "Apache Pulsar Scaler. Requested by 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/keda/keda-944-provide-support-for-explicitly-pausing-autoscaling-of-workloads.json",
       "title": "keda: Provide support for explicitly pausing autoscaling of workloads.",
       "description": "Provide support for explicitly pausing autoscaling of workloads.. This issue affects 36+ users.",
@@ -20066,6 +20466,60 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/lima/lima-1003-add-support-for-vnc-in-addition-to-the-current-qemu-displays.json",
+      "title": "lima: Add support for VNC, in addition to the current QEMU displays",
+      "description": "Add support for VNC, in addition to the current QEMU displays. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/lima/lima-3648-docs-discourage-tmp-lima-on-shared-hosts-and-deprecate-it.json",
+      "title": "lima: docs: discourage `/tmp/lima` on shared hosts (and deprecate it?)",
+      "description": "docs: discourage `/tmp/lima` on shared hosts (and deprecate it?). Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "upgrade"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "upgrade"
+      ],
+      "type": "upgrade",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/linkerd/linkerd-10762-can-t-deploy-linkerd-v2-13-x-with-argocd.json",
       "title": "linkerd: Can't deploy Linkerd v2.13.x with ArgoCD",
       "description": "Can't deploy Linkerd v2.13.x with ArgoCD. This issue affects 26+ users.",
@@ -21324,6 +21778,33 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/milvus/milvus-41384-bug-meminfo-rss-undefined.json",
+      "title": "milvus: [Bug]: memInfo.RSS undefined",
+      "description": "[Bug]: memInfo.RSS undefined. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "milvus",
+        "community",
+        "vector-db",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "milvus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/minio/minio-2111-resolved-versioning-support.json",
@@ -23665,6 +24146,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/qdrant/qdrant-804-rocksdb-investigate-compression-scheme-for-rocksdb.json",
+      "title": "qdrant: [rocksdb] Investigate compression scheme for RocksDB",
+      "description": "[rocksdb] Investigate compression scheme for RocksDB. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "qdrant",
+        "community",
+        "vector-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "qdrant"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/qdrant/qdrant-2474-jemalloc-unsupported-system-page-size-on-arm64-system.json",
       "title": "qdrant: <jemalloc>: Unsupported system page size on ARM64 system",
       "description": "<jemalloc>: Unsupported system page size on ARM64 system. Community-reported issue.",
@@ -25315,6 +25823,114 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/valkey/valkey-544-legal-please-remove-my-copyright-notice-from-the-source-code.json",
+      "title": "valkey: [LEGAL] Please remove my copyright notice from the source code",
+      "description": "[LEGAL] Please remove my copyright notice from the source code. Requested by 29+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/valkey/valkey-92-new-native-windows-support.json",
+      "title": "valkey: [NEW] Native windows support",
+      "description": "[NEW] Native windows support. Requested by 41+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/valkey/valkey-1336-new-support-database-level-acl.json",
+      "title": "valkey: [NEW] Support database level ACL",
+      "description": "[NEW] Support database level ACL. Requested by 18+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/valkey/valkey-640-support-field-level-expire-ttl-for-hash-set-and-sorted-set.json",
+      "title": "valkey: Support field level expire/TTL for hash, set and sorted set",
+      "description": "Support field level expire/TTL for hash, set and sorted set. Requested by 115+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/vault/vault-11697-add-redis-secret-backend.json",
       "title": "vault: Add Redis Secret backend",
       "description": "Redis 6+ supports ACL-based users, making it possible to dynamically create and rotate credentials via Vault. This feature adds a Redis secret backend that allows operators to generate rotating Redis ",
@@ -26311,6 +26927,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/weaviate/weaviate-2656-ux-weaviate-should-be-runnable-without-any-env-vars-or-cli-args-se.json",
+      "title": "weaviate: [UX] Weaviate should be runnable without any env vars or cli args set",
+      "description": "[UX] Weaviate should be runnable without any env vars or cli args set. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "weaviate",
+        "community",
+        "vector-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "weaviate"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
