@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-16T15:20:42.408Z",
+  "generatedAt": "2026-03-16T18:26:26.669Z",
   "count": 964,
   "missions": [
     {
@@ -6390,7 +6390,7 @@
     {
       "path": "solutions/troubleshoot/solution-fix-kubevuln-crash-looping-due-to-ephemeral-storage-eviction.json",
       "title": "Fix kubevuln crash-looping due to ephemeral storage eviction",
-      "description": "**Problem:** kubevuln pods were repeatedly evicted because their ephemeral local storage usage exceeded the 10Gi limit. The vulnerability database downloads and image scan caches consumed more than th",
+      "description": "**Problem:** kubevuln pods crash or get evicted, leaving behind failed pods that accumulate and cause DiskPressure on the node. This manifests in two ways: (1) ephemeral storage eviction when the 10Gi",
       "category": "troubleshoot",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -6398,14 +6398,19 @@
       "authorAvatar": "https://github.com/kubestellar.png",
       "tags": [
         "CrashLoopBackOff",
+        "DiskPressure",
         "Deployment",
-        "Kubescape"
+        "Kubescape",
+        "kubevuln",
+        "ephemeral-storage"
       ],
       "cncfProjects": [],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
       "issueTypes": [
-        "CrashLoopBackOff"
+        "CrashLoopBackOff",
+        "OOMKilled",
+        "PersistentVolumeError"
       ],
       "type": "troubleshoot",
       "installMethods": []
