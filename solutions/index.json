@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-16T12:32:44.547Z",
-  "count": 899,
+  "generatedAt": "2026-03-16T12:33:25.109Z",
+  "count": 907,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -16792,6 +16792,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/jaeger/jaeger-4647-deprecation-phase-out-grpc-plugin-storage-sidecar-via-hashicorp-plug.json",
+      "title": "jaeger: [deprecation] Phase out grpc-plugin storage (sidecar via hashicorp-plugin)",
+      "description": "[deprecation] Phase out grpc-plugin storage (sidecar via hashicorp-plugin). This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "upgrade"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "upgrade"
+      ],
+      "type": "upgrade",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/jaeger/jaeger-365-adaptive-sampling.json",
       "title": "jaeger: Adaptive Sampling",
       "description": "Adaptive Sampling. Requested by 56+ users.",
@@ -16811,6 +16838,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/jaeger/jaeger-1058-collector-reload-sampling-strategies-on-file-content-change.json",
+      "title": "jaeger: collector: reload sampling strategies on file content change",
+      "description": "collector: reload sampling strategies on file content change. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
@@ -16873,6 +16927,143 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/jaeger/jaeger-738-jaeger-agent-metrics-not-returned.json",
+      "title": "jaeger: Jaeger Agent metrics not returned",
+      "description": "Jaeger Agent metrics not returned. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/jaeger/jaeger-2638-jaeger-agent-reproducible-memory-leak-in-1-21-0.json",
+      "title": "jaeger: jaeger-agent reproducible memory leak in 1.21.0",
+      "description": "jaeger-agent reproducible memory leak in 1.21.0. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/jaeger/jaeger-2292-multiarch-docker-images.json",
+      "title": "jaeger: Multiarch docker images",
+      "description": "Multiarch docker images. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/jaeger/jaeger-2498-push-official-images-to-quay-io-in-addition-to-docker-hub.json",
+      "title": "jaeger: Push official images to quay.io, in addition to Docker Hub",
+      "description": "Push official images to quay.io, in addition to Docker Hub. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/jaeger/jaeger-622-query-error-after-run-es-indices-clean-sh.json",
+      "title": "jaeger: query error after run es_indices_clean.sh",
+      "description": "query error after run es_indices_clean.sh. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/jaeger/jaeger-1474-support-elasticsearch-7-x.json",
       "title": "jaeger: Support Elasticsearch 7.x",
       "description": "Support Elasticsearch 7.x. Requested by 20+ users.",
@@ -16892,6 +17083,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/jaeger/jaeger-1519-support-grpc-api-for-storage.json",
+      "title": "jaeger: Support gRPC API for storage",
+      "description": "Support gRPC API for storage. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
