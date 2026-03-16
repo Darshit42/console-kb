@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-16T12:31:45.890Z",
-  "count": 893,
+  "generatedAt": "2026-03-16T12:32:44.547Z",
+  "count": 899,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -4171,6 +4171,93 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/contour/contour-3693-add-ip-allowlist-and-blocklist-functionality.json",
+      "title": "contour: Add IP allowlist and blocklist functionality",
+      "description": "Add IP allowlist and blocklist functionality. Requested by 31+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "contour",
+        "incubating",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "contour"
+      ],
+      "targetResourceKinds": [
+        "Ingress"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/contour/contour-5822-add-per-httpproxy-http-version-support-to-address-http2-coalescing-.json",
+      "title": "contour: Add Per-HTTPProxy HTTP-Version Support to Address HTTP2 Coalescing Issues with Wildcards",
+      "description": "Add Per-HTTPProxy HTTP-Version Support to Address HTTP2 Coalescing Issues with Wildcards. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "contour",
+        "incubating",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "contour"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/contour/contour-403-address-not-set-on-ingress-resource.json",
+      "title": "contour: Address not set on Ingress resource",
+      "description": "Address not set on Ingress resource. Requested by 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "contour",
+        "incubating",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "contour"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Ingress",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/contour/contour-1894-instructions-for-presenting-grpc-services-needs-a-guide.json",
       "title": "contour: Instructions for presenting grpc services needs a guide",
       "description": "Instructions for presenting grpc services needs a guide. Requested by 5+ users.",
@@ -4219,6 +4306,93 @@
         "Ingress",
         "Service"
       ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/contour/contour-1627-redirect-adding-a-redirect-301-or-302-option-in-ingressroute-httppr.json",
+      "title": "contour: Redirect: adding a redirect (301 or 302) option in ingressroute / httpproxy",
+      "description": "Redirect: adding a redirect (301 or 302) option in ingressroute / httpproxy. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "contour",
+        "incubating",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "contour"
+      ],
+      "targetResourceKinds": [
+        "Ingress",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/contour/contour-70-support-adding-removing-headers.json",
+      "title": "contour: Support adding / removing headers",
+      "description": "Support adding / removing headers. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "contour",
+        "incubating",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "contour"
+      ],
+      "targetResourceKinds": [
+        "Ingress",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/contour/contour-399-tracing-configuration.json",
+      "title": "contour: Tracing Configuration",
+      "description": "Tracing Configuration. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "contour",
+        "incubating",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "contour"
+      ],
+      "targetResourceKinds": [],
       "difficulty": "intermediate",
       "issueTypes": [
         "feature"
