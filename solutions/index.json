@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-17T16:38:40.570Z",
-  "count": 1036,
+  "generatedAt": "2026-03-17T18:07:39.577Z",
+  "count": 1032,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -8637,35 +8637,6 @@
       "maturity": "graduated"
     },
     {
-      "path": "solutions/cncf-generated/helm/helm-9136-nested-null-values-do-not-remove-keys-from-sub-charts.json",
-      "title": "helm: Nested `null` values do not remove keys from sub-charts",
-      "description": "Nested `null` values do not remove keys from sub-charts. This issue affects 84+ users.",
-      "category": "cncf-generated",
-      "missionClass": "solution",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "helm",
-        "graduated",
-        "app-definition",
-        "troubleshoot"
-      ],
-      "cncfProjects": [
-        "helm"
-      ],
-      "targetResourceKinds": [
-        "Deployment"
-      ],
-      "difficulty": "expert",
-      "issueTypes": [
-        "troubleshoot"
-      ],
-      "type": "troubleshoot",
-      "installMethods": [],
-      "maturity": "graduated"
-    },
-    {
       "path": "solutions/cncf-generated/helm/helm-7891-post-renderer-not-receiving-chart-hook-manifests.json",
       "title": "helm: Post-renderer not receiving chart hook manifests?",
       "description": "Post-renderer not receiving chart hook manifests?. Requested by 71+ users.",
@@ -13368,43 +13339,6 @@
       "qualityScore": 100
     },
     {
-      "path": "solutions/cncf-install/install-kubeflow.json",
-      "title": "Install and Configure Kubeflow on Kubernetes",
-      "description": "Kubeflow is a powerful Machine Learning Toolkit for Kubernetes that provides a modular and scalable platform for building AI applications. Installing Kubeflow allows you to leverage a comprehensive se",
-      "category": "cncf-install",
-      "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "installation",
-        "configuration",
-        "cncf",
-        "app-definition",
-        "incubating"
-      ],
-      "cncfProjects": [
-        "kubeflow"
-      ],
-      "targetResourceKinds": [
-        "Service",
-        "Namespace",
-        "Ingress"
-      ],
-      "difficulty": "intermediate",
-      "issueTypes": [
-        "installation",
-        "configuration"
-      ],
-      "type": "deploy",
-      "installMethods": [
-        "helm"
-      ],
-      "projectVersion": "v1.10.0",
-      "maturity": "incubating",
-      "qualityScore": 100
-    },
-    {
       "path": "solutions/platform-install/platform-kuberay.json",
       "title": "Install and Configure KubeRay",
       "description": "KubeRay is an open-source Kubernetes operator designed to simplify the deployment and management of Ray applications on Kubernetes. It provides custom resource definitions for managing Ray clusters, j",
@@ -13835,41 +13769,6 @@
       "installMethods": [
         "helm"
       ],
-      "qualityScore": 100
-    },
-    {
-      "path": "solutions/cncf-install/install-kyverno.json",
-      "title": "Install and Configure Kyverno on Kubernetes",
-      "description": "Kyverno is a Kubernetes-native policy engine that enables security, compliance, automation, and governance through policy-as-code. Installing Kyverno allows you to enforce policies on your Kubernetes ",
-      "category": "cncf-install",
-      "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "installation",
-        "configuration",
-        "cncf",
-        "security",
-        "incubating"
-      ],
-      "cncfProjects": [
-        "kyverno"
-      ],
-      "targetResourceKinds": [
-        "Namespace"
-      ],
-      "difficulty": "beginner",
-      "issueTypes": [
-        "installation",
-        "configuration"
-      ],
-      "type": "deploy",
-      "installMethods": [
-        "helm"
-      ],
-      "projectVersion": "v1.16.3",
-      "maturity": "incubating",
       "qualityScore": 100
     },
     {
@@ -14367,43 +14266,6 @@
       "installMethods": [
         "helm"
       ],
-      "qualityScore": 100
-    },
-    {
-      "path": "solutions/cncf-install/install-metallb.json",
-      "title": "Install and Configure Metallb on Kubernetes",
-      "description": "MetalLB is a network load-balancer implementation for bare metal Kubernetes clusters, utilizing standard routing protocols. Installing MetalLB allows you to expose services externally in a Kubernetes ",
-      "category": "cncf-install",
-      "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "installation",
-        "configuration",
-        "cncf",
-        "app-definition",
-        "sandbox"
-      ],
-      "cncfProjects": [
-        "metallb"
-      ],
-      "targetResourceKinds": [
-        "Service",
-        "Configmap",
-        "Namespace"
-      ],
-      "difficulty": "beginner",
-      "issueTypes": [
-        "installation",
-        "configuration"
-      ],
-      "type": "deploy",
-      "installMethods": [
-        "helm"
-      ],
-      "projectVersion": "v0.15.3",
-      "maturity": "sandbox",
       "qualityScore": 100
     },
     {
