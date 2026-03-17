@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-17T12:14:04.588Z",
-  "count": 995,
+  "generatedAt": "2026-03-17T16:31:06.648Z",
+  "count": 1023,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -5147,6 +5147,89 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/cortex/cortex-923-query-across-multiple-users-tenants-instances.json",
+      "title": "cortex: Query across multiple users / tenants / instances",
+      "description": "Query across multiple users / tenants / instances. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cortex",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cortex"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/cortex/cortex-5105-switch-cortex-ruler-to-query-query-frontend.json",
+      "title": "cortex: Switch Cortex Ruler to query Query Frontend",
+      "description": "Switch Cortex Ruler to query Query Frontend. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cortex",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cortex"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/cortex/cortex-5402-unshipped-blocks-when-out-of-order-writes-are-enabled.json",
+      "title": "cortex: Unshipped blocks when out of order writes are enabled",
+      "description": "Unshipped blocks when out of order writes are enabled. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cortex",
+        "incubating",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cortex"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "incubating"
     },
@@ -19000,9 +19083,120 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/keda/keda-2030-add-support-for-the-value-metric-type-in-addition-to-averagevalue.json",
+      "title": "keda: Add support for the \"Value\" metric type in addition to \"AverageValue\"",
+      "description": "Add support for the \"Value\" metric type in addition to \"AverageValue\". Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/keda/keda-4724-add-temporal-io-scaler.json",
+      "title": "keda: Add Temporal.io Scaler",
+      "description": "Add Temporal.io Scaler. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/keda/keda-853-apache-pulsar-scaler.json",
       "title": "keda: Apache Pulsar Scaler",
       "description": "Apache Pulsar Scaler. Requested by 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/keda/keda-2633-metrics-api-scaler-support-different-format.json",
+      "title": "keda: Metrics API Scaler support different format",
+      "description": "Metrics API Scaler support different format. Requested by 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/keda/keda-674-provide-sql-server-scaler.json",
+      "title": "keda: Provide SQL Server scaler",
+      "description": "Provide SQL Server scaler. Requested by 8+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -20932,6 +21126,35 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/kuberay/kuberay-2544-feature-support-managedby-for-integration-with-multikueue.json",
+      "title": "kuberay: [Feature] Support managedBy for integration with MultiKueue",
+      "description": "[Feature] Support managedBy for integration with MultiKueue. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kuberay",
+        "community",
+        "ml-platform",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kuberay"
+      ],
+      "targetResourceKinds": [
+        "Job"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/kuberay/kuberay-639-feat-update-raycluster-status-reason-field-with-pod-creation-error.json",
@@ -23690,6 +23913,62 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/metal3-io/metal3-io-1722-publish-release-artifacts-with-manifests.json",
+      "title": "metal3-io: Publish release artifacts with manifests",
+      "description": "Publish release artifacts with manifests. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "metal3-io",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "metal3-io"
+      ],
+      "targetResourceKinds": [
+        "Configmap"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/metal3-io/metal3-io-2100-stop-requiring-deploy-kernel-deploy-ramdisk.json",
+      "title": "metal3-io: Stop requiring DEPLOY_KERNEL/DEPLOY_RAMDISK",
+      "description": "Stop requiring DEPLOY_KERNEL/DEPLOY_RAMDISK. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "metal3-io",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "metal3-io"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/metal3-io/metal3-io-580-typo-in-bootmacaddress-causes-non-obvious-failures.json",
       "title": "metal3-io: Typo in bootMACAddress causes non-obvious failures",
       "description": "Typo in bootMACAddress causes non-obvious failures. Community-reported issue.",
@@ -24132,6 +24411,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/minio/minio-2965-ecosystem-validate-all-spark-and-hadoop-supported-s3-connectors.json",
+      "title": "minio: ecosystem: Validate all spark and hadoop supported s3 connectors",
+      "description": "ecosystem: Validate all spark and hadoop supported s3 connectors. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "minio",
+        "community",
+        "object-storage",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "minio"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/minio/minio-4166-remove-a-bucket-from-gui.json",
       "title": "minio: remove a bucket from gui? ",
       "description": "remove a bucket from gui? . This issue affects 15+ users.",
@@ -24375,6 +24681,60 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/n8n/n8n-2527-n8n-import-with-fixed-id.json",
+      "title": "n8n: n8n import with fixed ID",
+      "description": "n8n import with fixed ID. This issue affects 15+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/n8n/n8n-1244-replace-pdf-parse.json",
+      "title": "n8n: replace pdf-parse",
+      "description": "replace pdf-parse. Requested by 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "feature"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/nats/nats-7760-consumer-filter-subjects-stop-matching-after-leader-step-down.json",
       "title": "nats: Consumer filter subjects stop matching after leader step-down",
       "description": "Consumer filter subjects stop matching after leader step-down. Requested by 12+ users.",
@@ -24427,6 +24787,33 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/notary-project/notary-project-91-define-experience-for-notation-sign-command.json",
+      "title": "notary-project: Define experience for notation sign command",
+      "description": "Define experience for notation sign command. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "notary-project",
+        "incubating",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "notary-project"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/notary-project/notary-project-259-notation-sign-doesn-t-work-on-main-branch.json",
@@ -25275,6 +25662,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/open-webui/open-webui-3620-enh-issue-performance-optimisation.json",
+      "title": "open-webui: enh/issue: performance optimisation",
+      "description": "enh/issue: performance optimisation. Requested by 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/open-webui/open-webui-278-feat-ability-to-work-with-multiple-ollama-servers.json",
       "title": "open-webui: Feat: Ability to work with multiple Ollama servers",
       "description": "Feat: Ability to work with multiple Ollama servers. Requested by 19+ users.",
@@ -25332,6 +25746,60 @@
       "path": "solutions/cncf-generated/open-webui/open-webui-230-feat-configurable-openai-api-endpoint.json",
       "title": "open-webui: feat: configurable OpenAI API endpoint.",
       "description": "feat: configurable OpenAI API endpoint.. Requested by 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/open-webui/open-webui-3527-feat-knowledge-projects-revamped-documents-section.json",
+      "title": "open-webui: feat: knowledge/projects (revamped documents section)",
+      "description": "feat: knowledge/projects (revamped documents section). Requested by 26+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/open-webui/open-webui-3129-feat-whole-full-document-mode.json",
+      "title": "open-webui: feat: whole/full document mode",
+      "description": "feat: whole/full document mode. Requested by 39+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -25494,6 +25962,33 @@
         "Node"
       ],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/opencost/opencost-560-support-scaleway-kubernetes.json",
+      "title": "opencost: Support Scaleway Kubernetes",
+      "description": "Support Scaleway Kubernetes. Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opencost",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opencost"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
@@ -28786,6 +29281,60 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/valkey/valkey-2019-bug-valkey-server-slows-down-with-spop-key-and-srandmember-key-spinn.json",
+      "title": "valkey: [BUG] valkey-server slows down with `spop <key>` and `srandmember <key>` spinning in hashtableScanDefrag after a few hours",
+      "description": "[BUG] valkey-server slows down with `spop <key>` and `srandmember <key>` spinning in hashtableScanDefrag after a few hours. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/valkey/valkey-1133-feature-implement-cluster-flushslot-command.json",
+      "title": "valkey: [Feature] Implement CLUSTER FLUSHSLOT command",
+      "description": "[Feature] Implement CLUSTER FLUSHSLOT command. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/valkey/valkey-544-legal-please-remove-my-copyright-notice-from-the-source-code.json",
       "title": "valkey: [LEGAL] Please remove my copyright notice from the source code",
       "description": "[LEGAL] Please remove my copyright notice from the source code. Requested by 29+ users.",
@@ -28813,9 +29362,117 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/valkey/valkey-79-new-add-cmake-support.json",
+      "title": "valkey: [NEW] Add CMake support",
+      "description": "[NEW] Add CMake support. Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/valkey/valkey-23-new-atomic-slot-migration-hld.json",
+      "title": "valkey: [NEW] Atomic slot migration HLD ",
+      "description": "[NEW] Atomic slot migration HLD . Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/valkey/valkey-76-new-introduce-automated-cross-version-and-cross-fork-testing-infrastru.json",
+      "title": "valkey: [NEW] Introduce automated cross version and cross fork testing infrastructure",
+      "description": "[NEW] Introduce automated cross version and cross fork testing infrastructure. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/valkey/valkey-92-new-native-windows-support.json",
       "title": "valkey: [NEW] Native windows support",
       "description": "[NEW] Native windows support. Requested by 41+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/valkey/valkey-1936-new-negative-filtering-for-client-command-filters.json",
+      "title": "valkey: [NEW] Negative filtering for client command filters",
+      "description": "[NEW] Negative filtering for client command filters. Community-requested feature.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -28867,6 +29524,87 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/valkey/valkey-1866-new-take-username-from-client-certificate.json",
+      "title": "valkey: [NEW] Take username from client certificate",
+      "description": "[NEW] Take username from client certificate. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/valkey/valkey-939-new-trigger-manual-failover-on-sigterm-to-primary-cluster.json",
+      "title": "valkey: [NEW] Trigger manual failover on SIGTERM to primary (cluster)",
+      "description": "[NEW] Trigger manual failover on SIGTERM to primary (cluster). Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/valkey/valkey-632-investigate-performance-improvements-related-to-slot-ownership-in-get.json",
+      "title": "valkey: Investigate performance improvements related to slot ownership in getNodeByQuery",
+      "description": "Investigate performance improvements related to slot ownership in getNodeByQuery. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "analyze"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "analyze"
+      ],
+      "type": "analyze",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/valkey/valkey-640-support-field-level-expire-ttl-for-hash-set-and-sorted-set.json",
       "title": "valkey: Support field level expire/TTL for hash, set and sorted set",
       "description": "Support field level expire/TTL for hash, set and sorted set. Requested by 115+ users.",
@@ -28886,6 +29624,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/valkey/valkey-319-support-smooth-swithover-in-standalone-mode-by-using-redirect.json",
+      "title": "valkey: Support smooth swithover in standalone mode by using REDIRECT",
+      "description": "Support smooth swithover in standalone mode by using REDIRECT. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "valkey",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "valkey"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
       "issueTypes": [
         "feature"
       ],
