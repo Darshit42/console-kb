@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-16T22:57:53.161Z",
-  "count": 966,
+  "generatedAt": "2026-03-17T02:31:44.097Z",
+  "count": 967,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -26291,6 +26291,36 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
+    },
+    {
+      "path": "solutions/troubleshoot/kubeconfig-prune.json",
+      "title": "Prune Stale Kubeconfig Contexts",
+      "description": "Safely clean up your kubeconfig by removing contexts for clusters that no longer exist. Creates a timestamped backup first, tests each context, shows you exactly what will be removed, and asks for con",
+      "category": "troubleshoot",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubeconfig",
+        "cleanup",
+        "prune",
+        "stale-contexts",
+        "maintenance",
+        "cluster-admin"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "maintenance",
+        "cleanup"
+      ],
+      "type": "repair",
+      "installMethods": [
+        "cli"
+      ],
+      "qualityScore": 97
     },
     {
       "path": "solutions/cncf-generated/qdrant/qdrant-804-rocksdb-investigate-compression-scheme-for-rocksdb.json",
