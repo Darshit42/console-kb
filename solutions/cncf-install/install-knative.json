@@ -5,86 +5,77 @@
   "author": "KubeStellar Bot",
   "authorGithub": "kubestellar",
   "mission": {
-    "title": "Install and Configure Knative on Kubernetes",
-    "description": "Knative Serving is a Kubernetes-based platform that enables the deployment and serving of applications and functions as serverless containers. It allows for rapid deployment, automatic scaling, and advanced routing capabilities, making it ideal for modern cloud-native applications.",
+    "title": "Install and Configure Knative Serving on Kubernetes",
+    "description": "Knative Serving is a Kubernetes-based platform that enables the deployment and serving of applications and functions as serverless containers. It allows for rapid deployment, automatic scaling, and advanced routing capabilities, making it ideal for modern cloud-native applications. Knative is installed via kubectl apply with YAML manifests from the official GitHub releases.",
     "type": "deploy",
     "status": "completed",
     "steps": [
       {
-        "title": "Add the Helm repository",
-        "description": "Add the Knative Helm chart repository to your Helm configuration with the following command:\n```bash\nhelm repo add knative https://mesosphere.github.io/charts/staging\n```"
+        "title": "Install Knative Serving CRDs",
+        "description": "Apply the Knative Serving Custom Resource Definitions (CRDs) from the official release:\n\n```bash\nkubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.21.1/serving-crds.yaml\n```"
       },
       {
-        "title": "Update the Helm repository",
-        "description": "Update your Helm repositories to ensure you have the latest version of the Knative chart:\n```bash\nhelm repo update\n```"
+        "title": "Install Knative Serving Core",
+        "description": "Apply the core Knative Serving components. This creates the knative-serving namespace and deploys the controller, webhook, and other core services:\n\n```bash\nkubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.21.1/serving-core.yaml\n```"
       },
       {
-        "title": "Install Knative Serving",
-        "description": "Install Knative Serving using Helm with the specified version:\n```bash\nhelm install knative knative/knative --version 1.21.0 --namespace knative-serving --create-namespace\n```"
+        "title": "Install a networking layer",
+        "description": "Knative requires a networking layer. Choose one of the following options:\n\n**Option A: Kourier (lightweight, recommended for getting started)**\n```bash\nkubectl apply -f https://github.com/knative-extensions/net-kourier/releases/download/knative-v1.21.0/kourier.yaml\n```\nThen configure Knative to use Kourier:\n```bash\nkubectl patch configmap/config-network \\\n  --namespace knative-serving \\\n  --type merge \\\n  --patch '{\"data\":{\"ingress-class\":\"kourier.ingress.networking.knative.dev\"}}'\n```\n\n**Option B: Istio**\n```bash\nkubectl apply -f https://github.com/knative-extensions/net-istio/releases/download/knative-v1.21.1/istio.yaml\nkubectl apply -f https://github.com/knative-extensions/net-istio/releases/download/knative-v1.21.1/net-istio.yaml\n```\n\n**Option C: Contour**\n```bash\nkubectl apply -f https://github.com/knative-extensions/net-contour/releases/download/knative-v1.21.1/contour.yaml\nkubectl apply -f https://github.com/knative-extensions/net-contour/releases/download/knative-v1.21.1/net-contour.yaml\n```"
       },
       {
         "title": "Verify the installation",
-        "description": "Check that the Knative Serving components are running:\n```bash\nkubectl get pods --namespace knative-serving\n```"
+        "description": "Check that all Knative Serving components are running in the knative-serving namespace:\n\n```bash\nkubectl get pods --namespace knative-serving\n```\n\nAll pods should be in the Running state."
       },
       {
-        "title": "Post-install configuration",
-        "description": "Configure resource limits for the Knative Serving components by editing the deployment:\n```bash\nkubectl edit deployment knative-controller --namespace knative-serving\n```"
+        "title": "Configure DNS (optional)",
+        "description": "Optionally install the default domain configuration for development:\n\n```bash\nkubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.21.1/serving-default-domain.yaml\n```\n\nFor production, configure a real DNS domain in the config-domain ConfigMap."
       }
     ],
     "uninstall": [
       {
-        "title": "Remove the Helm release",
-        "description": "Uninstall the Knative Serving release using Helm:\n```bash\nhelm uninstall knative --namespace knative-serving\n```"
+        "title": "Remove the networking layer",
+        "description": "Delete the networking layer you installed (example for Kourier):\n\n```bash\nkubectl delete -f https://github.com/knative-extensions/net-kourier/releases/download/knative-v1.21.0/kourier.yaml\n```"
       },
       {
-        "title": "Clean up CRDs",
-        "description": "Remove the Custom Resource Definitions (CRDs) associated with Knative:\n```bash\nkubectl delete crd $(kubectl get crd | grep knative.dev | awk '{print $1}')\n```"
+        "title": "Remove Knative Serving core",
+        "description": "Delete the Knative Serving core components:\n\n```bash\nkubectl delete -f https://github.com/knative/serving/releases/download/knative-v1.21.1/serving-core.yaml\n```"
       },
       {
-        "title": "Remove the namespace",
-        "description": "Delete the Knative Serving namespace:\n```bash\nkubectl delete namespace knative-serving\n```"
+        "title": "Remove Knative Serving CRDs",
+        "description": "Delete the Custom Resource Definitions:\n\n```bash\nkubectl delete -f https://github.com/knative/serving/releases/download/knative-v1.21.1/serving-crds.yaml\n```"
       }
     ],
     "upgrade": [
       {
-        "title": "Backup current state",
-        "description": "Export the current Knative Serving configuration for backup:\n```bash\nkubectl get all --namespace knative-serving -o yaml > knative-backup.yaml\n```"
-      },
-      {
-        "title": "Update the Helm repository",
-        "description": "Ensure your Helm repository is up to date:\n```bash\nhelm repo update\n```"
-      },
-      {
         "title": "Upgrade Knative Serving",
-        "description": "Upgrade Knative Serving to the latest version:\n```bash\nhelm upgrade knative knative/knative --namespace knative-serving\n```"
+        "description": "To upgrade, apply the new version manifests in order. Replace the version in the URLs:\n\n```bash\nkubectl apply -f https://github.com/knative/serving/releases/download/knative-v<NEW_VERSION>/serving-crds.yaml\nkubectl apply -f https://github.com/knative/serving/releases/download/knative-v<NEW_VERSION>/serving-core.yaml\n```\n\nThen upgrade your networking layer similarly."
       },
       {
         "title": "Verify the upgrade",
-        "description": "Check that the upgraded components are running:\n```bash\nkubectl get pods --namespace knative-serving\n```"
+        "description": "Check that the upgraded components are running:\n\n```bash\nkubectl get pods --namespace knative-serving\n```"
       }
     ],
     "troubleshooting": [
       {
         "title": "Pods stuck in Pending state",
-        "description": "If pods are stuck in Pending, check for insufficient resources or node issues:\n```bash\nkubectl describe pod <pod-name> --namespace knative-serving\n```"
+        "description": "If pods are stuck in Pending, check for insufficient resources or node issues:\n\n```bash\nkubectl describe pod <pod-name> --namespace knative-serving\n```"
       },
       {
         "title": "Knative services not routing traffic",
-        "description": "Verify that the Knative ingress is correctly configured:\n```bash\nkubectl get ksvc --namespace knative-serving\n```"
+        "description": "Verify that the networking layer is correctly configured and the ingress class matches:\n\n```bash\nkubectl get ksvc --all-namespaces\nkubectl get configmap config-network -n knative-serving -o yaml\n```"
       },
       {
         "title": "Controller pods in CrashLoopBackOff",
-        "description": "Check the logs of the controller pod for errors:\n```bash\nkubectl logs <controller-pod-name> --namespace knative-serving\n```"
+        "description": "Check the logs of the controller pod for errors:\n\n```bash\nkubectl logs -l app=controller --namespace knative-serving\n```"
       }
     ],
     "resolution": {
-      "summary": "A successful installation of Knative Serving will have all components running in the knative-serving namespace, and you will be able to deploy and serve applications. You can verify the installation by checking the status of the pods and ensuring they are in the Running state.",
+      "summary": "A successful installation of Knative Serving will have all components running in the knative-serving namespace, including the activator, autoscaler, controller, and webhook pods. You will be able to deploy Knative Services (ksvc) that automatically scale to zero.",
       "codeSnippets": [
-        "helm repo add knative https://mesosphere.github.io/charts/staging",
-        "helm repo update",
-        "helm install knative knative/knative --version 1.21.0 --namespace knative-serving --create-namespace",
-        "kubectl get pods --namespace knative-serving",
-        "kubectl edit deployment knative-controller --namespace knative-serving"
+        "kubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.21.1/serving-crds.yaml",
+        "kubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.21.1/serving-core.yaml",
+        "kubectl apply -f https://github.com/knative-extensions/net-kourier/releases/download/knative-v1.21.0/kourier.yaml",
+        "kubectl get pods --namespace knative-serving"
       ]
     }
   },
@@ -93,7 +84,7 @@
       "installation",
       "configuration",
       "cncf",
-      "app-definition",
+      "serverless",
       "graduated"
     ],
     "cncfProjects": [
@@ -101,7 +92,9 @@
     ],
     "targetResourceKinds": [
       "Deployment",
-      "Namespace"
+      "Service",
+      "Namespace",
+      "CustomResourceDefinition"
     ],
     "difficulty": "intermediate",
     "issueTypes": [
@@ -109,30 +102,31 @@
       "configuration"
     ],
     "installMethods": [
-      "helm"
+      "kubectl"
     ],
     "maturity": "graduated",
     "projectVersion": "knative-v1.21.1",
     "containerImages": [
-      "knative/serving:knative-v1.21.1"
+      "gcr.io/knative-releases/knative.dev/serving/cmd/controller",
+      "gcr.io/knative-releases/knative.dev/serving/cmd/activator",
+      "gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler",
+      "gcr.io/knative-releases/knative.dev/serving/cmd/webhook"
     ],
     "sourceUrls": {
-      "docs": "https://knative.dev/docs/serving/",
-      "repo": "https://github.com/knative/serving",
-      "helm": "https://mesosphere.github.io/charts/staging"
+      "docs": "https://knative.dev/docs/install/yaml-install/serving/install-serving-with-yaml/",
+      "repo": "https://github.com/knative/serving"
     },
     "qualityScore": 100
   },
   "prerequisites": {
-    "kubernetes": ">=1.24",
+    "kubernetes": ">=1.28",
     "tools": [
-      "helm",
       "kubectl"
     ],
-    "description": "Ensure you have a Kubernetes cluster running version 1.24 or higher, and that Helm and kubectl are installed on your machine."
+    "description": "Ensure you have a Kubernetes cluster running version 1.28 or higher, and that kubectl is installed and configured to interact with your cluster."
   },
   "security": {
-    "scannedAt": "2026-03-05T22:14:50.662Z",
+    "scannedAt": "2026-03-17T00:00:00.000Z",
     "scannerVersion": "cncf-install-gen-1.0.0",
     "sanitized": true,
     "findings": []

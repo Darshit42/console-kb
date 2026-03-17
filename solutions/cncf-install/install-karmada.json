@@ -11,32 +11,36 @@
     "status": "completed",
     "steps": [
       {
-        "title": "Create the Karmada Namespace",
-        "description": "First, create a namespace for Karmada to operate in. Run the following command:\n\n```bash\nkubectl create namespace karmada-system\n```"
+        "title": "Add the Karmada Helm repository",
+        "description": "Add the official Karmada Helm chart repository to your Helm configuration:\n\n```bash\nhelm repo add karmada-charts https://raw.githubusercontent.com/karmada-io/karmada/master/charts\nhelm repo update\n```"
       },
       {
-        "title": "Deploy Karmada Control Plane",
-        "description": "Next, apply the Karmada control plane manifests. Use the following command:\n\n```bash\nkubectl apply -f https://github.com/karmada-io/karmada/releases/download/v1.0.0/karmada-control-plane.yaml -n karmada-system\n```"
+        "title": "Install Karmada using Helm",
+        "description": "Install Karmada in the karmada-system namespace using the official Helm chart. Replace the version with your desired release:\n\n```bash\nhelm --namespace karmada-system upgrade -i karmada karmada-charts/karmada \\\n  --version=1.12.0 \\\n  --create-namespace\n```\n\nAlternatively, you can use the karmadactl CLI to initialize Karmada:\n\n```bash\nkarmadactl init\n```"
       },
       {
-        "title": "Deploy Karmada Scheduler",
-        "description": "Now, deploy the Karmada scheduler by applying the following manifest:\n\n```bash\nkubectl apply -f https://github.com/karmada-io/karmada/releases/download/v1.0.0/karmada-scheduler.yaml -n karmada-system\n```"
+        "title": "Verify the installation",
+        "description": "Check that all Karmada components are running in the karmada-system namespace:\n\n```bash\nkubectl get pods -n karmada-system\n```\n\nYou should see pods for the karmada-apiserver, karmada-controller-manager, karmada-scheduler, karmada-webhook, and etcd."
       },
       {
-        "title": "Verify the Installation",
-        "description": "To ensure that Karmada is installed correctly, check the status of the pods in the Karmada namespace:\n\n```bash\nkubectl get pods -n karmada-system\n```"
+        "title": "Register member clusters",
+        "description": "After Karmada is installed, register your member clusters. You can use karmadactl to join a cluster:\n\n```bash\nkarmadactl join <member-cluster-name> --kubeconfig=<karmada-kubeconfig> --cluster-kubeconfig=<member-kubeconfig>\n```\n\nVerify the member clusters:\n\n```bash\nkubectl get clusters --kubeconfig=<karmada-kubeconfig>\n```"
       }
     ],
     "uninstall": [
       {
-        "title": "Uninstall Karmada",
-        "description": "To uninstall Karmada, delete the namespace and all resources associated with it:\n\n```bash\nkubectl delete namespace karmada-system\n```"
+        "title": "Uninstall Karmada via Helm",
+        "description": "Remove the Karmada Helm release:\n\n```bash\nhelm uninstall karmada -n karmada-system\n```"
+      },
+      {
+        "title": "Clean up CRDs and namespace",
+        "description": "Remove Karmada CRDs and the namespace:\n\n```bash\nkubectl delete crd $(kubectl get crd | grep karmada.io | awk '{print $1}')\nkubectl delete namespace karmada-system\n```\n\nIf you used karmadactl, run:\n\n```bash\nkarmadactl deinit\n```"
       }
     ],
     "upgrade": [
       {
         "title": "Upgrade Karmada",
-        "description": "To upgrade Karmada, apply the new version of the manifests. Replace `v1.0.0` with the desired version:\n\n```bash\nkubectl apply -f https://github.com/karmada-io/karmada/releases/download/v1.1.0/karmada-control-plane.yaml -n karmada-system\nkubectl apply -f https://github.com/karmada-io/karmada/releases/download/v1.1.0/karmada-scheduler.yaml -n karmada-system\n```"
+        "description": "Update the Helm repository and upgrade to a new version:\n\n```bash\nhelm repo update\nhelm --namespace karmada-system upgrade karmada karmada-charts/karmada --version=<new-version>\n```"
       }
     ],
     "troubleshooting": [
@@ -46,19 +50,18 @@
       },
       {
         "title": "Karmada API Not Accessible",
-        "description": "If you cannot access the Karmada API, ensure that the Karmada API server is running and check your network policies.\n\n```bash\nkubectl get pods -n karmada-system\n```"
+        "description": "If you cannot access the Karmada API, ensure that the Karmada API server is running and check your network policies:\n\n```bash\nkubectl get pods -n karmada-system\nkubectl get svc -n karmada-system\n```"
       },
       {
-        "title": "Resource Quotas Exceeded",
-        "description": "If you encounter resource quota issues, verify the resource limits set in your Kubernetes cluster and adjust them accordingly."
+        "title": "etcd Issues",
+        "description": "If etcd pods are failing, check storage and resource availability:\n\n```bash\nkubectl describe pod -l app=etcd -n karmada-system\nkubectl logs -l app=etcd -n karmada-system\n```"
       }
     ],
     "resolution": {
-      "summary": "A successful installation of Karmada will result in the Karmada operator running in the 'karmada-system' namespace with all necessary pods in a 'Running' state. You can access the Karmada dashboard if configured.",
+      "summary": "A successful installation of Karmada will result in all components (apiserver, controller-manager, scheduler, webhook, etcd) running in the karmada-system namespace. You can then register member clusters and deploy workloads across them using Karmada's PropagationPolicy.",
       "codeSnippets": [
-        "kubectl create namespace karmada-system",
-        "kubectl apply -f https://github.com/karmada-io/karmada/releases/download/v1.0.0/karmada-control-plane.yaml -n karmada-system",
-        "kubectl apply -f https://github.com/karmada-io/karmada/releases/download/v1.0.0/karmada-scheduler.yaml -n karmada-system",
+        "helm repo add karmada-charts https://raw.githubusercontent.com/karmada-io/karmada/master/charts",
+        "helm --namespace karmada-system upgrade -i karmada karmada-charts/karmada --version=1.12.0 --create-namespace",
         "kubectl get pods -n karmada-system"
       ]
     }
@@ -76,6 +79,7 @@
     ],
     "targetResourceKinds": [
       "Deployment",
+      "StatefulSet",
       "Service",
       "Namespace"
     ],
@@ -85,29 +89,34 @@
       "configuration"
     ],
     "installMethods": [
-      "kubectl"
+      "helm",
+      "cli"
     ],
     "maturity": "incubating",
-    "projectVersion": "v1.17.0",
+    "projectVersion": "v1.12.0",
     "containerImages": [
-      "docker.io/karmada/karmada-operator:v1.17.0"
+      "docker.io/karmada/karmada-controller-manager",
+      "docker.io/karmada/karmada-scheduler",
+      "docker.io/karmada/karmada-apiserver",
+      "docker.io/karmada/karmada-webhook"
     ],
     "sourceUrls": {
-      "docs": "https://karmada.io",
+      "docs": "https://karmada.io/docs/installation/",
       "repo": "https://github.com/karmada-io/karmada",
-      "helm": "https://github.com/karmada-io/karmada/tree/main/charts/karmada-operator/"
+      "helm": "https://raw.githubusercontent.com/karmada-io/karmada/master/charts"
     },
     "qualityScore": 100
   },
   "prerequisites": {
-    "kubernetes": ">=1.24",
+    "kubernetes": ">=1.16",
     "tools": [
+      "helm",
       "kubectl"
     ],
-    "description": "Ensure you have a running Kubernetes cluster and kubectl installed and configured to interact with your cluster."
+    "description": "Ensure you have a running Kubernetes cluster (v1.16+), Helm v3+, and kubectl installed and configured."
   },
   "security": {
-    "scannedAt": "2026-03-02T21:11:17.212Z",
+    "scannedAt": "2026-03-17T00:00:00.000Z",
     "scannerVersion": "cncf-install-gen-1.0.0",
     "sanitized": true,
     "findings": []
