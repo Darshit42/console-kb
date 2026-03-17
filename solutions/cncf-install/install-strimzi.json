@@ -6,105 +6,95 @@
   "authorGithub": "kubestellar",
   "mission": {
     "title": "Install and Configure Strimzi on Kubernetes",
-    "description": "Strimzi provides a way to run an Apache Kafka cluster on Kubernetes or OpenShift in various deployment configurations. Installing Strimzi allows you to easily manage Kafka clusters and their components within your Kubernetes environment.",
+    "description": "Strimzi provides a way to run an Apache Kafka cluster on Kubernetes or OpenShift in various deployment configurations. Installing Strimzi allows you to easily manage Kafka clusters and their components within your Kubernetes environment using the Strimzi Kafka Operator.",
     "type": "deploy",
     "status": "completed",
     "steps": [
       {
-        "title": "Add the Strimzi Helm repository",
-        "description": "Add the Strimzi Helm chart repository to your local Helm configuration to access the Strimzi charts.\n```bash\nhelm repo add strimzi https://strimzi.io/charts\nhelm repo update\n```\n\n**Note:** OCI-based install is now the preferred method. You can alternatively install directly via OCI:\n```bash\nhelm install strimzi oci://quay.io/strimzi-helm/strimzi-kafka-operator -n strimzi --create-namespace\n```"
+        "title": "Install Strimzi Kafka Operator via OCI Helm chart",
+        "description": "Install the Strimzi Kafka Operator using the OCI Helm chart (preferred method):\n\n```bash\nhelm install strimzi oci://quay.io/strimzi-helm/strimzi-kafka-operator \\\n  --namespace kafka \\\n  --create-namespace\n```\n\n**Alternative: Using the traditional Helm repository**\n```bash\nhelm repo add strimzi https://strimzi.io/charts\nhelm repo update\nhelm install strimzi strimzi/strimzi-kafka-operator \\\n  --namespace kafka \\\n  --create-namespace\n```\n\nTo watch all namespaces:\n```bash\nhelm install strimzi oci://quay.io/strimzi-helm/strimzi-kafka-operator \\\n  --namespace kafka \\\n  --create-namespace \\\n  --set watchAnyNamespace=true\n```"
       },
       {
-        "title": "Install Strimzi Kafka Operator",
-        "description": "Install the Strimzi Kafka Operator in a dedicated namespace called 'kafka' using Helm.\n```bash\nhelm install strimzi strimzi/strimzi-kafka-operator --namespace kafka --create-namespace --version 0.50.1\n```"
-      },
-      {
-        "title": "Verify the installation",
-        "description": "Check that the Strimzi Kafka Operator pod is running successfully.\n```bash\nkubectl get pods --namespace kafka\n```"
+        "title": "Verify the operator installation",
+        "description": "Check that the Strimzi Kafka Operator pod is running:\n\n```bash\nkubectl get pods --namespace kafka\n```\n\nYou should see the strimzi-cluster-operator pod in Running state."
       },
       {
         "title": "Deploy a Kafka cluster",
-        "description": "Create a Kafka cluster by applying the provided example Kafka resource configuration.\n```bash\nkubectl apply -f https://strimzi.io/examples/latest/kafka/kafka-persistent.yaml --namespace kafka\n```"
+        "description": "Create a Kafka cluster by applying the Strimzi example Kafka resource:\n\n```bash\nkubectl apply -f https://strimzi.io/examples/latest/kafka/kafka-persistent.yaml --namespace kafka\n```\n\nWait for the Kafka cluster to be ready:\n\n```bash\nkubectl wait kafka/my-cluster --for=condition=Ready --timeout=300s -n kafka\n```"
       },
       {
-        "title": "Verify the Kafka cluster deployment",
-        "description": "Ensure that the Kafka cluster pods are running properly.\n```bash\nkubectl get pods --namespace kafka\n```"
-      },
-      {
-        "title": "Post-install configuration",
-        "description": "You may want to configure resource limits for your Kafka cluster. Edit the Kafka resource to set limits as needed.\n```bash\nkubectl edit kafka my-cluster --namespace kafka\n```"
+        "title": "Verify the Kafka cluster",
+        "description": "Check that all Kafka cluster pods are running:\n\n```bash\nkubectl get pods --namespace kafka\n```\n\nYou should see pods for ZooKeeper (or KRaft controllers), Kafka brokers, and the entity operator."
       }
     ],
-    "resolution": {
-      "summary": "A successful installation will have the Strimzi Kafka Operator running in the 'kafka' namespace, and you will see the Kafka cluster pods running without issues. You can further configure your Kafka cluster as needed.",
-      "codeSnippets": [
-        "helm repo add strimzi https://strimzi.io/charts\nhelm repo update",
-        "helm install strimzi strimzi/strimzi-kafka-operator --namespace kafka --create-namespace --version 0.50.1",
-        "kubectl get pods --namespace kafka",
-        "kubectl apply -f https://strimzi.io/examples/latest/kafka/kafka-persistent.yaml --namespace kafka",
-        "kubectl get pods --namespace kafka"
-      ]
-    },
     "uninstall": [
       {
-        "title": "Remove the Helm release",
-        "description": "Uninstall the Strimzi Kafka Operator release from the 'kafka' namespace using Helm."
+        "title": "Remove Kafka clusters",
+        "description": "Delete any Kafka cluster resources before removing the operator:\n\n```bash\nkubectl delete kafka my-cluster --namespace kafka\n```\n\nWait for all Kafka pods to terminate."
       },
       {
-        "title": "Clean up CRDs and persistent resources",
-        "description": "Remove the Custom Resource Definitions (CRDs) and any persistent volume claims (PVCs) associated with the Kafka cluster."
+        "title": "Remove the Strimzi operator",
+        "description": "Uninstall the Strimzi Helm release:\n\n```bash\nhelm uninstall strimzi --namespace kafka\n```"
       },
       {
-        "title": "Remove namespace and verify",
-        "description": "Delete the 'kafka' namespace and verify that it has been removed."
+        "title": "Clean up CRDs and namespace",
+        "description": "Remove Strimzi CRDs and the namespace:\n\n```bash\nkubectl delete crd $(kubectl get crd | grep strimzi.io | awk '{print $1}')\nkubectl delete namespace kafka\n```"
       }
     ],
     "upgrade": [
       {
-        "title": "Backup current state",
-        "description": "Before upgrading, back up the current Kafka cluster configuration and any important data."
-      },
-      {
-        "title": "Update repo and run upgrade command",
-        "description": "Update the Helm repository and upgrade the Strimzi Kafka Operator to the latest version."
+        "title": "Upgrade the Strimzi operator",
+        "description": "Upgrade the operator using the OCI chart. Note: CRDs are not upgraded automatically by Helm and must be updated manually:\n\n```bash\nhelm upgrade strimzi oci://quay.io/strimzi-helm/strimzi-kafka-operator --namespace kafka\n```\n\nAfter the operator upgrade, update the Kafka cluster version in the Kafka resource if needed."
       },
       {
         "title": "Verify the upgrade",
-        "description": "Check that the Strimzi Kafka Operator and Kafka cluster are running correctly after the upgrade."
+        "description": "Check that the operator and Kafka cluster are running correctly:\n\n```bash\nkubectl get pods --namespace kafka\n```"
       }
     ],
     "troubleshooting": [
       {
         "title": "Pods stuck in CrashLoopBackOff",
-        "description": "This issue occurs when a pod fails to start repeatedly. Check the pod logs for errors using the following command:\n```bash\nkubectl logs <pod-name> --namespace kafka\n```"
+        "description": "Check the pod logs for errors:\n\n```bash\nkubectl logs <pod-name> --namespace kafka\n```"
       },
       {
         "title": "Kafka cluster not responding",
-        "description": "If the Kafka cluster is not responding, check the status of the Kafka pods:\n```bash\nkubectl get pods --namespace kafka\n```"
+        "description": "Check the status of the Kafka pods and the Kafka resource:\n\n```bash\nkubectl get kafka --namespace kafka\nkubectl describe kafka my-cluster --namespace kafka\n```"
       },
       {
         "title": "Persistent volume claims not bound",
-        "description": "If PVCs are not bound, check the status of the PVCs using:\n```bash\nkubectl get pvc --namespace kafka\n```"
+        "description": "If PVCs are not bound, check that a StorageClass is available:\n\n```bash\nkubectl get pvc --namespace kafka\nkubectl get storageclass\n```"
       },
       {
-        "title": "Helm release not found",
-        "description": "If you encounter an error stating that the Helm release is not found, verify the release name and namespace:\n```bash\nhelm list --namespace kafka\n```"
+        "title": "Operator not reconciling",
+        "description": "Check the operator logs:\n\n```bash\nkubectl logs -l strimzi.io/kind=cluster-operator --namespace kafka\n```"
       }
-    ]
+    ],
+    "resolution": {
+      "summary": "A successful installation will have the Strimzi Kafka Operator running in the kafka namespace, and you will be able to create and manage Kafka clusters using Kafka custom resources. The operator handles all lifecycle management including scaling, rolling updates, and configuration changes.",
+      "codeSnippets": [
+        "helm install strimzi oci://quay.io/strimzi-helm/strimzi-kafka-operator --namespace kafka --create-namespace",
+        "kubectl get pods --namespace kafka",
+        "kubectl apply -f https://strimzi.io/examples/latest/kafka/kafka-persistent.yaml --namespace kafka"
+      ]
+    }
   },
   "metadata": {
     "tags": [
       "installation",
       "configuration",
       "cncf",
-      "storage",
-      "incubating"
+      "streaming",
+      "graduated"
     ],
     "cncfProjects": [
       "strimzi"
     ],
     "targetResourceKinds": [
-      "Namespace"
+      "Deployment",
+      "StatefulSet",
+      "Service",
+      "Namespace",
+      "CustomResourceDefinition"
     ],
     "difficulty": "beginner",
     "issueTypes": [
@@ -114,27 +104,29 @@
     "installMethods": [
       "helm"
     ],
-    "maturity": "incubating",
-    "projectVersion": "0.50.1",
+    "maturity": "graduated",
+    "projectVersion": "0.51.0",
     "containerImages": [
-      "strimzi/cluster-operator:0.50.1"
+      "quay.io/strimzi/operator:0.51.0",
+      "quay.io/strimzi/kafka:0.51.0-kafka-3.9.0"
     ],
     "sourceUrls": {
-      "docs": "https://strimzi.io/",
-      "repo": "https://github.com/strimzi/strimzi-kafka-operator"
+      "docs": "https://strimzi.io/docs/operators/latest/deploying",
+      "repo": "https://github.com/strimzi/strimzi-kafka-operator",
+      "helm": "oci://quay.io/strimzi-helm/strimzi-kafka-operator"
     },
     "qualityScore": 100
   },
   "prerequisites": {
-    "kubernetes": ">=1.24",
+    "kubernetes": ">=1.25",
     "tools": [
       "helm",
       "kubectl"
     ],
-    "description": "Ensure you have a Kubernetes cluster running and both Helm and kubectl installed on your local machine."
+    "description": "Requires a Kubernetes cluster (v1.25+) with a default StorageClass for persistent Kafka clusters, Helm v3, and kubectl."
   },
   "security": {
-    "scannedAt": "2026-03-01T04:44:22.285Z",
+    "scannedAt": "2026-03-17T00:00:00.000Z",
     "scannerVersion": "cncf-install-gen-1.0.0",
     "sanitized": true,
     "findings": []

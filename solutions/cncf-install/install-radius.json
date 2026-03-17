@@ -6,87 +6,65 @@
   "authorGithub": "kubestellar",
   "mission": {
     "title": "Install and Configure Radius on Kubernetes",
-    "description": "Radius is a cloud-native application platform that simplifies app development and management for teams building cloud-native applications. Installing Radius allows you to leverage its features for team collaboration, infrastructure recipes, and cloud-neutral deployments across various environments.",
+    "description": "Radius is a cloud-native application platform that simplifies app development and management for teams building cloud-native applications. Radius is installed using the rad CLI, which deploys the Radius control plane into the radius-system namespace on your Kubernetes cluster.",
     "type": "deploy",
     "status": "completed",
     "steps": [
       {
-        "title": "Add the Radius Helm repository",
-        "description": "First, add the Radius Helm repository to your local Helm setup to access the Radius charts.\n```bash\nhelm repo add radius https://p2p-org.github.io/avs-helm-charts\nhelm repo update\n```"
+        "title": "Install the rad CLI",
+        "description": "Install the Radius CLI on your workstation.\n\n**macOS/Linux:**\n```bash\ncurl -fsSL \"https://raw.githubusercontent.com/radius-project/radius/main/deploy/install.sh\" | /bin/bash\n```\n\n**macOS (via wget):**\n```bash\nwget -q \"https://raw.githubusercontent.com/radius-project/radius/main/deploy/install.sh\" -O - | /bin/bash\n```\n\nVerify the installation:\n```bash\nrad version\n```"
       },
       {
-        "title": "Install Radius using Helm",
-        "description": "Next, install the Radius application platform using Helm. This command will create a new namespace called 'radius' and deploy Radius in that namespace.\n```bash\nhelm install radius radius/radius --version v0.54.0 --namespace radius --create-namespace\n```"
+        "title": "Initialize Radius",
+        "description": "Initialize Radius on your Kubernetes cluster. This deploys the Radius control plane into the radius-system namespace:\n\n```bash\nrad init\n```\n\nThis interactive command will:\n- Install the Radius control plane in the radius-system namespace\n- Create a default environment\n- Optionally configure cloud providers (Azure, AWS)\n\nFor non-interactive setup with all options:\n```bash\nrad init --full\n```"
       },
       {
         "title": "Verify the installation",
-        "description": "After installation, verify that the Radius pods are running successfully in the 'radius' namespace.\n```bash\nkubectl get pods --namespace radius\n```"
+        "description": "Check that the Radius control plane pods are running:\n\n```bash\nkubectl get pods -n radius-system\n```\n\nYou should see pods for the Radius controller and other components in Running state.\n\nAlso verify with the rad CLI:\n```bash\nrad env list\n```"
       },
       {
-        "title": "Configure resource limits",
-        "description": "To ensure that your Radius deployment has appropriate resource limits, you can edit the deployment configuration. Use the following command to set CPU and memory limits:\n```bash\nkubectl edit deployment radius --namespace radius\n# Add the following under spec.containers:\n# resources:\n#   limits:\n#     cpu: '500m'\n#     memory: '512Mi'\n```"
-      },
-      {
-        "title": "Set up port forwarding for access",
-        "description": "To access the Radius application, set up port forwarding to the service. This will allow you to interact with Radius locally.\n```bash\nkubectl port-forward svc/radius --namespace radius 8080:80\n```"
+        "title": "Install Radius to Kubernetes directly (alternative)",
+        "description": "You can also install Radius directly to Kubernetes without the interactive init:\n\n```bash\nrad install kubernetes\n```\n\nThis installs the Radius control plane matching the rad CLI version. Then create an environment:\n\n```bash\nrad env create my-env\nrad env switch my-env\n```"
       }
     ],
-    "resolution": {
-      "summary": "A successful installation of Radius will result in the Radius pods running in the 'radius' namespace, and you will be able to access the application through port 8080 on your local machine. Ensure that the resource limits are configured as specified.",
-      "codeSnippets": [
-        "helm repo add radius https://p2p-org.github.io/avs-helm-charts\nhelm repo update",
-        "helm install radius radius/radius --version v0.54.0 --namespace radius --create-namespace",
-        "kubectl get pods --namespace radius",
-        "kubectl edit deployment radius --namespace radius\n# Add the following under spec.containers:\n# resources:\n#   limits:\n#     cpu: '500m'\n#     memory: '512Mi'",
-        "kubectl port-forward svc/radius --namespace radius 8080:80"
-      ]
-    },
     "uninstall": [
       {
-        "title": "Remove the Helm release",
-        "description": "To cleanly remove the Radius deployment, use the following command to uninstall the Helm release. This will delete all resources associated with the release in the specified namespace.\n```bash\nhelm uninstall radius --namespace radius\n```"
+        "title": "Uninstall Radius from Kubernetes",
+        "description": "Remove the Radius control plane from your cluster:\n\n```bash\nrad uninstall kubernetes\n```\n\nThis removes all Radius components from the radius-system namespace."
       },
       {
-        "title": "Clean up CRDs and persistent resources",
-        "description": "If there are any Custom Resource Definitions (CRDs) or persistent volumes created by Radius, you can remove them with the following commands. Ensure to check for any remaining resources before deletion.\n```bash\nkubectl delete crd <crd-name>\nkubectl delete pvc --all --namespace radius\n```"
-      },
-      {
-        "title": "Remove namespace and verify",
-        "description": "Finally, remove the 'radius' namespace to clean up all remaining resources. Verify that the namespace has been deleted successfully.\n```bash\nkubectl delete namespace radius\nkubectl get namespaces\n```"
+        "title": "Clean up namespace",
+        "description": "If the namespace remains, delete it manually:\n\n```bash\nkubectl delete namespace radius-system\n```"
       }
     ],
     "upgrade": [
       {
-        "title": "Backup current state",
-        "description": "Before upgrading, it's important to back up your current Radius configuration and data. You can export the current configuration using the following command:\n```bash\nhelm get values radius --namespace radius > radius-backup.yaml\n```"
-      },
-      {
-        "title": "Update repo and run upgrade command",
-        "description": "Update the Helm repository to ensure you have the latest charts, and then upgrade the Radius installation to the desired version. Replace `<new-version>` with the version you want to upgrade to.\n```bash\nhelm repo update\nhelm upgrade radius radius/radius --version <new-version> --namespace radius\n```"
-      },
-      {
-        "title": "Verify the upgrade",
-        "description": "After the upgrade, verify that the Radius pods are running the new version successfully. Check the status of the pods in the 'radius' namespace.\n```bash\nkubectl get pods --namespace radius\n```"
+        "title": "Upgrade Radius",
+        "description": "First upgrade the rad CLI to the latest version, then upgrade the cluster installation:\n\n```bash\ncurl -fsSL \"https://raw.githubusercontent.com/radius-project/radius/main/deploy/install.sh\" | /bin/bash\nrad install kubernetes --reinstall\n```\n\nVerify:\n```bash\nrad version\nkubectl get pods -n radius-system\n```"
       }
     ],
     "troubleshooting": [
       {
-        "title": "Pods stuck in CrashLoopBackOff",
-        "description": "If your Radius pods are in a CrashLoopBackOff state, check the logs for the specific pod to diagnose the issue. Use the following command to view the logs:\n```bash\nkubectl logs <pod-name> --namespace radius\n```"
+        "title": "rad init fails",
+        "description": "If rad init fails, check that kubectl is configured and can reach your cluster:\n\n```bash\nkubectl cluster-info\nkubectl get nodes\n```"
       },
       {
-        "title": "Service not accessible",
-        "description": "If you cannot access the Radius service, ensure that the port forwarding is set up correctly. Check if the service is running and the correct ports are exposed:\n```bash\nkubectl get svc --namespace radius\n```"
+        "title": "Radius pods not starting",
+        "description": "Check the Radius controller pod logs:\n\n```bash\nkubectl logs -l app.kubernetes.io/part-of=radius -n radius-system\nkubectl describe pods -n radius-system\n```"
       },
       {
-        "title": "Insufficient resources",
-        "description": "If you encounter issues related to insufficient resources, check the resource requests and limits set for the deployment. You can view the current configuration with:\n```bash\nkubectl describe deployment radius --namespace radius\n```"
-      },
-      {
-        "title": "Helm release not found",
-        "description": "If you receive an error indicating that the Helm release was not found, ensure that you are using the correct namespace and release name. List all releases in the namespace with:\n```bash\nhelm list --namespace radius\n```"
+        "title": "rad CLI not found",
+        "description": "If the rad command is not found after installation, ensure it is in your PATH. You can set a custom install directory:\n\n```bash\nexport RADIUS_INSTALL_DIR=/path/to/custom/dir\ncurl -fsSL \"https://raw.githubusercontent.com/radius-project/radius/main/deploy/install.sh\" | /bin/bash\n```"
       }
-    ]
+    ],
+    "resolution": {
+      "summary": "A successful installation of Radius will have the control plane pods running in the radius-system namespace, the rad CLI available in your PATH, and at least one environment configured. You can then define and deploy Radius applications using Bicep templates.",
+      "codeSnippets": [
+        "curl -fsSL \"https://raw.githubusercontent.com/radius-project/radius/main/deploy/install.sh\" | /bin/bash",
+        "rad init",
+        "kubectl get pods -n radius-system"
+      ]
+    }
   },
   "metadata": {
     "tags": [
@@ -110,28 +88,29 @@
       "configuration"
     ],
     "installMethods": [
-      "helm"
+      "cli"
     ],
     "maturity": "sandbox",
     "projectVersion": "v0.54.0",
-    "containerImages": [],
+    "containerImages": [
+      "ghcr.io/radius-project/radius"
+    ],
     "sourceUrls": {
-      "docs": "https://radapp.io",
-      "repo": "https://github.com/radius-project/radius",
-      "helm": "https://p2p-org.github.io/avs-helm-charts"
+      "docs": "https://docs.radapp.io/guides/tooling/rad-cli/howto-rad-cli/",
+      "repo": "https://github.com/radius-project/radius"
     },
     "qualityScore": 100
   },
   "prerequisites": {
     "kubernetes": ">=1.24",
     "tools": [
-      "helm",
-      "kubectl"
+      "kubectl",
+      "curl"
     ],
-    "description": "You need a Kubernetes cluster running version 1.24 or higher, along with Helm and kubectl installed on your local machine."
+    "description": "Requires a Kubernetes cluster (v1.24+), kubectl configured to access the cluster, and curl to download the rad CLI."
   },
   "security": {
-    "scannedAt": "2026-03-01T23:51:14.654Z",
+    "scannedAt": "2026-03-17T00:00:00.000Z",
     "scannerVersion": "cncf-install-gen-1.0.0",
     "sanitized": true,
     "findings": []

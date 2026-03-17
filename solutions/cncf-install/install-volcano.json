@@ -11,75 +11,66 @@
     "status": "completed",
     "steps": [
       {
-        "title": "Add the Helm repository",
-        "description": "Add the Volcano Helm chart repository to your Helm configuration.\n```bash\nhelm repo add kubegems https://charts.kubegems.io/kubegems\nhelm repo update\n```"
+        "title": "Add the Volcano Helm repository",
+        "description": "Add the official Volcano Helm chart repository:\n\n```bash\nhelm repo add volcano-sh https://volcano-sh.github.io/helm-charts\nhelm repo update\n```"
       },
       {
         "title": "Install Volcano using Helm",
-        "description": "Install Volcano in the 'volcano-system' namespace, creating the namespace if it doesn't exist.\n```bash\nhelm install volcano kubegems/volcano --namespace volcano-system --create-namespace --version 1.12.1\n```"
+        "description": "Install Volcano in the volcano-system namespace:\n\n```bash\nhelm install volcano volcano-sh/volcano \\\n  --namespace volcano-system \\\n  --create-namespace\n```\n\nTo install a specific version:\n```bash\nhelm install volcano volcano-sh/volcano \\\n  --namespace volcano-system \\\n  --create-namespace \\\n  --version 1.12.1\n```"
       },
       {
         "title": "Verify the installation",
-        "description": "Check if the Volcano pods are running successfully.\n```bash\nkubectl get pods -n volcano-system\n```"
+        "description": "Check that all Volcano components are running:\n\n```bash\nkubectl get pods -n volcano-system\n```\n\nYou should see pods for the volcano-scheduler, volcano-controller-manager, and volcano-admission running."
       },
       {
-        "title": "Configure resource limits",
-        "description": "Set resource limits for the Volcano components to optimize performance.\n```bash\nkubectl patch deployment volcano-controller --namespace volcano-system --type='json' -p='[{\"op\": \"add\", \"path\": \"/spec/template/spec/containers/0/resources\", \"value\": {\"limits\": {\"cpu\": \"500m\", \"memory\": \"512Mi\"}, \"requests\": {\"cpu\": \"250m\", \"memory\": \"256Mi\"}}}]'\n```"
+        "title": "Verify CRDs are installed",
+        "description": "Check that Volcano CRDs are registered:\n\n```bash\nkubectl get crd | grep volcano.sh\n```\n\nYou should see CRDs like jobs.batch.volcano.sh, queues.scheduling.volcano.sh, and podgroups.scheduling.volcano.sh."
       }
     ],
     "uninstall": [
       {
         "title": "Remove the Helm release",
-        "description": "Uninstall the Volcano release from the cluster.\n```bash\nhelm uninstall volcano --namespace volcano-system\n```"
+        "description": "Uninstall the Volcano release:\n\n```bash\nhelm uninstall volcano --namespace volcano-system\n```"
       },
       {
         "title": "Clean up CRDs",
-        "description": "Remove the Custom Resource Definitions (CRDs) created by Volcano.\n```bash\nkubectl delete crd volcans.volcano.sh\n```"
+        "description": "Remove the Volcano CRDs:\n\n```bash\nkubectl delete crd $(kubectl get crd | grep volcano.sh | awk '{print $1}')\n```"
       },
       {
         "title": "Delete the namespace",
-        "description": "Delete the 'volcano-system' namespace to clean up all resources.\n```bash\nkubectl delete namespace volcano-system\n```"
+        "description": "Remove the volcano-system namespace:\n\n```bash\nkubectl delete namespace volcano-system\n```"
       }
     ],
     "upgrade": [
       {
-        "title": "Backup current state",
-        "description": "Export the current configuration of Volcano before upgrading.\n```bash\nkubectl get all -n volcano-system -o yaml > volcano-backup.yaml\n```"
-      },
-      {
-        "title": "Update the Helm repository",
-        "description": "Update the Helm repository to ensure you have the latest charts.\n```bash\nhelm repo update\n```"
-      },
-      {
         "title": "Upgrade Volcano",
-        "description": "Upgrade the Volcano installation to the latest version.\n```bash\nhelm upgrade volcano kubegems/volcano --namespace volcano-system --version 1.12.1\n```"
+        "description": "Update the Helm repository and upgrade:\n\n```bash\nhelm repo update\nhelm upgrade volcano volcano-sh/volcano --namespace volcano-system\n```"
       },
       {
         "title": "Verify the upgrade",
-        "description": "Check the status of the Volcano pods to ensure they are running correctly after the upgrade.\n```bash\nkubectl get pods -n volcano-system\n```"
+        "description": "Check the status of the Volcano pods:\n\n```bash\nkubectl get pods -n volcano-system\n```"
       }
     ],
     "troubleshooting": [
       {
         "title": "Pods stuck in Pending state",
-        "description": "If pods are stuck in Pending, check for resource availability and scheduling issues.\n```bash\nkubectl describe pod <pod-name> -n volcano-system\n```"
+        "description": "If pods are stuck in Pending, check for resource availability and scheduling issues:\n\n```bash\nkubectl describe pod <pod-name> -n volcano-system\n```"
       },
       {
         "title": "Volcano controller not starting",
-        "description": "If the Volcano controller pod fails to start, check the logs for errors.\n```bash\nkubectl logs <volcano-controller-pod-name> -n volcano-system\n```"
+        "description": "If the Volcano controller pod fails to start, check the logs:\n\n```bash\nkubectl logs -l app=volcano-controller -n volcano-system\n```"
       },
       {
-        "title": "High resource usage",
-        "description": "Monitor resource usage to identify if any component is consuming excessive resources.\n```bash\nkubectl top pods -n volcano-system\n```"
+        "title": "Volcano scheduler not scheduling jobs",
+        "description": "Check the scheduler logs for errors:\n\n```bash\nkubectl logs -l app=volcano-scheduler -n volcano-system\n```\n\nAlso verify that jobs are using the volcano scheduler:\n```bash\nkubectl get vcjob -A\n```"
       }
     ],
     "resolution": {
-      "summary": "A successful installation of Volcano will have all pods running in the 'volcano-system' namespace without errors. You can verify the installation by checking the status of the pods and ensuring they are in the 'Running' state.",
+      "summary": "A successful installation of Volcano will have the scheduler, controller-manager, and admission pods running in the volcano-system namespace. You can then submit Volcano Jobs (vcjob) and use Volcano queues for batch workload scheduling.",
       "codeSnippets": [
-        "helm repo add kubegems https://charts.kubegems.io/kubegems\nhelm repo update",
-        "helm install volcano kubegems/volcano --namespace volcano-system --create-namespace --version 1.12.1",
-        "kubectl get pods -n volcano-system",
-        "kubectl patch deployment volcano-controller --namespace volcano-system --type='json' -p='[{\"op\": \"add\", \"path\": \"/spec/template/spec/containers/0/resources\", \"value\": {\"limits\": {\"cpu\": \"500m\", \"memory\": \"512Mi\"}, \"requests\": {\"cpu\": \"250m\", \"memory\": \"256Mi\"}}}]'"
+        "helm repo add volcano-sh https://volcano-sh.github.io/helm-charts",
+        "helm install volcano volcano-sh/volcano --namespace volcano-system --create-namespace",
+        "kubectl get pods -n volcano-system"
       ]
     }
   },
@@ -88,7 +79,7 @@
       "installation",
       "configuration",
       "cncf",
-      "orchestration",
+      "scheduling",
       "incubating"
     ],
     "cncfProjects": [
@@ -96,9 +87,11 @@
     ],
     "targetResourceKinds": [
       "Deployment",
-      "Namespace"
+      "Service",
+      "Namespace",
+      "CustomResourceDefinition"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "issueTypes": [
       "installation",
       "configuration"
@@ -107,14 +100,16 @@
       "helm"
     ],
     "maturity": "incubating",
-    "projectVersion": "v1.14.1",
+    "projectVersion": "v1.14.0",
     "containerImages": [
-      "registry/org/image:tag"
+      "volcanosh/vc-controller-manager",
+      "volcanosh/vc-scheduler",
+      "volcanosh/vc-webhook-manager"
     ],
     "sourceUrls": {
-      "docs": "https://volcano.sh",
+      "docs": "https://volcano.sh/en/docs/installation/",
       "repo": "https://github.com/volcano-sh/volcano",
-      "helm": "https://charts.kubegems.io/kubegems"
+      "helm": "https://volcano-sh.github.io/helm-charts"
     },
     "qualityScore": 100
   },
@@ -124,10 +119,10 @@
       "helm",
       "kubectl"
     ],
-    "description": "Ensure you have a Kubernetes cluster running and have installed Helm and kubectl."
+    "description": "Ensure you have a Kubernetes cluster running and Helm v3 and kubectl installed."
   },
   "security": {
-    "scannedAt": "2026-03-05T22:24:12.907Z",
+    "scannedAt": "2026-03-17T00:00:00.000Z",
     "scannerVersion": "cncf-install-gen-1.0.0",
     "sanitized": true,
     "findings": []
