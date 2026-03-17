@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-17T18:07:39.577Z",
+  "generatedAt": "2026-03-17T18:36:31.639Z",
   "count": 1032,
   "missions": [
     {
@@ -11283,7 +11283,7 @@
         "falco"
       ],
       "targetResourceKinds": [
-        "Deployment",
+        "DaemonSet",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -11974,8 +11974,7 @@
         "inspektor-gadget"
       ],
       "targetResourceKinds": [
-        "Deployment",
-        "Service",
+        "DaemonSet",
         "Namespace"
       ],
       "difficulty": "beginner",
@@ -12206,7 +12205,7 @@
     {
       "path": "solutions/cncf-install/install-k8sgpt.json",
       "title": "Install and Configure K8sgpt on Kubernetes",
-      "description": "K8sGPT is a powerful tool that enhances Kubernetes management by scanning clusters and diagnosing issues using AI. Installing K8sGPT allows you to leverage AI capabilities to improve your Kubernetes o",
+      "description": "K8sGPT is a powerful tool that enhances Kubernetes management by scanning clusters and diagnosing issues using AI. Installing the K8sGPT Operator allows you to leverage AI capabilities to improve your",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -13639,7 +13638,7 @@
         "configuration",
         "cncf",
         "networking",
-        "sandbox"
+        "graduated"
       ],
       "cncfProjects": [
         "kuma"
@@ -13659,7 +13658,7 @@
         "helm"
       ],
       "projectVersion": "v2.13.2",
-      "maturity": "sandbox",
+      "maturity": "graduated",
       "qualityScore": 100
     },
     {
@@ -16401,7 +16400,7 @@
     {
       "path": "solutions/cncf-install/install-strimzi.json",
       "title": "Install and Configure Strimzi on Kubernetes",
-      "description": "Strimzi provides a way to run an Apache Kafka® cluster on Kubernetes or OpenShift in various deployment configurations. Installing Strimzi allows you to easily manage Kafka clusters and their componen",
+      "description": "Strimzi provides a way to run an Apache Kafka cluster on Kubernetes or OpenShift in various deployment configurations. Installing Strimzi allows you to easily manage Kafka clusters and their component",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
