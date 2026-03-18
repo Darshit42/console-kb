@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-17T19:23:26.468Z",
-  "count": 1030,
+  "generatedAt": "2026-03-18T07:00:13.370Z",
+  "count": 1047,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -20508,6 +20508,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/kpt/kpt-962-homebrew-installation-fails-on-macos-11-big-sur.json",
+      "title": "kpt: homebrew installation fails on macOS 11 (Big Sur)",
+      "description": "homebrew installation fails on macOS 11 (Big Sur). This issue affects 22+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kpt",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kpt"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/kpt/kpt-1544-kpt-doesn-t-work-with-symlinks.json",
       "title": "kpt: kpt doesn't work with symlinks",
       "description": "kpt doesn't work with symlinks. Community-reported issue.",
@@ -24949,6 +24976,116 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/n8n/n8n-23584-aws-failed-to-assume-role-with-aws-eks-pod-identity.json",
+      "title": "n8n: AWS Failed to Assume Role with AWS EKS Pod Identity",
+      "description": "AWS Failed to Assume Role with AWS EKS Pod Identity. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "feature"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/n8n/n8n-23602-basic-auth-n8n-form-problem-submitting-response.json",
+      "title": "n8n: basic auth, n8n form. Problem submitting response",
+      "description": "basic auth, n8n form. Problem submitting response. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "feature"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/n8n/n8n-14774-bug-toolsagent-handleparsedstepoutput-incorrectly-nests-output-key-in-.json",
+      "title": "n8n: Bug: ToolsAgent: handleParsedStepOutput incorrectly nests 'output' key in returnValues for memory, causing LLM mislearning and Zod validation failures after several turns",
+      "description": "Bug: ToolsAgent: handleParsedStepOutput incorrectly nests 'output' key in returnValues for memory, causing LLM mislearning and Zod validation failures after several turns. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/n8n/n8n-13135-calling-a-sub-workflow-with-a-wait-by-webhook-node-don-t-return-the-da.json",
+      "title": "n8n: Calling a sub-workflow with a wait by webhook node, don't return the data of the last node, but the node before the wait.",
+      "description": "Calling a sub-workflow with a wait by webhook node, don't return the data of the last node, but the node before the wait.. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "feature"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/n8n/n8n-2527-n8n-import-with-fixed-id.json",
       "title": "n8n: n8n import with fixed ID",
       "description": "n8n import with fixed ID. This issue affects 15+ users.",
@@ -24968,6 +25105,60 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/n8n/n8n-7939-n8n-is-taking-a-lot-of-ram-memory.json",
+      "title": "n8n: n8n is taking a lot of RAM memory",
+      "description": "n8n is taking a lot of RAM memory. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "analyze"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "analyze"
+      ],
+      "type": "analyze",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/n8n/n8n-16281-pdf-parsing-broken-in-version-1-97-1-and-up.json",
+      "title": "n8n: PDF parsing broken in version 1.97.1 and up",
+      "description": "PDF parsing broken in version 1.97.1 and up. This issue affects 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
       "issueTypes": [
         "troubleshoot"
       ],
@@ -24999,6 +25190,60 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/n8n/n8n-11994-slack-trigger-node-throws-errors-on-file-shared-event.json",
+      "title": "n8n: Slack Trigger node throws errors on `File Shared` event",
+      "description": "Slack Trigger node throws errors on `File Shared` event. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/n8n/n8n-24191-unable-to-add-external-npm-packages.json",
+      "title": "n8n: Unable to add external NPM packages",
+      "description": "Unable to add external NPM packages. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
     },
@@ -25984,6 +26229,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/open-webui/open-webui-929-feat-allow-login-without-authentication.json",
+      "title": "open-webui: feat: allow login without authentication",
+      "description": "feat: allow login without authentication. Requested by 47+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/open-webui/open-webui-230-feat-configurable-openai-api-endpoint.json",
       "title": "open-webui: feat: configurable OpenAI API endpoint.",
       "description": "feat: configurable OpenAI API endpoint.. Requested by 16+ users.",
@@ -26014,6 +26286,33 @@
       "path": "solutions/cncf-generated/open-webui/open-webui-3527-feat-knowledge-projects-revamped-documents-section.json",
       "title": "open-webui: feat: knowledge/projects (revamped documents section)",
       "description": "feat: knowledge/projects (revamped documents section). Requested by 26+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/open-webui/open-webui-363-feat-whisper-integration.json",
+      "title": "open-webui: feat: whisper integration",
+      "description": "feat: whisper integration. Requested by 10+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -26095,6 +26394,33 @@
       "path": "solutions/cncf-generated/opencost/opencost-2748-var-configs-cloud-configurations-json-wrn-and-err-messages-filling.json",
       "title": "opencost: /var/configs/cloud-configurations.json WRN and ERR messages filling logs",
       "description": "/var/configs/cloud-configurations.json WRN and ERR messages filling logs. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opencost",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opencost"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/opencost/opencost-2742-failed-opencost-integration-to-gcp.json",
+      "title": "opencost: Failed OpenCost integration to GCP ",
+      "description": "Failed OpenCost integration to GCP . Community-requested feature.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -26211,6 +26537,35 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/opencost/opencost-1440-support-for-k8s-1-25.json",
+      "title": "opencost: Support for k8s 1.25",
+      "description": "Support for k8s 1.25. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opencost",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opencost"
+      ],
+      "targetResourceKinds": [
+        "Horizontalpodautoscaler"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/opencost/opencost-560-support-scaleway-kubernetes.json",
       "title": "opencost: Support Scaleway Kubernetes",
       "description": "Support Scaleway Kubernetes. Requested by 8+ users.",
@@ -26263,6 +26618,90 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/openfeature/openfeature-238-proposal-to-move-provider-status-field-from-provider-to-sdk-refi.json",
+      "title": "openfeature: Proposal to move `Provider Status` field from provider to SDK, refine semantics around ContextChange events",
+      "description": "Proposal to move `Provider Status` field from provider to SDK, refine semantics around ContextChange events. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "openfeature",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "openfeature"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/openfga/openfga-2504-excessive-dns-queries-after-upgrading-to-1-8-14.json",
+      "title": "openfga: Excessive DNS Queries After Upgrading to 1.8.14",
+      "description": "Excessive DNS Queries After Upgrading to 1.8.14. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "openfga",
+        "incubating",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "openfga"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/openfga/openfga-2422-getting-deadline-exceeded-response-and-running-out-of-db-conns.json",
+      "title": "openfga: Getting deadline_exceeded response and running out of db conns",
+      "description": "Getting deadline_exceeded response and running out of db conns. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "openfga",
+        "incubating",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "openfga"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/openfunction/openfunction-198-replace-the-sink-ref-in-events-api-with-function-ingress.json",
@@ -27912,6 +28351,33 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/seaweedfs/seaweedfs-2445-mount-fuse-mount-seems-not-writeable-through-macos-finder.json",
+      "title": "seaweedfs: [mount] Fuse Mount seems not writeable through MacOS Finder",
+      "description": "[mount] Fuse Mount seems not writeable through MacOS Finder. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "seaweedfs",
+        "community",
+        "distributed-storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "seaweedfs"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/seaweedfs/seaweedfs-8251-leader-election-doesn-t-seem-to-be-working-on-4-10.json",
