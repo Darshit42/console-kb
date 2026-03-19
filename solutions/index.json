@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-19T00:53:31.098Z",
+  "generatedAt": "2026-03-19T01:06:30.266Z",
   "count": 1051,
   "missions": [
     {
@@ -8946,7 +8946,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "helm"
       ],
       "projectVersion": "1.4.1",
       "maturity": "sandbox",
@@ -9423,7 +9423,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "helm"
       ],
       "projectVersion": "v1.48.4",
       "maturity": "incubating",
@@ -9497,6 +9497,7 @@
       ],
       "type": "deploy",
       "installMethods": [
+        "docker",
         "kubectl"
       ],
       "projectVersion": "v1.8.1",
@@ -9635,7 +9636,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.14.0",
       "maturity": "sandbox",
@@ -10068,7 +10069,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "kustomize"
       ],
       "projectVersion": "v0.17.0",
       "maturity": "sandbox",
@@ -10179,7 +10180,8 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "pip",
+        "docker"
       ],
       "projectVersion": "v5.0.0",
       "maturity": "sandbox",
@@ -10900,7 +10902,8 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "docker",
+        "kubectl"
       ],
       "projectVersion": "v1.37.0",
       "maturity": "graduated",
@@ -12577,7 +12580,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "knative-v1.21.0",
       "maturity": "graduated",
@@ -13098,7 +13101,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kustomize"
       ],
       "projectVersion": "v1.10.0",
       "maturity": "incubating",
@@ -13311,7 +13314,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.7.0",
       "maturity": "incubating",
@@ -14969,7 +14972,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "binary"
       ],
       "projectVersion": "v1.11.5",
       "maturity": "sandbox",
@@ -15042,7 +15045,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.42.0",
       "maturity": "incubating",
@@ -15264,7 +15267,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "binary"
       ],
       "projectVersion": "1.4.0",
       "maturity": "sandbox",
@@ -16398,7 +16401,8 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "kubectl",
+        "helm"
       ],
       "projectVersion": "latest",
       "maturity": "sandbox",
@@ -16473,7 +16477,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v2.0.1",
       "maturity": "sandbox",
@@ -16936,9 +16940,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "binary",
-        "brew",
-        "go-install"
+        "binary"
       ],
       "projectVersion": "0.10.1",
       "maturity": "sandbox",
@@ -16976,8 +16978,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "make",
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "latest",
       "maturity": "sandbox",
@@ -17478,8 +17479,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm",
-        "kubectl"
+        "helm"
       ],
       "projectVersion": "v3.21.1",
       "maturity": "graduated",
