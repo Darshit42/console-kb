@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-19T06:57:25.393Z",
-  "count": 1063,
+  "generatedAt": "2026-03-19T06:58:30.334Z",
+  "count": 1074,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -5275,6 +5275,36 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/containerd/containerd-7828-1-6-13-memory-memsw-limit-in-bytes-no-such-file-or-directory.json",
+      "title": "containerd: 1.6.13 memory.memsw.limit_in_bytes: no such file or directory",
+      "description": "1.6.13 memory.memsw.limit_in_bytes: no such file or directory. This issue affects 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "containerd",
+        "graduated",
+        "runtime",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "containerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/contour/contour-3693-add-ip-allowlist-and-blocklist-functionality.json",
       "title": "contour: Add IP allowlist and blocklist functionality",
       "description": "Add IP allowlist and blocklist functionality. Requested by 31+ users.",
@@ -5322,6 +5352,37 @@
         "contour"
       ],
       "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/contour/contour-1090-add-support-for-external-client-certificate-validation-mtls.json",
+      "title": "contour: Add support for external client certificate validation (mTLS)",
+      "description": "Add support for external client certificate validation (mTLS). Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "contour",
+        "incubating",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "contour"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Ingress",
+        "Namespace"
+      ],
       "difficulty": "beginner",
       "issueTypes": [
         "feature"
@@ -7431,6 +7492,37 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/fluid/fluid-1789-performance-not-meet-the-expectation-in-serverless-usecase.json",
+      "title": "fluid: Performance not meet the expectation in Serverless usecase",
+      "description": "Performance not meet the expectation in Serverless usecase. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluid",
+        "incubating",
+        "orchestration",
+        "analyze"
+      ],
+      "cncfProjects": [
+        "fluid"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Persistentvolumeclaim",
+        "Node"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "analyze"
+      ],
+      "type": "analyze",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/flux/flux-4411-bootstrap-more-details-for-flux-system-context-deadline-exceeded.json",
@@ -20211,6 +20303,118 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/knative-eventing/knative-eventing-3359-expression-language-for-trigger-filter.json",
+      "title": "knative-eventing: Expression language for Trigger filter",
+      "description": "Expression language for Trigger filter. Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative-eventing",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "knative-eventing"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/knative-eventing/knative-eventing-7207-prototype-a-mqtt-source.json",
+      "title": "knative-eventing: Prototype a MQTT Source",
+      "description": "Prototype a MQTT Source. Requested by 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative-eventing",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "knative-eventing"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/knative-eventing/knative-eventing-3532-storage-version-migration-job-never-completes-on-istio-ena.json",
+      "title": "knative-eventing: storage-version-migration job never completes on istio enabled cluster",
+      "description": "storage-version-migration job never completes on istio enabled cluster. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative-eventing",
+        "graduated",
+        "app-definition",
+        "upgrade"
+      ],
+      "cncfProjects": [
+        "knative-eventing"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "upgrade"
+      ],
+      "type": "upgrade",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/knative-eventing/knative-eventing-3009-v0-14-0-upgrade-job-fails-when-using-istio-auto-injection.json",
+      "title": "knative-eventing: v0.14.0-upgrade job fails when using Istio auto-injection",
+      "description": "v0.14.0-upgrade job fails when using Istio auto-injection. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative-eventing",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "knative-eventing"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace",
+        "Job"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/knative/knative-11069-compatibility-with-secret-store-csi-driver.json",
       "title": "knative: Compatibility with Secret Store CSI Driver?",
       "description": "Compatibility with Secret Store CSI Driver?. Requested by 8+ users.",
@@ -20242,9 +20446,129 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/knative/knative-15483-fix-using-knative-with-argocd-don-t-set-ownerreferences-for-webhoo.json",
+      "title": "knative: fix using KNative with ArgoCD (don't set `ownerReferences` for webhooks)",
+      "description": "fix using KNative with ArgoCD (don't set `ownerReferences` for webhooks). Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "knative"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Ingress",
+        "Configmap"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/knative/knative-6101-how-to-use-locally-built-docker-image.json",
+      "title": "knative: How to use locally built docker image?",
+      "description": "How to use locally built docker image?. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "knative"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "Node",
+        "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/knative/knative-12571-readiness-probe-fails-if-the-container-restarts-after-a-liveness-p.json",
+      "title": "knative: Readiness probe fails if the container restarts after a liveness probe fail",
+      "description": "Readiness probe fails if the container restarts after a liveness probe fail. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "knative"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/knative/knative-8441-storage-version-migration-job-never-completes-on-istio-enabled-clus.json",
       "title": "knative: storage-version-migration job never completes on istio enabled cluster",
       "description": "storage-version-migration job never completes on istio enabled cluster. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "knative"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/knative/knative-10037-support-startupprobe-in-webhook.json",
+      "title": "knative: Support startupProbe in webhook",
+      "description": "Support startupProbe in webhook. Community-reported issue.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
