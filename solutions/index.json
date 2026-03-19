@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-18T23:59:14.518Z",
+  "generatedAt": "2026-03-19T00:53:31.098Z",
   "count": 1051,
   "missions": [
     {
@@ -9461,7 +9461,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "helm"
       ],
       "projectVersion": "v1.32.1",
       "maturity": "sandbox",
@@ -9709,7 +9709,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "binary"
       ],
       "projectVersion": "v0.53.2",
       "maturity": "sandbox",
@@ -10104,7 +10104,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "binary"
       ],
       "projectVersion": "v0.8.3",
       "maturity": "sandbox",
@@ -10141,7 +10141,8 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "helm",
+        "docker"
       ],
       "projectVersion": "v0.5.2",
       "maturity": "sandbox",
@@ -10250,7 +10251,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "binary"
       ],
       "projectVersion": "v0.13.0",
       "maturity": "sandbox",
@@ -11590,7 +11591,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "cargo"
       ],
       "projectVersion": "v0.12.0",
       "maturity": "sandbox",
@@ -11661,7 +11662,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "binary"
       ],
       "projectVersion": "v0.6.2",
       "maturity": "sandbox",
@@ -11767,6 +11768,7 @@
       ],
       "type": "deploy",
       "installMethods": [
+        "binary",
         "kubectl"
       ],
       "projectVersion": "0.6.0",
@@ -12054,7 +12056,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "helm"
       ],
       "projectVersion": "v0.7.19",
       "maturity": "sandbox",
@@ -12130,7 +12132,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "iso"
       ],
       "projectVersion": "v4.0.0",
       "maturity": "sandbox",
@@ -12501,7 +12503,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "binary"
       ],
       "projectVersion": "v1.11.0",
       "maturity": "sandbox",
@@ -12538,7 +12540,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "helm"
       ],
       "projectVersion": "v1.2.0",
       "maturity": "sandbox",
@@ -13024,7 +13026,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "helm"
       ],
       "projectVersion": "v0.2.2",
       "maturity": "sandbox",
@@ -13165,6 +13167,7 @@
       ],
       "type": "deploy",
       "installMethods": [
+        "helm",
         "kubectl"
       ],
       "projectVersion": "v2.7.1",
@@ -13884,7 +13887,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "helm"
       ],
       "projectVersion": "6.4.0",
       "maturity": "sandbox",
@@ -14275,7 +14278,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "pip"
       ],
       "projectVersion": "v0.7.6",
       "maturity": "sandbox",
@@ -14420,7 +14423,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "binary"
       ],
       "projectVersion": "v1.3.2",
       "maturity": "incubating",
@@ -14778,6 +14781,7 @@
       ],
       "type": "deploy",
       "installMethods": [
+        "binary",
         "kubectl"
       ],
       "projectVersion": "v1.5.2",
@@ -15002,7 +15006,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "helm"
       ],
       "projectVersion": "v1.6.1",
       "maturity": "incubating",
@@ -15905,7 +15909,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "binary"
       ],
       "projectVersion": "v2.3.0",
       "maturity": "sandbox",
@@ -16169,7 +16173,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "binary"
       ],
       "projectVersion": "v1.1.6",
       "maturity": "sandbox",
@@ -16431,7 +16435,8 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "docker",
+        "binary"
       ],
       "projectVersion": "v0.13.0-rc.33",
       "maturity": "sandbox",
@@ -16824,7 +16829,8 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "binary",
+        "helm"
       ],
       "projectVersion": "v1.9.2",
       "maturity": "incubating",
@@ -16861,7 +16867,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "binary"
       ],
       "projectVersion": "0.16.1",
       "maturity": "sandbox",
