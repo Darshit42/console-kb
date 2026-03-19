@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-19T01:06:30.266Z",
+  "generatedAt": "2026-03-19T01:24:23.621Z",
   "count": 1051,
   "missions": [
     {
@@ -8946,7 +8946,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "1.4.1",
       "maturity": "sandbox",
@@ -9461,7 +9461,8 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "helm",
+        "kubectl"
       ],
       "projectVersion": "v1.32.1",
       "maturity": "sandbox",
@@ -10142,7 +10143,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm",
+        "binary",
         "docker"
       ],
       "projectVersion": "v0.5.2",
@@ -12988,8 +12989,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm",
-        "cli"
+        "binary"
       ],
       "projectVersion": "v1.21.0",
       "maturity": "graduated",
@@ -15339,7 +15339,8 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "helm",
+        "binary"
       ],
       "projectVersion": "v0.55.0",
       "maturity": "sandbox",
@@ -16360,7 +16361,8 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "helm",
+        "kubectl"
       ],
       "projectVersion": "v8.5.5",
       "maturity": "graduated",
