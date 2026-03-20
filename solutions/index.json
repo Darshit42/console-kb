@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-19T18:44:28.570Z",
-  "count": 1111,
+  "generatedAt": "2026-03-20T06:55:00.819Z",
+  "count": 1137,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -90,6 +90,63 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/apisix/apisix-12662-bug-status-ready-endpoint-always-returns-503-in-file-driven-standal.json",
+      "title": "apisix: bug: /status/ready endpoint always returns 503 in file-driven standalone mode",
+      "description": "bug: /status/ready endpoint always returns 503 in file-driven standalone mode. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "apisix",
+        "community",
+        "api-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "apisix"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Role"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/apisix/apisix-8772-feat-as-a-user-i-want-to-set-a-validation-on-custom-claims-in-oidc-a.json",
+      "title": "apisix: feat: As a user, I want to set a validation on custom claims in oidc auth, so that I can restrict access to backend based on that rule",
+      "description": "feat: As a user, I want to set a validation on custom claims in oidc auth, so that I can restrict access to backend based on that rule. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "apisix",
+        "community",
+        "api-gateway",
+        "feature"
+      ],
+      "cncfProjects": [
+        "apisix"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/argo-events/argo-events-3372-add-allow-adding-readiness-probes-to-eventbus.json",
@@ -5494,6 +5551,37 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/containerd/containerd-12344-containerd-shim-processes-leak-during-high-pod-churn.json",
+      "title": "containerd: containerd-shim processes leak during high pod churn",
+      "description": "containerd-shim processes leak during high pod churn. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "containerd",
+        "graduated",
+        "runtime",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "containerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Cronjob",
+        "Namespace"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/containerd/containerd-6657-cri-support-specify-snapshotter-during-pod-creation-instead-of-a.json",
       "title": "containerd: CRI support specify snapshotter during pod creation instead of a global config",
       "description": "CRI support specify snapshotter during pod creation instead of a global config. Requested by 13+ users.",
@@ -5521,6 +5609,93 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/containerd/containerd-5067-cri-windows-images-created-with-shell-form-cmd-in-dockerfile-are.json",
+      "title": "containerd: CRI: Windows images created with \"shell form\" CMD in Dockerfile are broken",
+      "description": "CRI: Windows images created with \"shell form\" CMD in Dockerfile are broken. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "containerd",
+        "graduated",
+        "runtime",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "containerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/containerd/containerd-5453-error-messages-returned-from-registries-should-hide-sensitive-in.json",
+      "title": "containerd: Error messages returned from registries should hide sensitive information",
+      "description": "Error messages returned from registries should hide sensitive information. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "containerd",
+        "graduated",
+        "runtime",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "containerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Secret"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/containerd/containerd-2772-execstartpre-sbin-modprobe-fails-inside-lxc.json",
+      "title": "containerd: ExecStartPre=/sbin/modprobe fails inside LXC ",
+      "description": "ExecStartPre=/sbin/modprobe fails inside LXC . This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "containerd",
+        "graduated",
+        "runtime",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "containerd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -5582,6 +5757,35 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/containerd/containerd-6485-set-plugins-io-containerd-grpc-v1-cri-registry-config-path-by-de.json",
+      "title": "containerd: Set `[plugins.\"io.containerd.grpc.v1.cri\".registry].config_path` by default",
+      "description": "Set `[plugins.\"io.containerd.grpc.v1.cri\".registry].config_path` by default. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "containerd",
+        "graduated",
+        "runtime",
+        "feature"
+      ],
+      "cncfProjects": [
+        "containerd"
+      ],
+      "targetResourceKinds": [
+        "Node"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -5908,6 +6112,63 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/coredns/coredns-4545-add-fallthrough-to-file-plugin-or-add-wildcards-to-hosts-plugin.json",
+      "title": "coredns: Add fallthrough to file plugin, or add wildcards to hosts plugin",
+      "description": "Add fallthrough to file plugin, or add wildcards to hosts plugin. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "coredns",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "coredns"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/coredns/coredns-7119-kubernetes-plugin-occasionally-misses-pod-updates-deletions.json",
+      "title": "coredns: kubernetes plugin occasionally misses pod updates/deletions",
+      "description": "kubernetes plugin occasionally misses pod updates/deletions. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "coredns",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "coredns"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "solutions/cncf-generated/cortex/cortex-923-query-across-multiple-users-tenants-instances.json",
@@ -20858,6 +21119,37 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/knative-eventing/knative-eventing-8437-eks-use-aws-web-identity-token-for-sqs-queue.json",
+      "title": "knative-eventing: eks use aws web identity token for SQS queue",
+      "description": "eks use aws web identity token for SQS queue. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative-eventing",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "knative-eventing"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Namespace"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/knative-eventing/knative-eventing-3359-expression-language-for-trigger-filter.json",
       "title": "knative-eventing: Expression language for Trigger filter",
       "description": "Expression language for Trigger filter. Requested by 8+ users.",
@@ -20935,6 +21227,33 @@
         "upgrade"
       ],
       "type": "upgrade",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/knative-eventing/knative-eventing-2271-upgrade-tests-for-knative-eventing.json",
+      "title": "knative-eventing: Upgrade tests for knative eventing",
+      "description": "Upgrade tests for knative eventing. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative-eventing",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "knative-eventing"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -21320,6 +21639,117 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/kong/kong-5869-db-less-kong-get-empty-reply-when-targets-numbers-3-in-post-json.json",
+      "title": "kong: db-less kong get empty reply when targets numbers > 3 in post json ",
+      "description": "db-less kong get empty reply when targets numbers > 3 in post json . Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kong",
+        "community",
+        "api-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kong"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Ingress"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/kong/kong-7377-error-stream-api-handler-prometheus-response-is-26280-bytes-only-8000-.json",
+      "title": "kong: Error: stream_api handler \"prometheus\" response is 26280 bytes.  Only 8000 bytes is supported",
+      "description": "Error: stream_api handler \"prometheus\" response is 26280 bytes.  Only 8000 bytes is supported. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kong",
+        "community",
+        "api-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kong"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/kong/kong-2512-kong-is-adding-url-encoding-before-sending-upstream.json",
+      "title": "kong: Kong is adding URL encoding before sending upstream",
+      "description": "Kong is adding URL encoding before sending upstream. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kong",
+        "community",
+        "api-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kong"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/kong/kong-8259-kong-migrations-bootstrap-failure-with-postgres-14.json",
+      "title": "kong: kong migrations bootstrap failure with postgres 14",
+      "description": "kong migrations bootstrap failure with postgres 14. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kong",
+        "community",
+        "api-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kong"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/kong/kong-14598-luarocks-not-able-to-install-luaossl-or-any-packages-with-latest-kong.json",
       "title": "kong: luarocks not able to install luaossl (or any) packages with latest kong images",
       "description": "luarocks not able to install luaossl (or any) packages with latest kong images. Requested by 7+ users.",
@@ -21550,6 +21980,33 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/kserve/kserve-706-support-for-pyspark-2-4-4-mllib.json",
+      "title": "kserve: Support  for PySpark 2.4.4 Mllib ",
+      "description": "Support  for PySpark 2.4.4 Mllib . Requested by 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kserve",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kserve"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/kube-ovn/kube-ovn-5280-bug-ovn-eip-fip-snat-mode-packet-loss-and-asymmetric-return-traffi.json",
@@ -22052,6 +22509,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/kubeedge/kubeedge-748-change-to-use-gomod-to-manage-the-dependencies.json",
+      "title": "kubeedge: Change to use gomod to manage the dependencies",
+      "description": "Change to use gomod to manage the dependencies. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubeedge",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kubeedge"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/kubeflow/kubeflow-3259-ambassador-and-vizier-core-not-starting.json",
       "title": "kubeflow: ambassador and vizier-core not starting",
       "description": "ambassador and vizier-core not starting. This issue affects 4+ users.",
@@ -22437,6 +22921,64 @@
       "installMethods": [],
       "maturity": "community",
       "qualityScore": 69
+    },
+    {
+      "path": "solutions/cncf-generated/kubernetes/kubernetes-90066-managedfields-options-are-very-verbose-making-kubectl-usage-a-b.json",
+      "title": "kubernetes: managedFields options are very verbose, making kubectl usage a bit ",
+      "description": "managedFields options are very verbose, making kubectl usage a bit . Requested by 300+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubernetes",
+        "graduated",
+        "orchestration",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kubernetes"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/kubernetes/kubernetes-30656-support-the-user-flag-from-docker-exec-in-kubectl-exec.json",
+      "title": "kubernetes: Support the user flag from docker exec in kubectl exec",
+      "description": "Support the user flag from docker exec in kubectl exec. Requested by 426+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubernetes",
+        "graduated",
+        "orchestration",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kubernetes"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "solutions/cncf-generated/kubescape/kubescape-132-default-upload-of-scan-results-should-be-opt-in.json",
@@ -28017,6 +28559,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/opentelemetry-collector/opentelemetry-collector-1724-discussion-of-consistent-routing-by-traceid.json",
+      "title": "opentelemetry-collector: Discussion of Consistent Routing by TraceID",
+      "description": "Discussion of Consistent Routing by TraceID. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry-collector",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentelemetry-collector"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/opentelemetry-collector/opentelemetry-collector-2364-improve-error-message-for-prometheus-scrape-failure.json",
       "title": "opentelemetry-collector: Improve error message for prometheus scrape failure",
       "description": "Improve error message for prometheus scrape failure. This issue affects 23+ users.",
@@ -28040,6 +28609,154 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/opentelemetry-collector/opentelemetry-collector-8132-otlphttp-exporter-drops-data-because-memory-limiter.json",
+      "title": "opentelemetry-collector: otlphttp exporter drops data because memory limiter (of another instance) is considered as non recoverable error",
+      "description": "otlphttp exporter drops data because memory limiter (of another instance) is considered as non recoverable error. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry-collector",
+        "incubating",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "opentelemetry-collector"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/opentelemetry-collector/opentelemetry-collector-5228-support-default-values-for-configuration-environmen.json",
+      "title": "opentelemetry-collector: Support default values for configuration environment variables",
+      "description": "Support default values for configuration environment variables. Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry-collector",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentelemetry-collector"
+      ],
+      "targetResourceKinds": [
+        "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/opentelemetry-operator/opentelemetry-operator-4400-autoscaler-doesn-t-scale-deployment-when-minreplicas.json",
+      "title": "opentelemetry-operator: Autoscaler doesn't scale deployment when MinReplicas is set",
+      "description": "Autoscaler doesn't scale deployment when MinReplicas is set. This issue affects 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry-operator",
+        "incubating",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "opentelemetry-operator"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Namespace"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/opentelemetry-operator/opentelemetry-operator-4367-finalizer-in-the-open-telemetry-collector-customreso.json",
+      "title": "opentelemetry-operator: Finalizer in the open telemetry collector CustomResource prevents successful namespace deletion when managed operator is uninstalled prior to CustomResource uninstall/deletion",
+      "description": "Finalizer in the open telemetry collector CustomResource prevents successful namespace deletion when managed operator is uninstalled prior to CustomResource uninstall/deletion. This issue affects 14+ ",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry-operator",
+        "incubating",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "opentelemetry-operator"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "Role"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/opentelemetry-operator/opentelemetry-operator-2871-specify-the-collector-configuration-in-an-external-c.json",
+      "title": "opentelemetry-operator: Specify the collector configuration in an external ConfigMap",
+      "description": "Specify the collector configuration in an external ConfigMap. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry-operator",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentelemetry-operator"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Configmap"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "incubating"
     },
@@ -31593,6 +32310,33 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/traefik/traefik-5853-allow-to-add-path-prefix-for-both-api-and-dashboard-endpoints.json",
+      "title": "traefik: Allow to add path prefix for both api and dashboard endpoints",
+      "description": "Allow to add path prefix for both api and dashboard endpoints. This issue affects 120+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
     },
