@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-20T14:15:46.889Z",
-  "count": 1141,
+  "generatedAt": "2026-03-21T06:49:12.643Z",
+  "count": 1177,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -6168,6 +6168,36 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/coredns/coredns-3860-coredns-pods-panic-with-no-probe-failures.json",
+      "title": "coredns: CoreDNS pods panic with no probe failures",
+      "description": "CoreDNS pods panic with no probe failures. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "coredns",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "coredns"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/coredns/coredns-7119-kubernetes-plugin-occasionally-misses-pod-updates-deletions.json",
       "title": "coredns: kubernetes plugin occasionally misses pod updates/deletions",
       "description": "kubernetes plugin occasionally misses pod updates/deletions. This issue affects 5+ users.",
@@ -6337,6 +6367,208 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/cri-o/cri-o-4029-container-output-not-being-logged-with-cri-format-when-using-runtime-.json",
+      "title": "cri-o: Container output not being logged with CRI format when using runtime_type=vm",
+      "description": "Container output not being logged with CRI format when using runtime_type=vm. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cri-o",
+        "graduated",
+        "runtime",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cri-o"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Job",
+        "Node"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cri-o/cri-o-2885-files-included-in-centos-rpm-interfere-with-cni-operation.json",
+      "title": "cri-o: Files included in CentOS RPM interfere with CNI operation",
+      "description": "Files included in CentOS RPM interfere with CNI operation. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cri-o",
+        "graduated",
+        "runtime",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cri-o"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Daemonset"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cri-o/cri-o-2351-support-pulling-an-image-specified-by-both-tag-and-digest.json",
+      "title": "cri-o: Support pulling an image specified by both tag and digest",
+      "description": "Support pulling an image specified by both tag and digest. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cri-o",
+        "graduated",
+        "runtime",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cri-o"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/crossplane/crossplane-1770-generic-cross-resource-references.json",
+      "title": "crossplane: Generic Cross-Resource References",
+      "description": "Generic Cross-Resource References. Requested by 28+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "crossplane",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "crossplane"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/crossplane/crossplane-3516-granular-management-policies-e-g-ability-to-ignore-changes-etc.json",
+      "title": "crossplane: Granular management policies (e.g. ability to ignore changes etc.)",
+      "description": "Granular management policies (e.g. ability to ignore changes etc.). Requested by 39+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "crossplane",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "crossplane"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/crossplane/crossplane-3393-introduce-a-generic-usage-type-to-enforce-ordered-deletion.json",
+      "title": "crossplane: Introduce a generic `Usage` type to enforce ordered deletion",
+      "description": "Introduce a generic `Usage` type to enforce ordered deletion. Requested by 34+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "crossplane",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "crossplane"
+      ],
+      "targetResourceKinds": [
+        "Service"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/crossplane/crossplane-2099-support-patching-from-common-data-sources.json",
+      "title": "crossplane: Support patching from common data sources?",
+      "description": "Support patching from common data sources?. Requested by 32+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "crossplane",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "crossplane"
+      ],
+      "targetResourceKinds": [
+        "Configmap",
+        "Namespace",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "solutions/cncf-generated/dex/dex-1084-possibility-to-select-connector-in-client-request.json",
@@ -7330,6 +7562,37 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/external-secrets/external-secrets-4935-externalsecret-that-refer-ecrauthorizationtoken-not-work-i.json",
+      "title": "external-secrets: ExternalSecret that refer ECRAuthorizationToken not work in 0.18.0",
+      "description": "ExternalSecret that refer ECRAuthorizationToken not work in 0.18.0. This issue affects 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "external-secrets",
+        "sandbox",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "external-secrets"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "Role",
+        "Secret"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "sandbox"
     },
@@ -19074,6 +19337,35 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/jaeger/jaeger-4345-feature-spm-support-spanmetrics-connector.json",
+      "title": "jaeger: [Feature/SPM]: Support spanmetrics connector",
+      "description": "[Feature/SPM]: Support spanmetrics connector. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/jaeger/jaeger-1986-1-16-docker-query-s-jaeger-agent-port.json",
       "title": "jaeger: 1.16 docker: query's JAEGER_AGENT_PORT",
       "description": "1.16 docker: query's JAEGER_AGENT_PORT. Requested by 7+ users.",
@@ -22063,6 +22355,68 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/kserve/kserve-1558-kubeflow-1-3-unable-to-route-requests-to-the-kfserving-pod-due-to-au.json",
+      "title": "kserve: [kubeflow 1.3] unable to route requests to the kfserving pod due to auth policy",
+      "description": "[kubeflow 1.3] unable to route requests to the kfserving pod due to auth policy. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kserve",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kserve"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Ingress"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/kserve/kserve-629-issues-with-kfserving-as-part-of-a-kubeflow-install.json",
+      "title": "kserve: Issues with KFServing as part of a Kubeflow install",
+      "description": "Issues with KFServing as part of a Kubeflow install. This issue affects 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kserve",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kserve"
+      ],
+      "targetResourceKinds": [
+        "Ingress",
+        "Configmap",
+        "Statefulset"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/kserve/kserve-706-support-for-pyspark-2-4-4-mllib.json",
       "title": "kserve: Support  for PySpark 2.4.4 Mllib ",
       "description": "Support  for PySpark 2.4.4 Mllib . Requested by 13+ users.",
@@ -24689,6 +25043,36 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/linkerd/linkerd-3346-add-selectors-to-mwc.json",
+      "title": "linkerd: Add selectors to MWC ",
+      "description": "Add selectors to MWC . Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "deploy"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "deploy"
+      ],
+      "type": "deploy",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/linkerd/linkerd-10762-can-t-deploy-linkerd-v2-13-x-with-argocd.json",
       "title": "linkerd: Can't deploy Linkerd v2.13.x with ArgoCD",
       "description": "Can't deploy Linkerd v2.13.x with ArgoCD. This issue affects 26+ users.",
@@ -24719,6 +25103,67 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/linkerd/linkerd-10275-customize-mirrored-service-name.json",
+      "title": "linkerd: Customize mirrored service name",
+      "description": "Customize mirrored service name. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/linkerd/linkerd-10003-destination-routing-to-incorrect-pod-ips.json",
+      "title": "linkerd: Destination routing to incorrect Pod IPs",
+      "description": "Destination routing to incorrect Pod IPs. Users encounter: \"<img width=\"946\" alt=\"example\" src=\"https://user-images.githubusercontent.com/10061593/207413753-674\".",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Clusterrole",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/linkerd/linkerd-11157-distributed-tracing-service-name-should-be-dynamic.json",
       "title": "linkerd: Distributed Tracing Service Name should be dynamic",
       "description": "Distributed Tracing Service Name should be dynamic. Requested by 7+ users.",
@@ -24740,6 +25185,65 @@
         "Pod",
         "Node",
         "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/linkerd/linkerd-4838-grafana-links-not-updated-when-leveraging-external-grafana.json",
+      "title": "linkerd: Grafana links not updated when leveraging external grafana",
+      "description": "Grafana links not updated when leveraging external grafana. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/linkerd/linkerd-11461-implement-kep753-initcontainer-restartpolicy-always-sidecar.json",
+      "title": "linkerd: Implement KEP753 initContainer restartPolicy=Always sidecar",
+      "description": "Implement KEP753 initContainer restartPolicy=Always sidecar. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Job"
       ],
       "difficulty": "beginner",
       "issueTypes": [
@@ -24786,6 +25290,68 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/linkerd/linkerd-13169-linkerd-tap-doesn-t-seem-to-work-with-eks-access-entries-authentic.json",
+      "title": "linkerd: Linkerd Tap doesn't seem to work with EKS Access Entries authentication",
+      "description": "Linkerd Tap doesn't seem to work with EKS Access Entries authentication. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/linkerd/linkerd-11480-linkerd-proxy-using-stale-endpoints.json",
+      "title": "linkerd: linkerd-proxy using stale endpoints",
+      "description": "linkerd-proxy using stale endpoints. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Serviceaccount",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/linkerd/linkerd-4582-multicluster-doesn-t-work-on-eks.json",
       "title": "linkerd: multicluster doesn't work on EKS",
       "description": "multicluster doesn't work on EKS. Users encounter: \"```msg=\"Error processing RemoteGatewayCreated: {gatewaySpec: GatewaySpec: {gatewayName: linkerd-gate\".",
@@ -24807,6 +25373,37 @@
         "Service",
         "Ingress",
         "Serviceaccount"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/linkerd/linkerd-9888-proxy-returns-404-when-http-connection-is-marked-as-opaque.json",
+      "title": "linkerd: Proxy returns 404 when HTTP connection is marked as opaque",
+      "description": "Proxy returns 404 when HTTP connection is marked as opaque. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Serviceaccount",
+        "Service"
       ],
       "difficulty": "beginner",
       "issueTypes": [
@@ -26779,6 +27376,33 @@
       "path": "solutions/cncf-generated/n8n/n8n-13135-calling-a-sub-workflow-with-a-wait-by-webhook-node-don-t-return-the-da.json",
       "title": "n8n: Calling a sub-workflow with a wait by webhook node, don't return the data of the last node, but the node before the wait.",
       "description": "Calling a sub-workflow with a wait by webhook node, don't return the data of the last node, but the node before the wait.. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "feature"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/n8n/n8n-24218-form-submission-returns-401-unauthorized-after-upgrading-to-v2-2-4-no-.json",
+      "title": "n8n: Form submission returns 401 Unauthorized after upgrading to v2.2.4 (no Basic Auth enabled)",
+      "description": "Form submission returns 401 Unauthorized after upgrading to v2.2.4 (no Basic Auth enabled). Community-requested feature.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -28811,6 +29435,37 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/opentelemetry-operator/opentelemetry-operator-3471-operator-enters-crashloopbackoff-after-multiple-erro.json",
+      "title": "opentelemetry-operator: Operator enters CrashLoopBackOff  after multiple errors",
+      "description": "Operator enters CrashLoopBackOff  after multiple errors. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry-operator",
+        "incubating",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "opentelemetry-operator"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Ingress"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/opentelemetry-operator/opentelemetry-operator-2871-specify-the-collector-configuration-in-an-external-c.json",
       "title": "opentelemetry-operator: Specify the collector configuration in an external ConfigMap",
       "description": "Specify the collector configuration in an external ConfigMap. Community-requested feature.",
@@ -29384,6 +30039,182 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/operator-framework/operator-framework-1770-ansible-cr-variables-converted-to-snake-case-when-passed.json",
+      "title": "operator-framework: [ansible] CR variables converted to snake_case when passed to playbook",
+      "description": "[ansible] CR variables converted to snake_case when passed to playbook. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "operator-framework",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "operator-framework"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Role"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/operator-framework/operator-framework-3461-kubebuilder-is-not-listed-in-prerequisites.json",
+      "title": "operator-framework: Kubebuilder is not listed in prerequisites ",
+      "description": "Kubebuilder is not listed in prerequisites . Requested by 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "operator-framework",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "operator-framework"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/operator-framework/operator-framework-1858-metrics-of-the-cluster-scoped-operator-causes-can-t-list.json",
+      "title": "operator-framework: Metrics of the Cluster scoped operator causes can't list unstructured object errors",
+      "description": "Metrics of the Cluster scoped operator causes can't list unstructured object errors. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "operator-framework",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "operator-framework"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "Serviceaccount",
+        "Clusterrole"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/operator-framework/operator-framework-4828-operator-sdk-supports-go-version-1-16.json",
+      "title": "operator-framework: operator-sdk supports Go version 1.16",
+      "description": "operator-sdk supports Go version 1.16. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "operator-framework",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "operator-framework"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/operator-framework/operator-framework-1094-predictable-release-names-with-the-helm-operator-sdk.json",
+      "title": "operator-framework: Predictable Release Names with the Helm Operator SDK",
+      "description": "Predictable Release Names with the Helm Operator SDK. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "operator-framework",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "operator-framework"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/operator-framework/operator-framework-6681-quickstart-does-not-work.json",
+      "title": "operator-framework: quickstart does not work",
+      "description": "quickstart does not work. This issue affects 20+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "operator-framework",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "operator-framework"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Role"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/oras/oras-1505-oras-cp-fails-if-org-opencontainers-image-ref-name-contains-a-full-ref.json",
@@ -32453,6 +33284,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/traefik/traefik-2299-encrypt-session-sticky-cookie-content.json",
+      "title": "traefik: Encrypt Session Sticky cookie content",
+      "description": "Encrypt Session Sticky cookie content. Requested by 47+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "feature"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/traefik/traefik-5598-healthchecks-for-tcp-forwarded-connections.json",
       "title": "traefik: Healthchecks for TCP forwarded connections",
       "description": "Healthchecks for TCP forwarded connections. This issue affects 39+ users.",
@@ -32473,6 +33331,195 @@
       "targetResourceKinds": [
         "Service"
       ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/traefik/traefik-2674-let-s-encrypt-use-acme-api-v2.json",
+      "title": "traefik: Let's Encrypt: use ACME API V2",
+      "description": "Let's Encrypt: use ACME API V2. Requested by 67+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "feature"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/traefik/traefik-6374-opentelemetry-support.json",
+      "title": "traefik: OpenTelemetry Support",
+      "description": "OpenTelemetry Support. Requested by 69+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "feature"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/traefik/traefik-6756-please-disable-tls-1-0-and-1-1-by-default.json",
+      "title": "traefik: Please disable TLS 1.0 and 1.1 by default",
+      "description": "Please disable TLS 1.0 and 1.1 by default. This issue affects 66+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "upgrade"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "upgrade"
+      ],
+      "type": "upgrade",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/traefik/traefik-1007-support-failover-load-balancing.json",
+      "title": "traefik: Support Failover Load-balancing",
+      "description": "Support Failover Load-balancing. Requested by 40+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "feature"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/traefik/traefik-7088-support-for-private-plugins.json",
+      "title": "traefik: Support for private plugins",
+      "description": "Support for private plugins. Requested by 51+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "feature"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/traefik/traefik-4863-traefik-2-0-verbosity-in-setting-up-http-to-https-redirects.json",
+      "title": "traefik: Traefik 2.0 verbosity in setting up HTTP to HTTPS redirects",
+      "description": "Traefik 2.0 verbosity in setting up HTTP to HTTPS redirects. Requested by 85+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "feature"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/traefik/traefik-5228-v2-support-not-in-rules-definition.json",
+      "title": "traefik: v2: support `NOT` in `rules` definition",
+      "description": "v2: support `NOT` in `rules` definition. Requested by 84+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "feature"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [],
       "difficulty": "intermediate",
       "issueTypes": [
         "feature"
