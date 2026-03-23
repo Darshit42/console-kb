@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-23T07:02:21.285Z",
-  "count": 1209,
+  "generatedAt": "2026-03-23T07:03:22.011Z",
+  "count": 1219,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -6922,6 +6922,170 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/dapr/dapr-5515-pubsub-override-cloud-event-attributes-via-metadata.json",
+      "title": "dapr: [PubSub] override cloud event attributes via metadata",
+      "description": "[PubSub] override cloud event attributes via metadata. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dapr",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dapr"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/dapr/dapr-2308-enhance-pub-sub-cloud-event-handling-to-support-existing-messaging-inf.json",
+      "title": "dapr: Enhance pub/sub cloud event handling to support existing messaging infrastructure",
+      "description": "Enhance pub/sub cloud event handling to support existing messaging infrastructure. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dapr",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dapr"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/dapr/dapr-4233-outbox-pattern-for-statestore-pubsub-in-dapr.json",
+      "title": "dapr: Outbox pattern for statestore + pubsub in Dapr",
+      "description": "Outbox pattern for statestore + pubsub in Dapr. Requested by 31+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dapr",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dapr"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/dapr/dapr-2217-pubsub-s-deadletter-topic.json",
+      "title": "dapr: PubSub's DeadLetter Topic",
+      "description": "PubSub's DeadLetter Topic. Requested by 21+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dapr",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dapr"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/dapr/dapr-6683-resiliency-service-invocation-allow-to-ignore-resiliency-policy-based-.json",
+      "title": "dapr: Resiliency - Service Invocation allow to ignore resiliency policy based on response http status code",
+      "description": "Resiliency - Service Invocation allow to ignore resiliency policy based on response http status code. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dapr",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dapr"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/dapr/dapr-3662-state-store-query-api.json",
+      "title": "dapr: State Store Query API",
+      "description": "State Store Query API. Requested by 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dapr",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dapr"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/dex/dex-1084-possibility-to-select-connector-in-client-request.json",
       "title": "dex: Possibility to select connector in client request",
       "description": "Possibility to select connector in client request. Requested by 6+ users.",
@@ -7527,6 +7691,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/envoy/envoy-5998-feature-request-in-lua-http-filter-add-ability-to-set-the-contents-of.json",
+      "title": "envoy: Feature Request: In lua http filter add ability to set the contents of the body",
+      "description": "Feature Request: In lua http filter add ability to set the contents of the body. Requested by 18+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/envoy/envoy-20907-peak-ewma-load-balancing.json",
       "title": "envoy: Peak EWMA load balancing",
       "description": "Peak EWMA load balancing. Requested by 19+ users.",
@@ -7588,6 +7779,33 @@
       "path": "solutions/cncf-generated/envoy/envoy-32686-prometheus-add-native-histogram-support.json",
       "title": "envoy: Prometheus: add native histogram support",
       "description": "Prometheus: add native histogram support. Requested by 27+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/envoy/envoy-170-support-for-http-1-0.json",
+      "title": "envoy: Support for HTTP/1.0",
+      "description": "Support for HTTP/1.0. Requested by 18+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -31904,6 +32122,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/prometheus/prometheus-1583-allow-relative-url-in-web-external-url.json",
+      "title": "prometheus: Allow relative URL in web.external-url",
+      "description": "Allow relative URL in web.external-url. Requested by 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/prometheus/prometheus-6512-checksum-mismatch-breaking-grafana-queries.json",
       "title": "prometheus: checksum mismatch breaking Grafana queries",
       "description": "checksum mismatch breaking Grafana queries. This issue affects 11+ users.",
@@ -31958,6 +32203,37 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/prometheus/prometheus-9510-kubernetes-sd-optionally-attach-namespace-and-node-metadata-to-t.json",
+      "title": "prometheus: Kubernetes SD: Optionally attach namespace and node metadata to targets",
+      "description": "Kubernetes SD: Optionally attach namespace and node metadata to targets. Requested by 18+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Ingress",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
