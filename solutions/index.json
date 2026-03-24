@@ -1,8 +1,201 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-23T09:40:28.389Z",
-  "count": 1232,
+  "generatedAt": "2026-03-24T06:57:23.145Z",
+  "count": 1249,
   "missions": [
+    {
+      "path": "solutions/cncf-generated/alertmanager/alertmanager-1598-add-option-to-customize-alias-field-for-opsgenie-alerts.json",
+      "title": "alertmanager: Add option to customize alias field for opsgenie alerts",
+      "description": "Add option to customize alias field for opsgenie alerts. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/alertmanager/alertmanager-3310-alertmanager-is-ignoring-discord-s-message-limits.json",
+      "title": "alertmanager: AlertManager is ignoring Discord's Message Limits",
+      "description": "AlertManager is ignoring Discord's Message Limits. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/alertmanager/alertmanager-2477-alertmanager-config-yaml-file-for-pagerduty-configs-details-do.json",
+      "title": "alertmanager: alertmanager-config.yaml file for pagerduty_configs.details does not respect EventApi v2 spec",
+      "description": "alertmanager-config.yaml file for pagerduty_configs.details does not respect EventApi v2 spec. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/alertmanager/alertmanager-1903-expose-alert-fingerprint-in-notification-template.json",
+      "title": "alertmanager: Expose alert fingerprint in notification template",
+      "description": "Expose alert fingerprint in notification template. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/alertmanager/alertmanager-1439-metric-alertmanager-alerts-reports-active-alerts-when-there-ar.json",
+      "title": "alertmanager: Metric alertmanager_alerts reports \"active\" alerts when there are none",
+      "description": "Metric alertmanager_alerts reports \"active\" alerts when there are none. Requested by 15+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [
+        "Job"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/alertmanager/alertmanager-3920-microsoft-deprecating-teams-webhooks-new-workflows-uses-incomp.json",
+      "title": "alertmanager: Microsoft deprecating Teams webhooks, new \"Workflows\" uses incompatible schema",
+      "description": "Microsoft deprecating Teams webhooks, new \"Workflows\" uses incompatible schema. This issue affects 44+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "upgrade"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "upgrade"
+      ],
+      "type": "upgrade",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/alertmanager/alertmanager-3218-pagerduty-and-structured-alerts-data.json",
+      "title": "alertmanager: PagerDuty and structured alerts data",
+      "description": "PagerDuty and structured alerts data. Requested by 38+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
     {
       "path": "solutions/cncf-generated/alertmanager/alertmanager-4367-support-an-incident-io-notifier.json",
       "title": "alertmanager: Support an incident.io notifier",
@@ -23,6 +216,60 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/alertmanager/alertmanager-2923-telegram-can-t-parse-entities-after-message-truncation-with-pa.json",
+      "title": "alertmanager: Telegram can't parse entities after message truncation with parse_mode=\"HTML\"",
+      "description": "Telegram can't parse entities after message truncation with parse_mode=\"HTML\". This issue affects 23+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/alertmanager/alertmanager-333-validate-config.json",
+      "title": "alertmanager: Validate config",
+      "description": "Validate config. Requested by 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
@@ -7855,6 +8102,89 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/envoy/envoy-3732-add-x-forwarded-port-header.json",
+      "title": "envoy: Add X-Forwarded-Port header",
+      "description": "Add X-Forwarded-Port header. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/envoy/envoy-3431-client-side-alpn-support-upstream-cluster.json",
+      "title": "envoy: Client side ALPN support (upstream cluster) ",
+      "description": "Client side ALPN support (upstream cluster) . Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/envoy/envoy-19612-dynamic-setting-value-of-tcpproxy-tunneling-config-hostname.json",
+      "title": "envoy: Dynamic setting value of TcpProxy.tunneling_config.hostname",
+      "description": "Dynamic setting value of TcpProxy.tunneling_config.hostname. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/envoy/envoy-5998-feature-request-in-lua-http-filter-add-ability-to-set-the-contents-of.json",
       "title": "envoy: Feature Request: In lua http filter add ability to set the contents of the body",
       "description": "Feature Request: In lua http filter add ability to set the contents of the body. Requested by 18+ users.",
@@ -7903,6 +8233,64 @@
         "Ingress"
       ],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/envoy/envoy-10942-postgres-filter-implement-postgres-ssl-termination-and-monitoring.json",
+      "title": "envoy: Postgres filter: implement Postgres SSL termination and monitoring",
+      "description": "Postgres filter: implement Postgres SSL termination and monitoring. Requested by 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/envoy/envoy-9107-postgres-statistics-envoy-network-filter.json",
+      "title": "envoy: Postgres Statistics Envoy Network Filter",
+      "description": "Postgres Statistics Envoy Network Filter. Requested by 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
@@ -8013,6 +8401,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/envoy/envoy-5940-support-for-x-forwarded-host-header.json",
+      "title": "envoy: Support for X-Forwarded-Host header",
+      "description": "Support for X-Forwarded-Host header. Requested by 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
@@ -8181,6 +8596,33 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/etcd/etcd-11321-etcd-cluster-fails-to-start-when-using-dns-srv-discovery-with-non-tls.json",
+      "title": "etcd: etcd cluster fails to start when using DNS SRV discovery with non-TLS",
+      "description": "etcd cluster fails to start when using DNS SRV discovery with non-TLS. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "etcd",
+        "graduated",
+        "orchestration",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "etcd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -32725,6 +33167,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/qdrant/qdrant-3322-per-collection-metrics-for-prometheus.json",
+      "title": "qdrant: Per-collection metrics for Prometheus",
+      "description": "Per-collection metrics for Prometheus. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "qdrant",
+        "community",
+        "vector-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "qdrant"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "community"
     },
