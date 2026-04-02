@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-01T07:13:13.666Z",
-  "count": 1317,
+  "generatedAt": "2026-04-02T07:02:34.208Z",
+  "count": 1325,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -6074,6 +6074,63 @@
       "maturity": "community"
     },
     {
+      "path": "fixes/cncf-generated/containerd/containerd-4604-failed-to-reserve-container-name.json",
+      "title": "containerd: 'failed to reserve container name'",
+      "description": "'failed to reserve container name'. This issue affects 28+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "containerd",
+        "graduated",
+        "runtime",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "containerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/containerd/containerd-7972-failed-to-copy-io-read-write-on-closed-pipe-on-ctr-images-push-w.json",
+      "title": "containerd: \"failed to copy: io: read/write on closed pipe\" on `ctr images push` while pushing large images",
+      "description": "\"failed to copy: io: read/write on closed pipe\" on `ctr images push` while pushing large images. This issue affects 25+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "containerd",
+        "graduated",
+        "runtime",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "containerd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/containerd/containerd-12683-go-1-24-v2-2-0-fails-to-create-containers-from-images-having-et.json",
       "title": "containerd: [Go 1.24] v2.2.0 fails to create containers from images having /etc/{passwd,group} symlinked to an absolute path",
       "description": "[Go 1.24] v2.2.0 fails to create containers from images having /etc/{passwd,group} symlinked to an absolute path. This issue affects 17+ users.",
@@ -6151,6 +6208,35 @@
       "targetResourceKinds": [
         "Pod",
         "Cronjob",
+        "Namespace"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/containerd/containerd-4509-containers-with-curl-based-health-checks-becoming-unresponsive.json",
+      "title": "containerd: Containers with curl based health checks becoming unresponsive",
+      "description": "Containers with curl based health checks becoming unresponsive. This issue affects 27+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "containerd",
+        "graduated",
+        "runtime",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "containerd"
+      ],
+      "targetResourceKinds": [
         "Namespace"
       ],
       "difficulty": "advanced",
@@ -6366,6 +6452,33 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/containerd/containerd-5502-shim-v2-hangs-on-reboot-shutdown.json",
+      "title": "containerd: shim v2 hangs on reboot/shutdown",
+      "description": "shim v2 hangs on reboot/shutdown. This issue affects 22+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "containerd",
+        "graduated",
+        "runtime",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "containerd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -28052,6 +28165,36 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/linkerd/linkerd-9306-viz-blank-page-on-loading-any-of-the-tools.json",
+      "title": "linkerd: Viz - blank page on loading any of the tools",
+      "description": "Viz - blank page on loading any of the tools. This issue affects 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Serviceaccount"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/litellm/litellm-14704-bug-tool-choice-rejected-when-calling-azure-gpt-5-models.json",
       "title": "litellm: [Bug]: `tool_choice` rejected when calling Azure GPT-5 models",
       "description": "[Bug]: `tool_choice` rejected when calling Azure GPT-5 models. This issue affects 17+ users.",
@@ -34230,6 +34373,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "fixes/cncf-generated/prometheus/prometheus-5514-add-mad-over-time-function.json",
+      "title": "prometheus: Add `mad_over_time` function",
+      "description": "Add `mad_over_time` function. Requested by 41+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/prometheus/prometheus-535-add-mechanism-to-perform-bulk-imports.json",
       "title": "prometheus: Add mechanism to perform bulk imports",
       "description": "Add mechanism to perform bulk imports. This issue affects 127+ users.",
@@ -34338,6 +34508,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/prometheus/prometheus-1766-docker-engine-swarm-api-service-discovery.json",
+      "title": "prometheus: Docker engine swarm api service discovery",
+      "description": "Docker engine swarm api service discovery. Requested by 39+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -34472,6 +34669,35 @@
         "prometheus"
       ],
       "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/prometheus/prometheus-3441-prometheus-docker-container-shouldn-t-run-as-user-nobody.json",
+      "title": "prometheus: Prometheus docker container shouldn't run as user nobody",
+      "description": "Prometheus docker container shouldn't run as user nobody. Requested by 53+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
       "difficulty": "intermediate",
       "issueTypes": [
         "feature"
