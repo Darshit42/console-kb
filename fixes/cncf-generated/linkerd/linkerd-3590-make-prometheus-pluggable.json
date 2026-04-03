@@ -1,0 +1,77 @@
+{
+  "version": "kc-mission-v1",
+  "name": "linkerd-3590-make-prometheus-pluggable",
+  "missionClass": "fixer",
+  "author": "KubeStellar Bot",
+  "authorGithub": "kubestellar",
+  "mission": {
+    "title": "linkerd: Make Prometheus Pluggable",
+    "description": "Make Prometheus Pluggable. Requested by 5+ users.",
+    "type": "feature",
+    "status": "completed",
+    "steps": [
+      {
+        "title": "Verify Linkerd version supports pluggable Prometheus",
+        "description": "Ensure you are running Linkerd 2.10 or later, which supports an external Prometheus:\n```bash\nlinkerd version\n```\nIf running an older version, upgrade Linkerd following the official upgrade guide."
+      },
+      {
+        "title": "Set up your external Prometheus instance",
+        "description": "Deploy or configure an external Prometheus that will scrape Linkerd metrics. Ensure it is configured to scrape the Linkerd proxy metrics endpoints. Add the following scrape config:\n```yaml\n- job_name: 'linkerd'\n  kubernetes_sd_configs:\n  - role: pod\n  relabel_configs:\n  - source_labels: [__meta_kubernetes_pod_container_name]\n    action: keep\n    regex: linkerd-proxy\n  - source_labels: [__meta_kubernetes_pod_container_port_name]\n    action: keep\n    regex: linkerd-admin\n```"
+      },
+      {
+        "title": "Install Linkerd Viz with external Prometheus",
+        "description": "Install the Linkerd Viz extension pointing to your external Prometheus. This disables the built-in Prometheus:\n```bash\nlinkerd viz install --set prometheusUrl=http://your-prometheus:9090 | kubectl apply -f -\n```\nAlternatively, via Helm:\n```bash\nhelm install linkerd-viz linkerd/linkerd-viz \\\n  --set prometheusUrl=http://your-prometheus:9090\n```"
+      },
+      {
+        "title": "Verify metrics flow through external Prometheus",
+        "description": "Confirm that Linkerd dashboards work with the external Prometheus:\n```bash\nlinkerd viz dashboard &\nlinkerd viz stat deploy -n default\n```\nVerify that metrics appear in your external Prometheus by querying for `request_total` or `response_latency_ms_bucket` metrics with the `linkerd` job label."
+      }
+    ],
+    "resolution": {
+      "summary": "Starting with Linkerd 2.10, the built-in Prometheus instance is optional. Users can configure Linkerd to send metrics to an external Prometheus by setting `prometheusUrl` in the Linkerd Viz extension. Install without built-in Prometheus: `linkerd viz install --set prometheusUrl=http://your-prometheus:9090 | kubectl apply -f -`.",
+      "codeSnippets": [
+        "linkerd viz install --set prometheusUrl=http://your-prometheus:9090 | kubectl apply -f -"
+      ]
+    }
+  },
+  "metadata": {
+    "tags": [
+      "linkerd",
+      "graduated",
+      "networking",
+      "feature"
+    ],
+    "cncfProjects": [
+      "linkerd"
+    ],
+    "targetResourceKinds": [
+      "Configmap",
+      "Namespace"
+    ],
+    "difficulty": "beginner",
+    "issueTypes": [
+      "feature"
+    ],
+    "maturity": "graduated",
+    "sourceUrls": {
+      "issue": "https://github.com/linkerd/linkerd2/issues/3590",
+      "repo": "https://github.com/linkerd/linkerd2"
+    },
+    "reactions": 5,
+    "comments": 3,
+    "synthesizedBy": "copilot"
+  },
+  "prerequisites": {
+    "kubernetes": ">=1.24",
+    "tools": [
+      "kubectl"
+    ],
+    "description": "A running Kubernetes cluster with linkerd installed or the issue environment reproducible."
+  },
+  "security": {
+    "scannedAt": "2026-04-02T06:32:00.543Z",
+    "scannerVersion": "cncf-gen-3.0.0",
+    "sanitized": true,
+    "findings": []
+  }
+}
