@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-03T16:39:08.214Z",
-  "count": 1378,
+  "generatedAt": "2026-04-03T16:45:22.984Z",
+  "count": 1411,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -4184,6 +4184,64 @@
       "maturity": "sandbox"
     },
     {
+      "path": "fixes/cncf-generated/cdk-for-kubernetes-cdk8s-/cdk-for-kubernetes-cdk8s-2183-support-persistentvolumeclaimtemplate-in-sts.json",
+      "title": "cdk-for-kubernetes-cdk8s-: Support PersistentVolumeClaimTemplate in STS",
+      "description": "Support PersistentVolumeClaimTemplate in STS. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cdk-for-kubernetes-cdk8s-",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cdk-for-kubernetes-cdk8s-"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Statefulset",
+        "Persistentvolumeclaim"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "fixes/cncf-generated/cert-manager/cert-manager-586-add-support-for-jks-pkcs12-and-pem-files.json",
+      "title": "cert-manager: Add support for JKS, PKCS12 and PEM files",
+      "description": "Add support for JKS, PKCS12 and PEM files. Requested by 31+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/cert-manager/cert-manager-4821-allow-ingressclassname-to-be-set-for-http01-solver-ingresses.json",
       "title": "cert-manager: Allow `ingressClassName` to be set for HTTP01 solver ingresses.",
       "description": "Allow `ingressClassName` to be set for HTTP01 solver ingresses.. This issue affects 71+ users.",
@@ -4239,6 +4297,35 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/cert-manager/cert-manager-2741-certificate-creation-is-stuck-with-order-having-no-state-and-n.json",
+      "title": "cert-manager: Certificate creation is stuck with Order having no state and no challenges are created for a specific URL",
+      "description": "Certificate creation is stuck with Order having no state and no challenges are created for a specific URL. This issue affects 27+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [
+        "Ingress"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -4530,6 +4617,35 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/cert-manager/cert-manager-2576-support-adding-custom-annotations-to-generated-secret.json",
+      "title": "cert-manager: Support adding custom annotations to generated secret",
+      "description": "Support adding custom annotations to generated secret. Requested by 26+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/cert-manager/cert-manager-5904-support-azure-private-dns-zones-for-dns-challenge.json",
       "title": "cert-manager: Support Azure Private DNS Zones for DNS Challenge",
       "description": "Support Azure Private DNS Zones for DNS Challenge. Requested by 20+ users.",
@@ -4617,6 +4733,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/cert-manager/cert-manager-273-wildcard-certificates-support.json",
+      "title": "cert-manager: Wildcard certificates support",
+      "description": "Wildcard certificates support. Requested by 26+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/cilium/cilium-34028-an-error-occurred-when-enabling-host-network-mode-through-helm.json",
       "title": "cilium: An error occurred when enabling host network mode through Helm",
       "description": "An error occurred when enabling host network mode through Helm. This issue affects 16+ users.",
@@ -4643,6 +4786,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/cilium/cilium-22157-cfp-upload-helm-charts-to-oci-registry-and-sign-them-with-cosign.json",
+      "title": "cilium: CFP:  upload Helm charts to OCI registry and sign them with cosign",
+      "description": "CFP:  upload Helm charts to OCI registry and sign them with cosign. Requested by 20+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -4734,6 +4904,37 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/cilium/cilium-27152-communication-does-not-work-on-eks-with-aws-vpc-cni-and-cilium-depl.json",
+      "title": "cilium: Communication does not work on EKS with AWS VPC CNI and Cilium deployed in chaining mode for the pods running on the same node when SecuirtyGroups For Pods is activated and applied to one of the communicating pods",
+      "description": "Communication does not work on EKS with AWS VPC CNI and Cilium deployed in chaining mode for the pods running on the same node when SecuirtyGroups For Pods is activated and applied to one of the commu",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Ingress"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/cilium/cilium-38210-deadlock-in-compilation-lock-on-cilium-v1-17-0-v1-17-2.json",
       "title": "cilium: Deadlock in compilation lock on Cilium v1.17.0 - v1.17.2",
       "description": "Deadlock in compilation lock on Cilium v1.17.0 - v1.17.2. Users encounter: \"code = Unknown desc = failed to setup network for sandbox \"6fe91c8e8ebcee2b7f1541bff08471150a7c95f02\".",
@@ -4760,6 +4961,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/cilium/cilium-9207-differentiate-between-udp-and-tcp-services.json",
+      "title": "cilium: Differentiate between UDP and TCP services",
+      "description": "Differentiate between UDP and TCP services. Requested by 30+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -4969,6 +5197,36 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/cilium/cilium-7519-support-wireguard-for-encryption.json",
+      "title": "cilium: Support WireGuard for encryption",
+      "description": "Support WireGuard for encryption. Requested by 33+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -5485,6 +5743,33 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "incubating"
+    },
+    {
+      "path": "fixes/cncf-generated/cloud-native-network/cloud-native-network-25-add-seccomp.json",
+      "title": "cloud-native-network: Add seccomp",
+      "description": "Add seccomp. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cloud-native-network",
+        "sandbox",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cloud-native-network"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
     },
     {
       "path": "fixes/cncf-generated/cloud-native-network/cloud-native-network-150-make-failure-message-great-again.json",
@@ -8128,6 +8413,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/dify/dify-22718-mcp-server-supports-header-configuration.json",
+      "title": "dify: MCP Server supports header configuration",
+      "description": "MCP Server supports header configuration. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dify",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dify"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "community"
     },
@@ -11496,6 +11808,60 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/flux/flux-493-create-architecture-telemetry-in-the-gotk.json",
+      "title": "flux: Create architecture telemetry in the gotk",
+      "description": "Create architecture telemetry in the gotk. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flux",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "flux"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/flux/flux-2329-flux-bootstrap-github-scopes.json",
+      "title": "flux: flux bootstrap github - Scopes",
+      "description": "flux bootstrap github - Scopes. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flux",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "flux"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/flux/flux-3973-flux-cli-unable-to-retrieve-image-ressource-when-image-crd-is-not-inst.json",
       "title": "flux: Flux CLI unable to retrieve image ressource when image CRD is not installed",
       "description": "Flux CLI unable to retrieve image ressource when image CRD is not installed. This issue affects 5+ users.",
@@ -11666,6 +12032,68 @@
         "upgrade"
       ],
       "type": "upgrade",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/flux/flux-710-notifications-information-content-and-filtering-of-info-alerts.json",
+      "title": "flux: Notifications - information content and filtering of info alerts",
+      "description": "Notifications - information content and filtering of info alerts. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flux",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "flux"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "Role",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/flux/flux-5584-reduce-the-mean-time-to-recovery-mttr-in-case-of-failed-deployments.json",
+      "title": "flux: Reduce the mean time to recovery (MTTR) in case of failed deployments",
+      "description": "Reduce the mean time to recovery (MTTR) in case of failed deployments. Requested by 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flux",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "flux"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Configmap",
+        "Secret"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -11971,6 +12399,87 @@
       "maturity": "incubating"
     },
     {
+      "path": "fixes/cncf-generated/grpc/grpc-25364-python-multi-thread-support-for-python-asyncio-grpc-clients.json",
+      "title": "grpc: [Python] Multi-thread support for python asyncio gRPC clients",
+      "description": "[Python] Multi-thread support for python asyncio gRPC clients. This issue affects 39+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "grpc",
+        "incubating",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "grpc"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "fixes/cncf-generated/grpc/grpc-29262-a-solution-to-build-apple-silicon-m1-python-binary-wheels.json",
+      "title": "grpc: A solution to build Apple Silicon (M1) Python binary wheels",
+      "description": "A solution to build Apple Silicon (M1) Python binary wheels. This issue affects 37+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "grpc",
+        "incubating",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "grpc"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "fixes/cncf-generated/grpc/grpc-29044-fork-support-is-only-compatible-with-the-epoll1-and-poll-polling-stra.json",
+      "title": "grpc: Fork support is only compatible with the epoll1 and poll polling strategies",
+      "description": "Fork support is only compatible with the epoll1 and poll polling strategies. This issue affects 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "grpc",
+        "incubating",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "grpc"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "fixes/cncf-generated/grpc/grpc-29489-gem-install-grpc-1-45-0-takes-lot-of-time-to-complete.json",
       "title": "grpc: gem install grpc:1.45.0  takes lot of time to complete",
       "description": "gem install grpc:1.45.0  takes lot of time to complete. This issue affects 21+ users.",
@@ -12106,6 +12615,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "fixes/cncf-generated/grpc/grpc-25082-grpcio-fails-to-install-on-apple-silicon.json",
+      "title": "grpc: grpcio fails to install on Apple Silicon",
+      "description": "grpcio fails to install on Apple Silicon. This issue affects 58+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "grpc",
+        "incubating",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "grpc"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "fixes/cncf-generated/grpc/grpc-25222-loaderror-with-ruby-3-0-and-grpc-gem.json",
       "title": "grpc: LoadError with Ruby 3.0 and grpc gem",
       "description": "LoadError with Ruby 3.0 and grpc gem. This issue affects 13+ users.",
@@ -12133,6 +12669,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "fixes/cncf-generated/grpc/grpc-21514-support-for-ruby-2-7.json",
+      "title": "grpc: Support for Ruby 2.7",
+      "description": "Support for Ruby 2.7. Requested by 52+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "grpc",
+        "incubating",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "grpc"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "fixes/cncf-generated/grpc/grpc-28627-support-pre-built-binaries-for-ruby-3-1.json",
       "title": "grpc: Support pre-built binaries for Ruby 3.1",
       "description": "Support pre-built binaries for Ruby 3.1. Requested by 22+ users.",
@@ -12156,6 +12719,33 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "fixes/cncf-generated/grpc/grpc-30976-undefined-symbol-ruby-abi-version-regression-with-xcode-13-14.json",
+      "title": "grpc: Undefined symbol `_ruby_abi_version` regression with Xcode 13 -> 14",
+      "description": "Undefined symbol `_ruby_abi_version` regression with Xcode 13 -> 14. This issue affects 30+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "grpc",
+        "incubating",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "grpc"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "incubating"
     },
@@ -22691,6 +23281,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/jaeger/jaeger-1044-allow-configuration-of-jaeger-client-in-the-query-service.json",
+      "title": "jaeger: Allow configuration of jaeger client in the query service",
+      "description": "Allow configuration of jaeger client in the query service. Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/jaeger/jaeger-1058-collector-reload-sampling-strategies-on-file-content-change.json",
       "title": "jaeger: collector: reload sampling strategies on file content change",
       "description": "collector: reload sampling strategies on file content change. Community-requested feature.",
@@ -24495,6 +25112,33 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/keycloak/keycloak-14122-refresh-token-rotation-with-multiple-tabs.json",
+      "title": "keycloak: Refresh token rotation with multiple tabs",
+      "description": "Refresh token rotation with multiple tabs. This issue affects 78+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keycloak",
+        "incubating",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "keycloak"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "fixes/cncf-generated/keycloak/keycloak-12406-remove-you-are-already-logged-in-during-authentication.json",
@@ -31296,6 +31940,33 @@
       "maturity": "community"
     },
     {
+      "path": "fixes/cncf-generated/nats/nats-4121-ability-to-reset-consumer-start-sequence.json",
+      "title": "nats: Ability to reset consumer start sequence",
+      "description": "Ability to reset consumer start sequence. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "nats",
+        "incubating",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "nats"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "fixes/cncf-generated/nats/nats-1921-add-support-to-leafnode-config-reload.json",
       "title": "nats: Add support to leafnode config reload",
       "description": "Add support to leafnode config reload. Community-requested feature.",
@@ -33623,6 +34294,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "fixes/cncf-generated/opentelemetry-operator/opentelemetry-operator-1707-collector-specify-the-collector-s-configuration-with.json",
+      "title": "opentelemetry-operator: [collector] Specify the collector's configuration with structure yaml instead of a string",
+      "description": "[collector] Specify the collector's configuration with structure yaml instead of a string. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry-operator",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentelemetry-operator"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "fixes/cncf-generated/opentelemetry-operator/opentelemetry-operator-4400-autoscaler-doesn-t-scale-deployment-when-minreplicas.json",
       "title": "opentelemetry-operator: Autoscaler doesn't scale deployment when MinReplicas is set",
       "description": "Autoscaler doesn't scale deployment when MinReplicas is set. This issue affects 16+ users.",
@@ -33777,9 +34475,93 @@
       "maturity": "incubating"
     },
     {
+      "path": "fixes/cncf-generated/opentelemetry-operator/opentelemetry-operator-1828-targetallocator-for-daemonset.json",
+      "title": "opentelemetry-operator: TargetAllocator for daemonset",
+      "description": "TargetAllocator for daemonset. Requested by 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry-operator",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentelemetry-operator"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Daemonset"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "fixes/cncf-generated/opentelemetry/opentelemetry-871-add-opentelemetry-project-roadmap.json",
+      "title": "opentelemetry: Add OpenTelemetry project roadmap ",
+      "description": "Add OpenTelemetry project roadmap . Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentelemetry"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "fixes/cncf-generated/opentelemetry/opentelemetry-715-add-sig-names-to-youtube-uploads-and-organize-them-into-playli.json",
       "title": "opentelemetry: Add SIG names to Youtube uploads and organize them into playlists again",
       "description": "Add SIG names to Youtube uploads and organize them into playlists again. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentelemetry"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "fixes/cncf-generated/opentelemetry/opentelemetry-1406-decision-about-public-video-recordings.json",
+      "title": "opentelemetry: Decision about public video recordings",
+      "description": "Decision about public video recordings. Requested by 73+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
@@ -36883,6 +37665,33 @@
       "maturity": "community"
     },
     {
+      "path": "fixes/cncf-generated/security-compliance/security-compliance-1663-feat-release-freebsd-images-for-zot.json",
+      "title": "security-compliance: [Feat]: release freebsd images for zot ",
+      "description": "[Feat]: release freebsd images for zot . Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "security-compliance",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "security-compliance"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "fixes/cncf-generated/security-compliance/security-compliance-724-fr-loose-mode-allowing-docker-mediatypes.json",
       "title": "security-compliance: FR: `loose` mode allowing Docker mediaTypes ",
       "description": "FR: `loose` mode allowing Docker mediaTypes . Requested by 26+ users.",
@@ -37282,6 +38091,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/spire/spire-2276-move-to-github-actions.json",
+      "title": "spire: Move to GitHub Actions",
+      "description": "Move to GitHub Actions. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "spire",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "spire"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
@@ -40035,6 +40871,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/vitess/vitess-8379-using-dual-in-insert-select-unsharded-subquery-returns-unsupported-s.json",
+      "title": "vitess: Using DUAL in `INSERT ... SELECT` unsharded subquery returns `unsupported sharded subquery in insert values`",
+      "description": "Using DUAL in `INSERT ... SELECT` unsharded subquery returns `unsupported sharded subquery in insert values`. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vitess",
+        "graduated",
+        "storage",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "vitess"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/vitess/vitess-7981-vtgate-queries-randomly-routed-to-unhealthy-or-non-existent-replicas.json",
       "title": "vitess: vtgate queries randomly routed to unhealthy or non-existent replicas",
       "description": "vtgate queries randomly routed to unhealthy or non-existent replicas. Requested by 6+ users.",
@@ -40062,9 +40925,63 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/vllm/vllm-3690-new-model-jamba-moe-mamba-from-ai21.json",
+      "title": "vllm: [New Model]: Jamba (MoE Mamba from AI21)",
+      "description": "[New Model]: Jamba (MoE Mamba from AI21). Requested by 61+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vllm",
+        "community",
+        "llm-serving",
+        "feature"
+      ],
+      "cncfProjects": [
+        "vllm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "fixes/cncf-generated/vllm/vllm-12154-new-model-jinaai-jina-embeddings-v3.json",
       "title": "vllm: [New Model]: jinaai/jina-embeddings-v3",
       "description": "[New Model]: jinaai/jina-embeddings-v3. Requested by 23+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vllm",
+        "community",
+        "llm-serving",
+        "feature"
+      ],
+      "cncfProjects": [
+        "vllm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/vllm/vllm-12486-new-model-qwen2-5-vl.json",
+      "title": "vllm: [New Model]: Qwen2.5-VL",
+      "description": "[New Model]: Qwen2.5-VL. Requested by 67+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
