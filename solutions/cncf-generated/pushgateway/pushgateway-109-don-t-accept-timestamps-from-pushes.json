@@ -1,0 +1,75 @@
+{
+  "version": "kc-mission-v1",
+  "name": "pushgateway-109-don-t-accept-timestamps-from-pushes",
+  "missionClass": "solution",
+  "author": "KubeStellar Bot",
+  "authorGithub": "kubestellar",
+  "mission": {
+    "title": "pushgateway: Don't accept timestamps from pushes",
+    "description": "Prometheus Pushgateway rejects timestamps in pushed metrics to prevent misuse. Users pushing timestamps were typically trying to use Prometheus as a push-based system, which is incorrect. Since Pushgateway v0.5.0, pushed metrics with timestamps are rejected by default.",
+    "type": "feature",
+    "status": "completed",
+    "steps": [
+      {
+        "title": "Check your Pushgateway version",
+        "description": "Verify you are running Pushgateway v0.5.0 or later, which includes timestamp rejection:\n```bash\nkubectl get pods -n monitoring -l app.kubernetes.io/name=prometheus-pushgateway\nkubectl exec -n monitoring deploy/prometheus-pushgateway -- /bin/pushgateway --version 2>/dev/null\n```\nIf running an older version, upgrade to v0.5.0+ to get this fix."
+      },
+      {
+        "title": "Understand the behavior change",
+        "description": "Starting with v0.5.0, the Pushgateway returns an HTTP 400 error if pushed metrics contain timestamps. This is by design — the Pushgateway manages its own timestamps based on when metrics are pushed.\n\nIf your client is sending timestamps, you need to update it to omit timestamps from the Prometheus text exposition format. For example:\n```\n# WRONG: includes timestamp\nsome_metric 42 1541051096000\n\n# CORRECT: no timestamp\nsome_metric 42\n```"
+      },
+      {
+        "title": "Verify timestamp rejection works",
+        "description": "Test that timestamps are correctly rejected:\n```bash\n# This should return HTTP 400\ncurl -s -o /dev/null -w '%{http_code}' --data-binary @- http://localhost:9091/metrics/job/test <<'EOF'\nsome_metric 42 1541051096000\nEOF\n\n# This should return HTTP 200\ncurl -s -o /dev/null -w '%{http_code}' --data-binary @- http://localhost:9091/metrics/job/test <<'EOF'\nsome_metric 42\nEOF\n```"
+      }
+    ],
+    "resolution": {
+      "summary": "Pushgateway v0.5.0+ rejects pushed metrics containing timestamps with an HTTP 400 error. This prevents misuse where users incorrectly tried to push timestamped metrics (effectively trying to make Prometheus a push-based system). The fix was implemented in PR #119.",
+      "codeSnippets": [
+        "curl -s --data-binary 'some_metric 42' http://localhost:9091/metrics/job/test"
+      ]
+    }
+  },
+  "metadata": {
+    "tags": [
+      "pushgateway",
+      "graduated",
+      "observability",
+      "feature"
+    ],
+    "cncfProjects": [
+      "pushgateway"
+    ],
+    "targetResourceKinds": [
+      "Deployment",
+      "Service"
+    ],
+    "difficulty": "beginner",
+    "issueTypes": [
+      "feature"
+    ],
+    "maturity": "graduated",
+    "sourceUrls": {
+      "issue": "https://github.com/prometheus/pushgateway/issues/109",
+      "repo": "https://github.com/prometheus/pushgateway",
+      "pr": "https://github.com/prometheus/pushgateway/pull/119"
+    },
+    "reactions": 0,
+    "comments": 10,
+    "synthesizedBy": "copilot"
+  },
+  "prerequisites": {
+    "kubernetes": ">=1.24",
+    "tools": [
+      "kubectl",
+      "curl"
+    ],
+    "description": "A running Prometheus Pushgateway deployment (typically in a monitoring namespace)."
+  },
+  "security": {
+    "scannedAt": "2026-03-26T06:32:54.971Z",
+    "scannerVersion": "cncf-gen-3.0.0",
+    "sanitized": true,
+    "findings": []
+  }
+}
