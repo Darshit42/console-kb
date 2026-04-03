@@ -1,0 +1,78 @@
+{
+  "version": "kc-mission-v1",
+  "name": "envoy-2053-allow-loadable-modules",
+  "missionClass": "solution",
+  "author": "KubeStellar Bot",
+  "authorGithub": "kubestellar",
+  "mission": {
+    "title": "envoy: Allow loadable (dynamic) modules",
+    "description": "Envoy now supports dynamically loading shared library modules at runtime, enabling custom filters, loggers, and extensions without recompiling Envoy. This long-requested feature (11+ users) was implemented as an upstream extension based on the envoy-dynamic-modules project. Requires building shared libraries against the exact Envoy source tree version.",
+    "type": "feature",
+    "status": "completed",
+    "steps": [
+      {
+        "title": "Verify Envoy version supports dynamic modules",
+        "description": "Dynamic modules support was added starting with the upstreaming effort in Envoy 1.32+. Check your version:\n```bash\nkubectl get pods -l app=envoy --all-namespaces\nenvoy --version 2>/dev/null || kubectl exec deploy/envoy -- envoy --version\n```\nNote: Envoy is commonly deployed via Istio or Envoy Gateway \u2014 check the sidecar or gateway pod version."
+      },
+      {
+        "title": "Build a dynamic module",
+        "description": "Dynamic modules are C/C++/Rust shared libraries (.so files) compiled against the Envoy source tree. The module SDK is at https://github.com/envoyproxy/envoy/tree/main/source/extensions/dynamic_modules.\n\nExample build using the Envoy dynamic modules SDK:\n```bash\ngit clone https://github.com/envoyproxy/envoy.git\ncd envoy\nbazel build //source/extensions/dynamic_modules/sdk/...\n```\nFor a simpler starting point, see the reference implementation at https://github.com/mathetake/envoy-dynamic-modules."
+      },
+      {
+        "title": "Configure Envoy to load the module",
+        "description": "Add the dynamic module to your Envoy configuration. The module is loaded via the `dynamic_modules` extension:\n```yaml\nstatic_resources:\n  listeners:\n    - name: listener_0\n      filter_chains:\n        - filters:\n            - name: envoy.filters.network.http_connection_manager\n              typed_config:\n                http_filters:\n                  - name: envoy.filters.http.dynamic_modules\n                    typed_config:\n                      \"@type\": type.googleapis.com/envoy.extensions.filters.http.dynamic_modules.v3.DynamicModuleFilter\n                      dynamic_module_config:\n                        name: my_module\n                        file_path: /etc/envoy/modules/my_module.so\n```"
+      },
+      {
+        "title": "Verify the module is loaded",
+        "description": "Check Envoy logs for successful module loading:\n```bash\nkubectl logs deploy/envoy --tail=50 | grep -i 'dynamic_module\\|module.*loaded'\n```\nYou should see log entries confirming the module was loaded successfully."
+      }
+    ],
+    "resolution": {
+      "summary": "Envoy supports dynamic loading of shared library modules via the dynamic_modules extension, upstreamed from the envoy-dynamic-modules project (https://github.com/mathetake/envoy-dynamic-modules). Modules are C/C++/Rust shared libraries built against the Envoy source tree. The initial implementation was added in PR #35550.",
+      "codeSnippets": []
+    }
+  },
+  "metadata": {
+    "tags": [
+      "envoy",
+      "graduated",
+      "networking",
+      "feature",
+      "extensibility"
+    ],
+    "cncfProjects": [
+      "envoy"
+    ],
+    "targetResourceKinds": [
+      "Deployment",
+      "ConfigMap"
+    ],
+    "difficulty": "advanced",
+    "issueTypes": [
+      "feature"
+    ],
+    "maturity": "graduated",
+    "sourceUrls": {
+      "issue": "https://github.com/envoyproxy/envoy/issues/2053",
+      "repo": "https://github.com/envoyproxy/envoy",
+      "pr": "https://github.com/envoyproxy/envoy/pull/35550"
+    },
+    "reactions": 11,
+    "comments": 21,
+    "synthesizedBy": "copilot"
+  },
+  "prerequisites": {
+    "kubernetes": ">=1.24",
+    "tools": [
+      "kubectl",
+      "bazel"
+    ],
+    "description": "A running Envoy deployment (standalone, Istio sidecar, or Envoy Gateway). Building custom modules requires Bazel and the Envoy source tree."
+  },
+  "security": {
+    "scannedAt": "2026-04-03T06:31:58.163Z",
+    "scannerVersion": "cncf-gen-3.0.0",
+    "sanitized": true,
+    "findings": []
+  }
+}
