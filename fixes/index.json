@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-03T16:35:51.399Z",
-  "count": 1363,
+  "generatedAt": "2026-04-03T16:36:59.330Z",
+  "count": 1368,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -3852,6 +3852,33 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/caddy/caddy-6481-no-matching-certificate-to-load-decoding-certificate-metadata-invalid.json",
+      "title": "caddy: No matching certificate to load: decoding certificate metadata: invalid character '}'",
+      "description": "No matching certificate to load: decoding certificate metadata: invalid character '}'. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
     },
@@ -35329,6 +35356,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/prometheus/prometheus-1315-add-option-to-log-slow-queries-and-recording-rules.json",
+      "title": "prometheus: Add option to log slow queries and recording rules",
+      "description": "Add option to log slow queries and recording rules. This issue affects 41+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "analyze"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "analyze"
+      ],
+      "type": "analyze",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/prometheus/prometheus-6178-allow-filtering-label-values-api-with-matchers.json",
       "title": "prometheus: Allow filtering label values API with matchers",
       "description": "Allow filtering label values API with matchers. Requested by 11+ users.",
@@ -35410,6 +35464,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/prometheus/prometheus-968-configurable-limit-for-prometheus-s-disk-space-usage.json",
+      "title": "prometheus: Configurable limit for Prometheus's disk space usage",
+      "description": "Configurable limit for Prometheus's disk space usage. Requested by 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -38405,6 +38486,33 @@
       "maturity": "community"
     },
     {
+      "path": "fixes/cncf-generated/traefik/traefik-1336-enable-custom-plugins-middlewares-for-traefik.json",
+      "title": "traefik: enable custom plugins/middlewares for Traefik",
+      "description": "enable custom plugins/middlewares for Traefik. Requested by 128+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "feature"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "fixes/cncf-generated/traefik/traefik-2299-encrypt-session-sticky-cookie-content.json",
       "title": "traefik: Encrypt Session Sticky cookie content",
       "description": "Encrypt Session Sticky cookie content. Requested by 47+ users.",
@@ -38617,6 +38725,33 @@
       "difficulty": "intermediate",
       "issueTypes": [
         "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/traefik/traefik-12250-traefik-3-6-0-add-option-to-disable-traefik-hub-demo-in-dashboard.json",
+      "title": "traefik: Traefik 3.6.0: add option to disable Traefik Hub Demo in dashboard",
+      "description": "Traefik 3.6.0: add option to disable Traefik Hub Demo in dashboard. Requested by 49+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "feature"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "declined"
       ],
       "type": "feature",
       "installMethods": [],
