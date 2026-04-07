@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-06T12:14:19.865Z",
-  "count": 1422,
+  "generatedAt": "2026-04-07T01:11:33.501Z",
+  "count": 1428,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -19907,6 +19907,39 @@
       "qualityScore": 100
     },
     {
+      "path": "fixes/cncf-install/install-openeverest.json",
+      "title": "Install and Configure OpenEverest on Kubernetes",
+      "description": "OpenEverest is an open-source platform for automated database provisioning and management. It supports multiple database technologies (PostgreSQL, MongoDB, MySQL) and can be hosted on any Kubernetes i",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "database",
+        "postgresql",
+        "mongodb",
+        "mysql",
+        "helm",
+        "openeverest"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Service",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation"
+      ],
+      "type": "deploy",
+      "installMethods": []
+    },
+    {
       "path": "fixes/cncf-install/install-openfeature.json",
       "title": "Install and Configure Openfeature on Kubernetes",
       "description": "OpenFeature is an open specification that provides a vendor-agnostic, community-driven API for feature flagging. Installing OpenFeature allows you to integrate feature flag management into your applic",
@@ -34182,6 +34215,147 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "fixes/cncf-generated/openeverest/openeverest-1909-cannot-create-postgres-cluster-with-clusterip.json",
+      "title": "openeverest: Cannot create PostgreSQL cluster with ClusterIP expose type",
+      "description": "Creating a PostgreSQL database cluster via the UI fails with 'Unsupported value: ClusterIP: supported values: internal, external'. The UI incorrectly sends 'ClusterIP' as the proxy expose type instead",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "openeverest",
+        "troubleshoot",
+        "postgresql",
+        "database",
+        "ui-bug"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [
+        "DatabaseCluster",
+        "Pod",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": []
+    },
+    {
+      "path": "fixes/cncf-generated/openeverest/openeverest-1568-everest-1-8-0-upgrade-error.json",
+      "title": "openeverest: Everest 1.8.0 upgrade error — empty namespace may not be set",
+      "description": "Upgrading OpenEverest to 1.8.0 fails with 'an empty namespace may not be set when a resource name is provided' and 'could not retrieve subscription'. This affects both everestctl upgrade and helm upgr",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "openeverest",
+        "troubleshoot",
+        "upgrade",
+        "helm"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [
+        "Pod",
+        "ConfigMap",
+        "Job"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": []
+    },
+    {
+      "path": "fixes/cncf-generated/openeverest/openeverest-1664-installation-namespace-provisioning-stuck-with-imagepullbackoff.json",
+      "title": "openeverest: Installation/namespace provisioning stuck with ImagePullBackOff for the bitnami/kubectl image",
+      "description": "Installation or namespace provisioning is stuck in the 'Provisioning database namespace' step because the everest-operators-installer job cannot pull the bitnami/kubectl image due to Docker Hub rate l",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "openeverest",
+        "troubleshoot",
+        "imagepull",
+        "docker-hub",
+        "installation"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [
+        "Pod",
+        "Job"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": []
+    },
+    {
+      "path": "fixes/cncf-generated/openeverest/openeverest-1569-oidc-does-not-work-with-azure.json",
+      "title": "openeverest: OIDC does not work with Azure AD — internal error after login",
+      "description": "OIDC authentication with Azure AD allows login (user name is shown) but the Everest interface displays an internal error. This affects users configuring Azure AD as their OIDC provider.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "openeverest",
+        "troubleshoot",
+        "oidc",
+        "azure",
+        "authentication"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [
+        "Pod",
+        "ConfigMap"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": []
+    },
+    {
+      "path": "fixes/cncf-generated/openeverest/openeverest-1665-uninstallation-stuck-with-imagepullbackoff.json",
+      "title": "openeverest: Uninstallation stuck with ImagePullBackOff for the bitnami/kubectl image",
+      "description": "Uninstallation is stuck in the 'Deleting database namespace' step because the everest-helm-pre-delete-hook job cannot pull the bitnami/kubectl image.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "openeverest",
+        "troubleshoot",
+        "uninstall",
+        "imagepull",
+        "helm-hooks"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [
+        "Pod",
+        "Job"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": []
     },
     {
       "path": "fixes/cncf-generated/openfeature/openfeature-238-proposal-to-move-provider-status-field-from-provider-to-sdk-refi.json",
