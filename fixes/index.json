@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-07T13:03:37.099Z",
+  "generatedAt": "2026-04-07T14:57:51.964Z",
   "count": 1429,
   "missions": [
     {
@@ -17478,8 +17478,8 @@
     },
     {
       "path": "fixes/cncf-install/install-kcp.json",
-      "title": "Install and Configure Kcp on Kubernetes",
-      "description": "kcp is a Kubernetes-like control plane designed for managing multiple isolated clusters, known as workspaces. It enables API service providers to centrally offer APIs and facilitates easy API consumpt",
+      "title": "Install and Configure Kcp on Kubernetes (Operator-Based)",
+      "description": "kcp is a Kubernetes-like control plane designed for managing multiple isolated clusters, known as workspaces. The kcp-operator is the recommended way to deploy kcp in production: it offers more featur",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -17490,7 +17490,8 @@
         "configuration",
         "cncf",
         "app-definition",
-        "sandbox"
+        "sandbox",
+        "operator"
       ],
       "cncfProjects": [
         "kcp"
@@ -17499,9 +17500,11 @@
         "Deployment",
         "Service",
         "Namespace",
-        "Serviceaccount",
-        "Clusterrole",
-        "Clusterrolebinding"
+        "RootShard",
+        "FrontProxy",
+        "Kubeconfig",
+        "Issuer",
+        "Certificate"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -17510,7 +17513,8 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "helm",
+        "operator"
       ],
       "projectVersion": "v0.30.0",
       "maturity": "sandbox",
