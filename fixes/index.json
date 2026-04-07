@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-07T14:57:51.964Z",
+  "generatedAt": "2026-04-07T15:01:51.740Z",
   "count": 1429,
   "missions": [
     {
@@ -17479,7 +17479,7 @@
     {
       "path": "fixes/cncf-install/install-kcp.json",
       "title": "Install and Configure Kcp on Kubernetes (Operator-Based)",
-      "description": "kcp is a Kubernetes-like control plane designed for managing multiple isolated clusters, known as workspaces. The kcp-operator is the recommended way to deploy kcp in production: it offers more featur",
+      "description": "kcp is a Kubernetes-like control plane designed for managing multiple isolated clusters, known as workspaces. The kcp-operator is the recommended way to deploy kcp: it reconciles missing or changed re",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
