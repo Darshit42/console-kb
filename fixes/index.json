@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-10T06:32:43.816Z",
-  "count": 1435,
+  "generatedAt": "2026-04-10T06:53:34.595Z",
+  "count": 1436,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -34575,6 +34575,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "fixes/cncf-generated/opentelemetry-collector/opentelemetry-collector-13297-mdatagen-consider-linking-metrics-attributes-from-.json",
+      "title": "opentelemetry-collector: [mdatagen] Consider linking metrics/attributes from metadata.yaml to SemConv definitions",
+      "description": "[mdatagen] Consider linking metrics/attributes from metadata.yaml to SemConv definitions. Requested by 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentelemetry-collector",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentelemetry-collector"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
