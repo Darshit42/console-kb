@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-12T12:07:55.602Z",
-  "count": 1439,
+  "generatedAt": "2026-04-13T07:17:24.481Z",
+  "count": 1440,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -13302,6 +13302,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/harbor/harbor-23025-proxy-cache-project-not-working-on-v2-15-0.json",
+      "title": "harbor: Proxy Cache project not working on v2.15.0",
+      "description": "Proxy Cache project not working on v2.15.0. This issue affects 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "harbor",
+        "graduated",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "harbor"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "troubleshoot"
       ],
