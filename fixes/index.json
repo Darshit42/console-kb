@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-14T00:15:09.626Z",
-  "count": 1440,
+  "generatedAt": "2026-04-15T02:09:38.002Z",
+  "count": 1442,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -11950,6 +11950,33 @@
       "path": "fixes/cncf-generated/flux/flux-493-create-architecture-telemetry-in-the-gotk.json",
       "title": "flux: Create architecture telemetry in the gotk",
       "description": "Create architecture telemetry in the gotk. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flux",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "flux"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/flux/flux-5439-feature-request-allow-flux-diff-ks-when-the-kustomization-does-not-alr.json",
+      "title": "flux: Feature Request: Allow `flux diff ks` when the `Kustomization` does not already exist",
+      "description": "Feature Request: Allow `flux diff ks` when the `Kustomization` does not already exist. Requested by 6+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
@@ -33460,6 +33487,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/ollama/ollama-2006-rate-limit-download-speed-on-pulling-new-models.json",
+      "title": "ollama: Rate limit download speed on pulling new models",
+      "description": "Rate limit download speed on pulling new models. Requested by 96+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "ollama",
+        "community",
+        "llm-serving",
+        "feature"
+      ],
+      "cncfProjects": [
+        "ollama"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
