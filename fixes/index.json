@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-16T00:13:55.994Z",
-  "count": 1442,
+  "generatedAt": "2026-04-16T00:22:33.901Z",
+  "count": 1448,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -22335,6 +22335,40 @@
       "qualityScore": 100
     },
     {
+      "path": "fixes/cncf-install/install-claude-desktop.json",
+      "title": "Install Claude Desktop and Wire the KubeStellar Console MCP Server",
+      "description": "Claude Desktop is the Anthropic-official Claude chat app for macOS, Windows, and (via the web app) Linux. It supports the Model Context Protocol (MCP), which lets the desktop app talk to local MCP ser",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "llm",
+        "chat",
+        "mcp",
+        "workstation",
+        "claude",
+        "anthropic"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "workstation",
+        "homebrew"
+      ],
+      "projectVersion": "latest",
+      "maturity": "stable",
+      "qualityScore": 100
+    },
+    {
       "path": "fixes/cncf-install/install-keylime.json",
       "title": "Install Keylime Attestation Operator on Kubernetes",
       "description": "Keylime is a TPM-based remote boot attestation and runtime integrity measurement system. The Keylime Attestation Operator deploys Keylime components (registrar, verifier, and agent) on Kubernetes to p",
@@ -22485,6 +22519,43 @@
       ],
       "projectVersion": "v1.4.1",
       "maturity": "sandbox",
+      "qualityScore": 100
+    },
+    {
+      "path": "fixes/cncf-install/install-llama-cpp.json",
+      "title": "Install llama.cpp Server on Kubernetes",
+      "description": "llama.cpp is the lightweight, dependency-minimal GGUF inference runtime from ggml-org. It ships a small HTTP server (`llama-server`) that speaks the OpenAI chat-completions API at `/v1/chat/completion",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "llm",
+        "inference",
+        "gguf",
+        "openai-compatible",
+        "local-llm"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [
+        "Namespace",
+        "Deployment",
+        "Service",
+        "PersistentVolumeClaim"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "manifest"
+      ],
+      "projectVersion": "server",
+      "maturity": "stable",
       "qualityScore": 100
     },
     {
@@ -22799,6 +22870,77 @@
       "maturity": "incubating"
     },
     {
+      "path": "fixes/cncf-install/install-lm-studio.json",
+      "title": "Install LM Studio as a Workstation Local LLM Runner",
+      "description": "LM Studio is a closed-source but free GUI-first local LLM runner from lmstudio.ai. Unlike the other local-LLM missions in this series, LM Studio is NOT a Kubernetes workload — it runs directly on a wo",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "llm",
+        "inference",
+        "workstation",
+        "local-llm",
+        "openai-compatible",
+        "gui"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "workstation"
+      ],
+      "projectVersion": "latest",
+      "maturity": "stable",
+      "qualityScore": 100
+    },
+    {
+      "path": "fixes/cncf-install/install-localai.json",
+      "title": "Install LocalAI on Kubernetes",
+      "description": "LocalAI is the open-source OpenAI-compatible inference runtime from mudler. It is a single Go binary that speaks `/v1/chat/completions`, `/v1/completions`, `/v1/embeddings`, `/v1/audio`, and `/v1/imag",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "llm",
+        "inference",
+        "openai-compatible",
+        "local-llm",
+        "helm"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [
+        "Namespace",
+        "Deployment",
+        "Service",
+        "PersistentVolumeClaim",
+        "ConfigMap"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "latest",
+      "maturity": "stable",
+      "qualityScore": 100
+    },
+    {
       "path": "fixes/cncf-install/install-modelpack-csi-driver.json",
       "title": "Install ModelPack Model CSI Driver on Kubernetes",
       "description": "ModelPack is an open standard (hosted under LF Projects) for packaging, distributing and running AI/ML models as OCI artifacts. This mission installs the Model CSI Driver — a Kubernetes CSI driver fro",
@@ -22912,6 +23054,45 @@
       "qualityScore": 100
     },
     {
+      "path": "fixes/cncf-install/install-open-webui.json",
+      "title": "Install Open WebUI on Kubernetes",
+      "description": "Open WebUI (formerly Ollama WebUI) is the popular self-hosted AI chat frontend from open-webui.com. It is a Python and SvelteKit app that talks to any OpenAI-compatible backend — Ollama, vLLM, LocalAI",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "llm",
+        "ui",
+        "chat",
+        "openai-compatible",
+        "local-llm",
+        "helm"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [
+        "Namespace",
+        "Deployment",
+        "Service",
+        "PersistentVolumeClaim",
+        "ConfigMap"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "helm"
+      ],
+      "projectVersion": "main",
+      "maturity": "stable",
+      "qualityScore": 100
+    },
+    {
       "path": "fixes/cncf-install/install-porter.json",
       "title": "Install Porter CLI",
       "description": "Porter is a client-side CLI tool that implements the Cloud Native Application Bundle (CNAB) specification. It enables you to package your application artifacts, client tools, configuration, and deploy",
@@ -22942,6 +23123,49 @@
       ],
       "projectVersion": "v1.4.0",
       "maturity": "sandbox",
+      "qualityScore": 100
+    },
+    {
+      "path": "fixes/cncf-install/install-rhaiis.json",
+      "title": "Install Red Hat AI Inference Server on OpenShift",
+      "description": "Red Hat AI Inference Server (RHAIIS) is Red Hat's productized build of the vLLM inference server, distributed as a hardened container image and installed on OpenShift through the OpenShift AI operator",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "llm",
+        "inference",
+        "openshift",
+        "red-hat",
+        "gpu",
+        "enterprise",
+        "local-llm",
+        "openai-compatible"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [
+        "Namespace",
+        "Project",
+        "Deployment",
+        "Service",
+        "PersistentVolumeClaim",
+        "ServiceAccount",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "manifest"
+      ],
+      "projectVersion": "latest",
+      "maturity": "stable",
       "qualityScore": 100
     },
     {
