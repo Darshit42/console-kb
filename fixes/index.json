@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-16T18:22:38.444Z",
-  "count": 1449,
+  "generatedAt": "2026-04-16T20:18:27.707Z",
+  "count": 1450,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -12972,6 +12972,35 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "fixes/cncf-generated/harbor/harbor-16732-prevent-vulnerable-images-from-running-is-broken.json",
+      "title": "harbor: \"Prevent vulnerable images from running\" bypassed on first proxy cache pull",
+      "description": "When a Harbor project is configured as a proxy cache for an upstream registry (e.g., Docker Hub) with \"Prevent vulnerable images from running\" enabled, the first pull of an image bypasses vulnerabilit",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "harbor",
+        "graduated",
+        "security",
+        "troubleshoot",
+        "proxy-cache",
+        "vulnerability-scanning"
+      ],
+      "cncfProjects": [
+        "harbor"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "fixes/cncf-generated/harbor/harbor-10496-feature-request-provide-a-ui-to-visualize-container-vulnerabilities.json",
