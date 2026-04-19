@@ -1,0 +1,95 @@
+{
+  "version": "kc-mission-v1",
+  "name": "upgrade-kubestellar-console",
+  "missionClass": "upgrade",
+  "author": "KubeStellar Bot",
+  "authorGithub": "kubestellar",
+  "mission": {
+    "title": "Upgrade KubeStellar Console",
+    "description": "Performs a safe rolling upgrade of your current KubeStellar Console helm release to a newer version while persisting active configurations and backing up current defaults.",
+    "type": "deploy",
+    "status": "completed",
+    "steps": [
+      {
+        "title": "Refresh Helm Repositories",
+        "description": "Sync local helm repositories with upstream to find the latest published charts.\n```bash\nhelm repo update kubestellar-console\n```"
+      },
+      {
+        "title": "Backup Existing Configurations",
+        "description": "Extract active configurations from the current deployment so they are not lost during upgrade.\n```bash\nhelm get values kc -n kubestellar-console > custom-values-backup.yaml\n```"
+      },
+      {
+        "title": "Execute Rolling Upgrade",
+        "description": "Launch the upgrade passing in the preserved values from the previous step.\n```bash\nhelm upgrade kc kubestellar-console/kubestellar-console --namespace kubestellar-console --values custom-values-backup.yaml --wait --timeout 120s\n```"
+      },
+      {
+        "title": "Verify Rollout Status",
+        "description": "Ensure that the replica set has fulfilled and your deployment is running successfully.\n```bash\nkubectl rollout status deployment kc-kubestellar-console -n kubestellar-console\n# Wait for pods \nkubectl wait --for=condition=ready pod -l app.kubernetes.io/instance=kc -n kubestellar-console --timeout=90s\n```"
+      }
+    ],
+    "resolution": {
+      "summary": "KubeStellar Console upgraded successfully. If anomalies persist post-upgrade, verify application logs or use the rollback feature.",
+      "codeSnippets": [
+        "helm history kc -n kubestellar-console"
+      ]
+    },
+    "uninstall": [
+      {
+        "title": "Uninstall Console",
+        "description": "Remove the helm release alongside its scoped namespace.\n```bash\nhelm uninstall kc -n kubestellar-console\n```"
+      }
+    ],
+    "upgrade": [],
+    "troubleshooting": [
+      {
+        "title": "Revert to Previous State",
+        "description": "If your deployed release is misbehaving, you can reliably revert back a revision instantly via helm rollback.\n```bash\nhelm rollback kc -n kubestellar-console\n```"
+      }
+    ]
+  },
+  "metadata": {
+    "tags": [
+      "upgrade",
+      "platform",
+      "kubestellar",
+      "dashboard"
+    ],
+    "cncfProjects": [
+      "kubestellar"
+    ],
+    "targetResourceKinds": [
+      "Deployment",
+      "Service"
+    ],
+    "difficulty": "intermediate",
+    "issueTypes": [
+      "upgrade",
+      "configuration"
+    ],
+    "installMethods": [
+      "helm"
+    ],
+    "maturity": "incubating",
+    "projectVersion": "latest",
+    "containerImages": [],
+    "sourceUrls": {
+      "docs": "https://kubestellar.io/docs",
+      "repo": "https://github.com/kubestellar/console"
+    },
+    "qualityScore": 100
+  },
+  "prerequisites": {
+    "kubernetes": ">=1.25",
+    "tools": [
+      "kubectl",
+      "helm"
+    ],
+    "description": "A pre-existing KubeStellar Console installation must exist within the `kubestellar-console` namespace via helm release `kc`."
+  },
+  "security": {
+    "scannedAt": "2026-04-18T10:00:00.000Z",
+    "scannerVersion": "manual-audit",
+    "sanitized": true,
+    "findings": []
+  }
+}

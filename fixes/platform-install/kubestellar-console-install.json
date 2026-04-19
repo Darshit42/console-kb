@@ -1,0 +1,102 @@
+{
+  "version": "kc-mission-v1",
+  "name": "install-kubestellar-console",
+  "missionClass": "install",
+  "author": "KubeStellar Bot",
+  "authorGithub": "kubestellar",
+  "mission": {
+    "title": "Install KubeStellar Console",
+    "description": "AI-powered multi-cluster Kubernetes dashboard with guided install missions. This mission securely deploys the console to your current cluster via Helm, ensuring the correct permissions, namespace, and validations are applied.",
+    "type": "deploy",
+    "status": "completed",
+    "steps": [
+      {
+        "title": "Create Namespace",
+        "description": "Create the kubestellar-console namespace if it does not already exist.\n```bash\nkubectl create namespace kubestellar-console --dry-run=client -o yaml | kubectl apply -f -\n```"
+      },
+      {
+        "title": "Add Helm Repository",
+        "description": "Add and update the official KubeStellar Helm charts repository.\n```bash\nhelm repo add kubestellar-console https://kubestellar.github.io/console\nhelm repo update kubestellar-console\n```"
+      },
+      {
+        "title": "Deploy via Helm",
+        "description": "Deploy the console chart pointing to the dedicated namespace, keeping default values unless configured.\n```bash\nhelm install kc kubestellar-console/kubestellar-console --namespace kubestellar-console --wait --timeout 120s\n```"
+      },
+      {
+        "title": "Verify Deployment Status",
+        "description": "Ensure the replica pods are healthy and not locked in CrashLoopBackOff.\n```bash\nkubectl wait --for=condition=ready pod -l app.kubernetes.io/instance=kc -n kubestellar-console --timeout=90s\n```"
+      }
+    ],
+    "resolution": {
+      "summary": "The KubeStellar Console is successfully installed. To access it locally, run `kubectl port-forward -n kubestellar-console svc/kc-kubestellar-console 8080:8080` and open http://localhost:8080. Consider configuring AI provider keys in your environment variables prior to start so that your console instances can utilize advanced Agentic LLMs.",
+      "codeSnippets": [
+        "kubectl get pods -n kubestellar-console",
+        "kubectl port-forward -n kubestellar-console svc/kc-kubestellar-console 8080:8080"
+      ]
+    },
+    "uninstall": [
+      {
+        "title": "Uninstall Console",
+        "description": "Remove the helm release alongside its scoped namespace.\n```bash\nhelm uninstall kc -n kubestellar-console\nkubectl delete namespace kubestellar-console\n```"
+      }
+    ],
+    "upgrade": [
+      {
+        "title": "Update Resources",
+        "description": "Update the latest helm charts and apply them.\n```bash\nhelm repo update kubestellar-console\nhelm upgrade kc kubestellar-console/kubestellar-console -n kubestellar-console --wait\n```"
+      }
+    ],
+    "troubleshooting": [
+      {
+        "title": "Check Pod Logs",
+        "description": "If your console pods fail to reach a running state, review logging for errors.\n```bash\nkubectl logs -l app.kubernetes.io/instance=kc -n kubestellar-console\n```"
+      }
+    ]
+  },
+  "metadata": {
+    "tags": [
+      "installation",
+      "platform",
+      "kubestellar",
+      "dashboard"
+    ],
+    "cncfProjects": [
+      "kubestellar"
+    ],
+    "targetResourceKinds": [
+      "Pod",
+      "Deployment",
+      "Service"
+    ],
+    "difficulty": "beginner",
+    "issueTypes": [
+      "installation",
+      "configuration"
+    ],
+    "installMethods": [
+      "helm"
+    ],
+    "maturity": "incubating",
+    "projectVersion": "latest",
+    "containerImages": [],
+    "sourceUrls": {
+      "docs": "https://kubestellar.io/docs",
+      "repo": "https://github.com/kubestellar/console"
+    },
+    "qualityScore": 100
+  },
+  "prerequisites": {
+    "kubernetes": ">=1.25",
+    "tools": [
+      "kubectl",
+      "helm"
+    ],
+    "description": "You need a functioning Kubeconfig tied to an accessible cluster."
+  },
+  "security": {
+    "scannedAt": "2026-04-18T10:00:00.000Z",
+    "scannerVersion": "manual-audit",
+    "sanitized": true,
+    "findings": []
+  }
+}
