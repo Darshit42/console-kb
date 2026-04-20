@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-20T18:33:59.720Z",
-  "count": 1450,
+  "generatedAt": "2026-04-20T18:57:04.550Z",
+  "count": 1451,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -22548,6 +22548,23 @@
       "projectVersion": "v1.4.1",
       "maturity": "sandbox",
       "qualityScore": 100
+    },
+    {
+      "path": "fixes/cncf-install/install-pytorch.json",
+      "title": "Install Kubeflow Trainer for PyTorch on Kubernetes",
+      "description": "Kubeflow Trainer (formerly PyTorch Operator) is the Kubernetes-native way to run distributed PyTorch training jobs. It provides the TrainJob CRD and pre-built runtimes for PyTorch, enabling multi-node",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": []
     },
     {
       "path": "fixes/cncf-install/install-llama-cpp.json",
