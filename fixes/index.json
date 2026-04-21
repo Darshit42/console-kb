@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-20T18:57:04.550Z",
-  "count": 1451,
+  "generatedAt": "2026-04-21T07:10:54.846Z",
+  "count": 1455,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -1976,6 +1976,37 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/argo-workflows/argo-workflows-8684-workflow-deadlocks-on-mutex-in-steps-template-if-controller-.json",
+      "title": "argo-workflows: Workflow deadlocks on mutex in steps template if controller is restarted",
+      "description": "Workflow deadlocks on mutex in steps template if controller is restarted. Requested by 26+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-workflows",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-workflows"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Configmap",
+        "Namespace"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/argo/argo-7575-a-way-to-do-something-in-hook-after-delete-the-argo-application.json",
       "title": "argo: A way to do something in hook after delete the Argo Application",
       "description": "A way to do something in hook after delete the Argo Application. Requested by 69+ users.",
@@ -2766,6 +2797,35 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "fixes/cncf-generated/atlantis/atlantis-6405-hashicorp-gpg-key-expired-openpgp-key-expired-when-downloading-ter.json",
+      "title": "atlantis: HashiCorp GPG key expired - openpgp: key expired when downloading Terraform",
+      "description": "HashiCorp GPG key expired - openpgp: key expired when downloading Terraform. This issue affects 40+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "atlantis",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "atlantis"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "sandbox"
     },
@@ -10548,6 +10608,36 @@
         "Node"
       ],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/falcosidekick/falcosidekick-1132-create-configurable-toggle-to-enable-disable-falco-events-pro.json",
+      "title": "falcosidekick: Create Configurable Toggle To enable/disable `falco_events` prom metric",
+      "description": "Create Configurable Toggle To enable/disable `falco_events` prom metric. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "falcosidekick",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "falcosidekick"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
@@ -41615,6 +41705,33 @@
         "bug"
       ],
       "type": "bug",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/vault/vault-31919-vault-2-0-0-docker-image-fails-to-start-unable-to-set-cap-setfcap-ef.json",
+      "title": "vault: Vault 2.0.0 Docker image fails to start: unable to set CAP_SETFCAP effective capability",
+      "description": "Vault 2.0.0 Docker image fails to start: unable to set CAP_SETFCAP effective capability. This issue affects 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vault",
+        "community",
+        "secrets",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "vault"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
     },
