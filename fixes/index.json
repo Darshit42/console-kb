@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-23T05:26:47.114Z",
+  "generatedAt": "2026-04-23T06:54:47.442Z",
   "count": 1458,
   "missions": [
     {
@@ -20761,7 +20761,9 @@
         "configuration",
         "cncf",
         "app-definition",
-        "sandbox"
+        "sandbox",
+        "batch-scheduling",
+        "multi-cluster"
       ],
       "cncfProjects": [
         "armada"
@@ -20769,7 +20771,8 @@
       "targetResourceKinds": [
         "Deployment",
         "Namespace",
-        "Service"
+        "Service",
+        "CustomResourceDefinition"
       ],
       "difficulty": "advanced",
       "issueTypes": [
@@ -20778,9 +20781,10 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "helm",
+        "operator"
       ],
-      "projectVersion": "v0.20.36",
+      "projectVersion": "v0.20.40",
       "maturity": "sandbox",
       "qualityScore": 100,
       "qualityPass": true,
