@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-23T07:22:34.635Z",
-  "count": 1462,
+  "generatedAt": "2026-04-23T07:37:39.238Z",
+  "count": 1480,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -20368,6 +20368,42 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/platform-install/install-agones.json",
+      "title": "Install and Configure Agones",
+      "description": "Agones is a CNCF platform for hosting, running, and scaling dedicated multiplayer game servers on Kubernetes. It provides GameServer and Fleet custom resources for managing the full lifecycle of game ",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 100
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)"
+      ]
+    },
+    {
       "path": "fixes/cncf-install/install-akri.json",
       "title": "Install and Configure Akri on Kubernetes",
       "description": "Akri is a Kubernetes Resource Interface for the Edge that allows you to expose heterogeneous leaf devices as resources in a Kubernetes cluster. This is particularly useful for edge computing scenarios",
@@ -20842,6 +20878,44 @@
       },
       "qualityIssues": [],
       "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/platform-install/install-athenz.json",
+      "title": "Install and Configure Athenz",
+      "description": "Athenz is a CNCF platform for X.509 certificate-based service authentication and fine-grained role-based access control (RBAC) in dynamic infrastructures, with mTLS and OAuth2 token support.",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 85,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
     },
     {
       "path": "fixes/cncf-install/install-atlantis.json",
@@ -21397,6 +21471,44 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/platform-install/install-cedar.json",
+      "title": "Install and Configure Cedar",
+      "description": "Cedar is a CNCF policy language and evaluation engine for writing and enforcing authorization policies. It provides a Rust library and CLI for defining fine-grained, analyzable access control rules.",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 85,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
       "path": "fixes/cncf-install/install-cert-manager.json",
       "title": "Install and Configure Cert Manager on Kubernetes",
       "description": "cert-manager is a powerful tool that automates the provisioning and management of TLS certificates in Kubernetes. Installing cert-manager allows you to easily secure your applications with valid certi",
@@ -21632,6 +21744,42 @@
       },
       "qualityIssues": [],
       "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/platform-install/install-cloudnativepg.json",
+      "title": "Install and Configure CloudNativePG",
+      "description": "CloudNativePG is a CNCF Kubernetes operator for managing PostgreSQL databases with automated deployment, high-availability failover, scaling, and backup management directly through Kubernetes APIs.",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 100
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)"
+      ]
     },
     {
       "path": "fixes/platform-install/platform-postgres-operator.json",
@@ -23680,6 +23828,80 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/platform-install/install-hexa.json",
+      "title": "Install and Configure Hexa Policy Orchestrator",
+      "description": "Hexa is a CNCF policy orchestrator that provides unified access control across platforms by converting between IDQL (a universal policy format) and platform-specific policy formats including OPA, Azur",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 85,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
+      "path": "fixes/platform-install/install-higress.json",
+      "title": "Install and Configure Higress",
+      "description": "Higress is a CNCF cloud-native API gateway built on Istio and Envoy, supporting AI gateway capabilities, multiple protocols, and WebAssembly plugin extensibility. It functions as a Kubernetes ingress ",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 100
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)"
+      ]
+    },
+    {
       "path": "fixes/cncf-install/install-holmesgpt.json",
       "title": "Install and Configure Holmesgpt on Kubernetes",
       "description": "HolmesGPT is an open-source AI agent designed for investigating production incidents and finding root causes. As a CNCF Sandbox project, it integrates with various observability tools and cloud platfo",
@@ -23868,6 +24090,44 @@
       },
       "qualityIssues": [],
       "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/platform-install/install-in-toto.json",
+      "title": "Install and Configure in-toto",
+      "description": "in-toto is a CNCF graduated framework that protects software supply chain integrity by verifying that each step was performed by authorized personnel, collecting evidence as link metadata, and validat",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 85,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
     },
     {
       "path": "fixes/cncf-install/install-inclavare-containers.json",
@@ -25545,6 +25805,44 @@
       },
       "qualityIssues": [],
       "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/platform-install/install-kube-burner.json",
+      "title": "Install and Configure Kube-burner",
+      "description": "Kube-burner is a CNCF Kubernetes performance and scale testing tool that creates, deletes, and patches resources at scale, collects Prometheus metrics, and alerts on performance regressions.",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 85,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
     },
     {
       "path": "fixes/platform-install/install-kube-ovn.json",
@@ -27619,6 +27917,44 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/platform-install/install-nmstate.json",
+      "title": "Install and Configure NMstate",
+      "description": "NMstate is a CNCF declarative network management API for Linux hosts. It provides a Python library (libnmstate), Rust crate, and CLI tools (nmstatectl) for managing network configurations declarativel",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 85,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
       "path": "fixes/cncf-install/install-node-exporter.json",
       "title": "Install and Configure Node Exporter (Prometheus) on Kubernetes",
       "description": "Node Exporter is a Prometheus exporter that collects and exposes hardware and OS metrics from *NIX kernels. Installing Node Exporter allows you to monitor your machine's performance and resource usage",
@@ -27857,6 +28193,44 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/platform-install/install-opa.json",
+      "title": "Install and Configure Open Policy Agent (OPA)",
+      "description": "OPA is a CNCF graduated general-purpose policy engine that enables unified, context-aware policy enforcement across the cloud-native stack. It uses the Rego policy language for writing and evaluating ",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 85,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
       "path": "fixes/platform-install/platform-open-webui.json",
       "title": "Install and Configure Open WebUI",
       "description": "Open WebUI is a self-hosted AI platform designed for user-friendly interaction with various LLM runners like Ollama and OpenAI-compatible APIs. It offers effortless setup and extensibility, making it ",
@@ -27899,6 +28273,42 @@
       },
       "qualityIssues": [],
       "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/platform-install/install-openchoreo.json",
+      "title": "Install and Configure OpenChoreo",
+      "description": "OpenChoreo is a CNCF open-source internal developer platform for Kubernetes providing higher-level abstractions, a Backstage-powered developer portal, integrated CI/CD, GitOps workflows, and observabi",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 100
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)"
+      ]
     },
     {
       "path": "fixes/cncf-install/install-opencost.json",
@@ -27991,6 +28401,42 @@
       },
       "qualityIssues": [],
       "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/platform-install/install-openeverest.json",
+      "title": "Install and Configure OpenEverest",
+      "description": "OpenEverest (formerly Percona Everest) is a CNCF open-source cloud-native database platform for deploying, scaling, and managing PostgreSQL, MySQL, and MongoDB on Kubernetes with a web UI and CLI.",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 100
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)"
+      ]
     },
     {
       "path": "fixes/cncf-install/install-openeverest.json",
@@ -29725,6 +30171,80 @@
       ]
     },
     {
+      "path": "fixes/platform-install/install-serverless-devs.json",
+      "title": "Install and Configure Serverless Devs",
+      "description": "Serverless Devs is a CNCF open-source serverless developer platform providing a unified CLI for building, deploying, and operating serverless applications across multiple cloud platforms.",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 85,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
+      "path": "fixes/platform-install/install-shipwright.json",
+      "title": "Install and Configure Shipwright",
+      "description": "Shipwright is a CNCF extensible framework for building container images on Kubernetes. It supports multiple build strategies (Kaniko, Buildpacks, BuildKit, Buildah) and integrates with Tekton Pipeline",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 100
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)"
+      ]
+    },
+    {
       "path": "fixes/cncf-install/install-slimfaas.json",
       "title": "Install and Configure SlimFaas on Kubernetes",
       "description": "SlimFaas is a lightweight, plug-and-play Function-as-a-Service (FaaS) platform for Kubernetes. It scales functions to zero and back up on demand, with built-in pub/sub (sync and async) and a consensus",
@@ -30208,6 +30728,42 @@
       "qualitySuggestions": []
     },
     {
+      "path": "fixes/platform-install/install-tuf.json",
+      "title": "Install and Configure The Update Framework (TUF)",
+      "description": "TUF (The Update Framework) is a CNCF graduated specification and Python reference implementation for securing software update systems against key compromise and other attacks.",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 100
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)"
+      ]
+    },
+    {
       "path": "fixes/cncf-install/install-tikv.json",
       "title": "Install and Configure Tikv on Kubernetes",
       "description": "TiKV is an open-source, distributed, and transactional key-value database that provides ACID-compliant transactional APIs. Installing TiKV allows you to leverage its powerful features for managing lar",
@@ -30253,6 +30809,42 @@
       },
       "qualityIssues": [],
       "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/platform-install/install-tinkerbell.json",
+      "title": "Install and Configure Tinkerbell",
+      "description": "Tinkerbell is a CNCF bare metal provisioning engine with workflow capabilities, supporting BMC interactions, DHCP, and hardware auto-discovery. Deploy it to Kubernetes via Helm to automate bare metal ",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 100
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)"
+      ]
     },
     {
       "path": "fixes/cncf-install/install-tokenetes.json",
@@ -30964,6 +31556,80 @@
       ],
       "qualitySuggestions": [
         "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
+      "path": "fixes/platform-install/install-youki.json",
+      "title": "Install and Configure youki",
+      "description": "youki is a CNCF container runtime implementation in Rust, providing a low-memory-footprint alternative to runc. It implements the OCI Runtime Spec and can be used as a drop-in replacement for runc wit",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 85,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 70
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
+    },
+    {
+      "path": "fixes/platform-install/install-zot.json",
+      "title": "Install and Configure zot",
+      "description": "zot is a CNCF production-ready, vendor-neutral OCI-native container image registry. It provides a minimal, performant registry that supports OCI image and artifact specs with built-in search, deduplic",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [],
+      "type": "deploy",
+      "installMethods": [],
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 70,
+        "correctness": 100,
+        "structure": 70,
+        "observability": 100
+      },
+      "qualityIssues": [
+        "Missing or inadequate resolution summary",
+        "Missing categorization tags",
+        "Difficulty level not set"
+      ],
+      "qualitySuggestions": [
+        "Add a detailed summary of why this change resolves the issue",
+        "Add relevant tags to help users discover this KB entry",
+        "Define the difficulty (e.g., beginner, intermediate, advanced)"
       ]
     },
     {
