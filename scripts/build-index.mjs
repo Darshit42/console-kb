@@ -2,6 +2,8 @@
 import { readdir, readFile, writeFile, stat } from 'fs/promises';
 import { join, relative, extname } from 'path';
 import { parse as parseYaml } from 'yaml';
+import { scoreMissionAdvanced, MIN_SCORE } from './advanced-quality-scorer.mjs';
+// Companion: kubestellar/console#8148 exposes these index fields via /api/missions/scores.
 
 const SOLUTIONS_DIR = join(process.cwd(), 'fixes');
 const INDEX_PATH = join(SOLUTIONS_DIR, 'index.json');
@@ -62,7 +64,23 @@ function extractMetadata(content, filePath) {
     // Include versioning metadata when present in the mission file
     if (data.metadata?.projectVersion) entry.projectVersion = data.metadata.projectVersion;
     if (data.metadata?.maturity) entry.maturity = data.metadata.maturity;
-    if (data.metadata?.qualityScore != null) entry.qualityScore = data.metadata.qualityScore;
+    
+    // Evaluate advanced quality score.
+    // Behavior: if the mission file explicitly sets metadata.qualityScore (hand-curated),
+    // that value is preserved. Computed score is used only when no value is present.
+    // This prevents index builds from silently overwriting intentionally curated scores.
+    // See: kubestellar/console-kb PR #2019 description for rationale.
+    const scoreResult = scoreMissionAdvanced(data, data.metadata?.cncfProjects?.[0] || category, relPath);
+    const curatedScore = data.metadata?.qualityScore;
+    entry.qualityScore = curatedScore != null ? curatedScore : scoreResult.score;
+    entry.qualityPass = entry.qualityScore >= MIN_SCORE;
+    entry.qualityBreakdown = scoreResult.breakdown;
+    // Cap to 5 entries / 200 chars each — qualityIssues and qualitySuggestions live inside
+    // index.json which is fetched by the frontend on every KB page load. Unbounded arrays
+    // from low-quality missions can bloat the response significantly.
+    const cap = (arr) => (arr || []).slice(0, 5).map(s => String(s).slice(0, 200));
+    entry.qualityIssues = cap(scoreResult.issues);
+    entry.qualitySuggestions = cap(scoreResult.suggestions);
 
     return entry;
   } catch (e) {
@@ -92,8 +110,8 @@ function extractIssueTypes(data) {
   return types;
 }
 
-export async function buildIndex() {
-  const files = await walkDir(SOLUTIONS_DIR);
+export async function buildIndex(targetDir = SOLUTIONS_DIR) {
+  const files = await walkDir(targetDir);
   const missions = [];
   
   for (const filePath of files) {
@@ -109,8 +127,9 @@ export async function buildIndex() {
     missions: missions.sort((a, b) => a.title.localeCompare(b.title)),
   };
   
-  await writeFile(INDEX_PATH, JSON.stringify(index, null, 2) + '\n');
-  console.log(`Generated index with ${missions.length} missions at ${INDEX_PATH}`);
+  const targetIndexPath = targetDir === SOLUTIONS_DIR ? INDEX_PATH : join(targetDir, 'index.json');
+  await writeFile(targetIndexPath, JSON.stringify(index, null, 2) + '\n');
+  console.log(`Generated index with ${missions.length} missions at ${targetIndexPath}`);
   return index;
 }
 
