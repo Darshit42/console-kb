@@ -1,5 +1,496 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-08T08:16:01.446Z",
-  "projects": {}
+  "lastUpdated": "2026-05-09T08:29:59.359Z",
+  "projects": {
+    "eraser-dev/eraser": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:10:23.866Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:10:24.323Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:10:32.409Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:10:34.610Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "external-secrets/external-secrets": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:10:42.945Z",
+        "processedIds": [
+          "gh:external-secrets/external-secrets#2503",
+          "gh:external-secrets/external-secrets#2951",
+          "gh:external-secrets/external-secrets#2009",
+          "gh:external-secrets/external-secrets#2902",
+          "gh:external-secrets/external-secrets#3116",
+          "gh:external-secrets/external-secrets#1038",
+          "gh:external-secrets/external-secrets#2166",
+          "gh:external-secrets/external-secrets#4935",
+          "gh:external-secrets/external-secrets#1362",
+          "gh:external-secrets/external-secrets#2661",
+          "gh:external-secrets/external-secrets#1199",
+          "gh:external-secrets/external-secrets#1727",
+          "gh:external-secrets/external-secrets#1821",
+          "gh:external-secrets/external-secrets#5426"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:10:43.484Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:10:51.530Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:10:53.710Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "Project-HAMi/HAMi": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:10:56.435Z",
+        "processedIds": [
+          "gh:Project-HAMi/HAMi#1617",
+          "gh:Project-HAMi/HAMi#409"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:10:57.254Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:11:13.306Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:11:15.472Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "kubernetes-sigs/headlamp": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:11:16.666Z",
+        "processedIds": [
+          "gh:kubernetes-sigs/headlamp#1885",
+          "gh:kubernetes-sigs/headlamp#1380",
+          "gh:kubernetes-sigs/headlamp#3916"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:11:17.567Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:11:25.615Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:11:27.774Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "hexa-org/policy-orchestrator": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:11:28.966Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:11:29.391Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:11:45.456Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:11:51.753Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "HolmesGPT/holmesgpt": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:11:53.023Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:11:53.438Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:12:01.496Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:12:03.665Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "hwameistor/hwameistor": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:12:04.842Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:12:06.477Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:12:14.527Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:12:16.749Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "hyperlight-dev/hyperlight": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:12:17.927Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:12:18.359Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:12:34.411Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:12:36.586Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "inclavare-containers/inclavare-containers": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:12:37.784Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:12:38.225Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:12:46.272Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:12:48.523Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "inspektor-gadget/inspektor-gadget": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:12:51.928Z",
+        "processedIds": [
+          "gh:inspektor-gadget/inspektor-gadget#2131"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:12:52.982Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:13:09.028Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:13:15.233Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "interlink-hq/interLink": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:13:16.408Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:13:17.292Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:13:25.330Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:13:27.508Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "k0sproject/k0s": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:13:28.758Z",
+        "processedIds": [
+          "gh:k0sproject/k0s#1150",
+          "gh:k0sproject/k0s#1842",
+          "gh:k0sproject/k0s#4581"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:13:29.161Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:13:37.220Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:13:39.378Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "k3s-io/k3s": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:13:41.747Z",
+        "processedIds": [
+          "gh:k3s-io/k3s#1405",
+          "gh:k3s-io/k3s#5618",
+          "gh:k3s-io/k3s#60",
+          "gh:k3s-io/k3s#900",
+          "gh:k3s-io/k3s#1621",
+          "gh:k3s-io/k3s#478",
+          "gh:k3s-io/k3s#795"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:13:51.432Z",
+        "processedIds": [
+          "ghd:k3s-io/k3s/11100"
+        ],
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNC0wN1QxNjo0MzozOFrOAHykhQ=="
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:14:07.498Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:14:09.680Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "k8gb-io/k8gb": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:14:10.844Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:14:11.733Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:14:19.783Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:14:21.955Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "k8sgpt-ai/k8sgpt": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:14:27.444Z",
+        "processedIds": [
+          "gh:k8sgpt-ai/k8sgpt#188",
+          "gh:k8sgpt-ai/k8sgpt#440"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:14:27.837Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:14:43.973Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:14:50.192Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "k8up-io/k8up": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:14:51.388Z",
+        "processedIds": [
+          "gh:k8up-io/k8up#319",
+          "gh:k8up-io/k8up#910",
+          "gh:k8up-io/k8up#116"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:14:52.315Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:15:00.357Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:15:02.522Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "kagent-dev/kagent": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:15:04.235Z",
+        "processedIds": [
+          "gh:kagent-dev/kagent#183",
+          "gh:kagent-dev/kagent#171"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:15:05.049Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:15:13.088Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:15:15.251Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "kairos-io/kairos": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:15:16.465Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:15:19.103Z",
+        "processedIds": [],
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyMy0wOS0yOFQxNTowMjoxN1rOAFax6g=="
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:15:35.140Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:15:37.318Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "kaito-project/kaito": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:15:38.493Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:15:39.400Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:15:47.467Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:15:49.705Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    },
+    "kanisterio/kanister": {
+      "github-issues": {
+        "lastSearched": "2026-05-09T08:15:50.900Z",
+        "processedIds": [
+          "gh:kanisterio/kanister#1622"
+        ],
+        "cursor": null
+      },
+      "github-discussions": {
+        "lastSearched": "2026-05-09T08:15:51.740Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "reddit": {
+        "lastSearched": "2026-05-09T08:16:07.790Z",
+        "processedIds": [],
+        "cursor": null
+      },
+      "stackoverflow": {
+        "lastSearched": "2026-05-09T08:16:13.979Z",
+        "processedIds": [],
+        "cursor": null
+      }
+    }
+  }
 }
