@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-08-08T07:23:57.597Z",
+  "lastUpdated": "2026-08-09T07:26:31.534Z",
   "projects": {
     "uptrace/uptrace": {
       "github-issues": {
@@ -418,7 +418,7 @@
     },
     "kubeflow/kubeflow": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:42:12.485Z",
+        "lastSearched": "2026-08-09T07:01:49.496Z",
         "processedIds": [
           "gh:kubeflow/kubeflow#6680",
           "gh:kubeflow/kubeflow#5560",
@@ -436,24 +436,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:42:12.858Z",
+        "lastSearched": "2026-08-09T07:01:49.811Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:42:21.254Z",
+        "lastSearched": "2026-08-09T07:01:57.931Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:42:23.535Z",
+        "lastSearched": "2026-08-09T07:02:00.091Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "kubescape/kubescape": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:42:28.825Z",
+        "lastSearched": "2026-08-09T07:02:01.063Z",
         "processedIds": [
           "gh:kubescape/kubescape#132",
           "gh:kubescape/kubescape#1397",
@@ -464,24 +464,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:42:29.865Z",
+        "lastSearched": "2026-08-09T07:02:01.988Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:42:38.140Z",
+        "lastSearched": "2026-08-09T07:02:10.067Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:42:40.351Z",
+        "lastSearched": "2026-08-09T07:02:12.200Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "kubevela/kubevela": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:42:41.639Z",
+        "lastSearched": "2026-08-09T07:02:13.144Z",
         "processedIds": [
           "gh:kubevela/kubevela#609",
           "gh:kubevela/kubevela#3460",
@@ -493,24 +493,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:42:44.614Z",
+        "lastSearched": "2026-08-09T07:02:14.050Z",
         "processedIds": [],
         "cursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMS0yMVQwMjo0NToxNVrOADmGtg=="
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:43:00.935Z",
+        "lastSearched": "2026-08-09T07:02:30.107Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:43:03.200Z",
+        "lastSearched": "2026-08-09T07:02:32.250Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "kubevirt/kubevirt": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:43:08.653Z",
+        "lastSearched": "2026-08-09T07:02:33.271Z",
         "processedIds": [
           "gh:kubevirt/kubevirt#6462",
           "gh:kubevirt/kubevirt#7305",
@@ -526,24 +526,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:43:09.030Z",
+        "lastSearched": "2026-08-09T07:02:33.608Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:43:17.377Z",
+        "lastSearched": "2026-08-09T07:02:41.719Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:43:19.640Z",
+        "lastSearched": "2026-08-09T07:02:43.858Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "kyverno/kyverno": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:43:33.161Z",
+        "lastSearched": "2026-08-09T07:02:44.866Z",
         "processedIds": [
           "gh:kyverno/kyverno#1127",
           "gh:kyverno/kyverno#13934",
@@ -567,24 +567,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:43:36.520Z",
+        "lastSearched": "2026-08-09T07:02:45.605Z",
         "processedIds": [],
         "cursor": "Y3Vyc29yOnYyOpK0MjAyMi0wOC0wNFQxMjo0OTowMlrOAEE-Rw=="
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:43:52.844Z",
+        "lastSearched": "2026-08-09T07:03:01.676Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:43:59.177Z",
+        "lastSearched": "2026-08-09T07:03:07.833Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "lima-vm/lima": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:44:02.554Z",
+        "lastSearched": "2026-08-09T07:03:08.796Z",
         "processedIds": [
           "gh:lima-vm/lima#615",
           "gh:lima-vm/lima#366",
@@ -601,24 +601,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:44:05.204Z",
+        "lastSearched": "2026-08-09T07:03:11.645Z",
         "processedIds": [],
-        "cursor": "Y3Vyc29yOnYyOpK0MjAyMy0wNC0yOVQxNDowMDoxMlrOAE53iA=="
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyMS0xMS0xN1QyMjoxMTo0OFrOADhUqQ=="
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:44:13.561Z",
+        "lastSearched": "2026-08-09T07:03:19.707Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:44:15.822Z",
+        "lastSearched": "2026-08-09T07:03:21.840Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "litmuschaos/litmus": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:44:17.106Z",
+        "lastSearched": "2026-08-09T07:03:22.822Z",
         "processedIds": [
           "gh:litmuschaos/litmus#4532",
           "gh:litmuschaos/litmus#4336"
@@ -626,24 +626,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:44:18.085Z",
+        "lastSearched": "2026-08-09T07:03:23.605Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:44:26.462Z",
+        "lastSearched": "2026-08-09T07:03:31.677Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:44:28.806Z",
+        "lastSearched": "2026-08-09T07:03:33.815Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "longhorn/longhorn": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:44:31.456Z",
+        "lastSearched": "2026-08-09T07:03:34.832Z",
         "processedIds": [
           "gh:longhorn/longhorn#6415",
           "gh:longhorn/longhorn#11387",
@@ -654,24 +654,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:44:35.245Z",
+        "lastSearched": "2026-08-09T07:03:36.912Z",
         "processedIds": [],
-        "cursor": "Y3Vyc29yOnYyOpK0MjAyMy0wNS0yNVQxNTozNDowOVrOAE8wkQ=="
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyMS0wOS0yOFQxNToyNTowNlrOADa68Q=="
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:44:51.540Z",
+        "lastSearched": "2026-08-09T07:03:52.971Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:44:53.871Z",
+        "lastSearched": "2026-08-09T07:03:55.107Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "metal3-io/baremetal-operator": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:44:57.657Z",
+        "lastSearched": "2026-08-09T07:03:55.993Z",
         "processedIds": [
           "gh:metal3-io/baremetal-operator#410",
           "gh:metal3-io/baremetal-operator#1082",
@@ -681,24 +681,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:44:58.366Z",
+        "lastSearched": "2026-08-09T07:03:57.407Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:45:06.710Z",
+        "lastSearched": "2026-08-09T07:04:05.520Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:45:08.919Z",
+        "lastSearched": "2026-08-09T07:04:07.659Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "nats-io/nats-server": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:45:10.150Z",
+        "lastSearched": "2026-08-09T07:04:08.631Z",
         "processedIds": [
           "gh:nats-io/nats-server#7760",
           "gh:nats-io/nats-server#1556",
@@ -709,48 +709,48 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:45:13.081Z",
+        "lastSearched": "2026-08-09T07:04:10.666Z",
         "processedIds": [],
-        "cursor": "Y3Vyc29yOnYyOpK0MjAyNC0wOC0xMFQwMToxNjo1MlrOAGjizw=="
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMS0wNFQxMDozNToxOVrOAEU9Ug=="
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:45:29.436Z",
+        "lastSearched": "2026-08-09T07:04:26.784Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:45:35.806Z",
+        "lastSearched": "2026-08-09T07:04:32.937Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "notaryproject/notation": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:45:37.003Z",
+        "lastSearched": "2026-08-09T07:04:33.877Z",
         "processedIds": [
           "gh:notaryproject/notation#91"
         ],
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:45:38.876Z",
+        "lastSearched": "2026-08-09T07:04:34.674Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:45:47.220Z",
+        "lastSearched": "2026-08-09T07:04:42.793Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:45:49.494Z",
+        "lastSearched": "2026-08-09T07:04:44.928Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "opencost/opencost": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:45:50.722Z",
+        "lastSearched": "2026-08-09T07:04:45.908Z",
         "processedIds": [
           "gh:opencost/opencost#1223",
           "gh:opencost/opencost#560",
@@ -764,48 +764,48 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:45:51.516Z",
+        "lastSearched": "2026-08-09T07:04:46.638Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:46:00.369Z",
+        "lastSearched": "2026-08-09T07:04:54.760Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:46:02.587Z",
+        "lastSearched": "2026-08-09T07:04:56.890Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "open-feature/spec": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:46:05.171Z",
+        "lastSearched": "2026-08-09T07:04:57.852Z",
         "processedIds": [
           "gh:open-feature/spec#365"
         ],
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:46:05.908Z",
+        "lastSearched": "2026-08-09T07:04:59.297Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:46:22.213Z",
+        "lastSearched": "2026-08-09T07:05:15.390Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:46:24.484Z",
+        "lastSearched": "2026-08-09T07:05:17.533Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "openfga/openfga": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:46:27.298Z",
+        "lastSearched": "2026-08-09T07:05:18.512Z",
         "processedIds": [
           "gh:openfga/openfga#2504",
           "gh:openfga/openfga#2422",
@@ -814,48 +814,48 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:46:27.682Z",
+        "lastSearched": "2026-08-09T07:05:18.834Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:46:36.017Z",
+        "lastSearched": "2026-08-09T07:05:26.898Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:46:38.219Z",
+        "lastSearched": "2026-08-09T07:05:29.029Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "openkruise/kruise": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:46:40.992Z",
+        "lastSearched": "2026-08-09T07:05:29.980Z",
         "processedIds": [
           "gh:openkruise/kruise#2035"
         ],
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:46:41.873Z",
+        "lastSearched": "2026-08-09T07:05:30.694Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:46:58.213Z",
+        "lastSearched": "2026-08-09T07:05:46.813Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:47:04.503Z",
+        "lastSearched": "2026-08-09T07:05:53.058Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "open-telemetry/community": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:47:09.071Z",
+        "lastSearched": "2026-08-09T07:05:54.043Z",
         "processedIds": [
           "gh:open-telemetry/community#1406",
           "gh:open-telemetry/community#871",
@@ -869,24 +869,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:47:09.849Z",
+        "lastSearched": "2026-08-09T07:05:54.725Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:47:18.194Z",
+        "lastSearched": "2026-08-09T07:06:02.854Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:47:20.408Z",
+        "lastSearched": "2026-08-09T07:06:04.991Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "open-telemetry/opentelemetry-collector": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:47:28.438Z",
+        "lastSearched": "2026-08-09T07:06:05.947Z",
         "processedIds": [
           "gh:open-telemetry/opentelemetry-collector#6046",
           "gh:open-telemetry/opentelemetry-collector#2364",
@@ -902,24 +902,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:47:31.367Z",
+        "lastSearched": "2026-08-09T07:06:06.910Z",
         "processedIds": [],
         "cursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMi0yOFQxODozMzo0NlrOADtSFQ=="
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:47:39.724Z",
+        "lastSearched": "2026-08-09T07:06:15.103Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:47:42.014Z",
+        "lastSearched": "2026-08-09T07:06:17.241Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "open-telemetry/opentelemetry-operator": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:47:46.612Z",
+        "lastSearched": "2026-08-09T07:06:18.198Z",
         "processedIds": [
           "gh:open-telemetry/opentelemetry-operator#4400",
           "gh:open-telemetry/opentelemetry-operator#4367",
@@ -932,46 +932,46 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:47:46.965Z",
+        "lastSearched": "2026-08-09T07:06:18.524Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:48:03.301Z",
+        "lastSearched": "2026-08-09T07:06:34.596Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:48:05.594Z",
+        "lastSearched": "2026-08-09T07:06:36.733Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "openyurtio/openyurt": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:48:06.717Z",
+        "lastSearched": "2026-08-09T07:06:37.669Z",
         "processedIds": [],
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:48:07.575Z",
+        "lastSearched": "2026-08-09T07:06:39.200Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:48:15.889Z",
+        "lastSearched": "2026-08-09T07:06:47.260Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:48:18.102Z",
+        "lastSearched": "2026-08-09T07:06:49.399Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "operator-framework/operator-sdk": {
       "github-issues": {
-        "lastSearched": "2026-08-06T08:48:25.132Z",
+        "lastSearched": "2026-08-09T07:06:50.394Z",
         "processedIds": [
           "gh:operator-framework/operator-sdk#6681",
           "gh:operator-framework/operator-sdk#3461",
@@ -987,17 +987,17 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-08-06T08:48:25.555Z",
+        "lastSearched": "2026-08-09T07:06:50.711Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-08-06T08:48:41.856Z",
+        "lastSearched": "2026-08-09T07:07:06.757Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-08-06T08:48:48.296Z",
+        "lastSearched": "2026-08-09T07:07:12.911Z",
         "processedIds": [],
         "cursor": null
       }
