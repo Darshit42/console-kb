@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-09-30T12:33:39.558Z",
+  "lastUpdated": "2026-10-01T13:03:58.065Z",
   "projects": {
     "cedar-policy/cedar": {
       "github-issues": {
@@ -1691,7 +1691,7 @@
     },
     "backstage/backstage": {
       "github-issues": {
-        "lastSearched": "2026-09-26T11:23:31.695Z",
+        "lastSearched": "2026-10-01T13:02:23.380Z",
         "processedIds": [
           "gh:backstage/backstage#714",
           "gh:backstage/backstage#691",
@@ -1714,17 +1714,17 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-09-26T11:23:32.064Z",
+        "lastSearched": "2026-10-01T13:02:23.809Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-09-26T11:23:40.121Z",
+        "lastSearched": "2026-10-01T13:02:31.876Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-09-26T11:23:42.273Z",
+        "lastSearched": "2026-10-01T13:02:34.042Z",
         "processedIds": [],
         "cursor": null
       }
@@ -2031,7 +2031,7 @@
     },
     "keycloak/keycloak": {
       "github-issues": {
-        "lastSearched": "2026-09-26T11:20:50.047Z",
+        "lastSearched": "2026-10-01T12:59:57.379Z",
         "processedIds": [
           "gh:keycloak/keycloak#37636",
           "gh:keycloak/keycloak#14122",
@@ -2052,24 +2052,25 @@
           "gh:keycloak/keycloak#24493",
           "gh:keycloak/keycloak#36160",
           "gh:keycloak/keycloak#50362",
-          "gh:keycloak/keycloak#12406"
+          "gh:keycloak/keycloak#12406",
+          "gh:keycloak/keycloak#50830"
         ],
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-09-26T11:20:54.177Z",
+        "lastSearched": "2026-10-01T13:00:02.203Z",
         "processedIds": [
           "ghd:keycloak/keycloak/42784"
         ],
-        "cursor": "Y3Vyc29yOnYyOpK0MjAyNS0wNC0wOFQxODowMzoxMlrOAHzCuw=="
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyNC0xMS0xNFQxMjowMjo0NlrOAHHmNw=="
       },
       "reddit": {
-        "lastSearched": "2026-09-26T11:21:10.264Z",
+        "lastSearched": "2026-10-01T13:00:18.289Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-09-26T11:21:12.409Z",
+        "lastSearched": "2026-10-01T13:00:20.423Z",
         "processedIds": [],
         "cursor": null
       }
@@ -2107,29 +2108,29 @@
     },
     "uptrace/uptrace": {
       "github-issues": {
-        "lastSearched": "2026-09-26T11:20:20.067Z",
+        "lastSearched": "2026-10-01T12:59:29.937Z",
         "processedIds": [],
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-09-26T11:20:20.844Z",
+        "lastSearched": "2026-10-01T12:59:30.977Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-09-26T11:20:28.995Z",
+        "lastSearched": "2026-10-01T12:59:39.083Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-09-26T11:20:31.160Z",
+        "lastSearched": "2026-10-01T12:59:41.249Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "netdata/netdata": {
       "github-issues": {
-        "lastSearched": "2026-09-26T11:20:36.245Z",
+        "lastSearched": "2026-10-01T12:59:42.437Z",
         "processedIds": [
           "gh:netdata/netdata#4813",
           "gh:netdata/netdata#4888",
@@ -2146,24 +2147,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-09-26T11:20:38.747Z",
+        "lastSearched": "2026-10-01T12:59:44.562Z",
         "processedIds": [],
-        "cursor": "Y3Vyc29yOnYyOpK0MjAyMy0wNi0yOFQwODoxOToyOVrOAFFS8A=="
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyMi0wNy0xNVQwNzo0MjoyMVrOAEBdYw=="
       },
       "reddit": {
-        "lastSearched": "2026-09-26T11:20:46.810Z",
+        "lastSearched": "2026-10-01T12:59:52.719Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-09-26T11:20:48.955Z",
+        "lastSearched": "2026-10-01T12:59:54.833Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "hashicorp/vault": {
       "github-issues": {
-        "lastSearched": "2026-09-26T11:21:20.202Z",
+        "lastSearched": "2026-10-01T13:00:21.594Z",
         "processedIds": [
           "gh:hashicorp/vault#9076",
           "gh:hashicorp/vault#11089",
@@ -2189,24 +2190,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-09-26T11:21:20.546Z",
+        "lastSearched": "2026-10-01T13:00:22.803Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-09-26T11:21:28.628Z",
+        "lastSearched": "2026-10-01T13:00:30.869Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-09-26T11:21:30.771Z",
+        "lastSearched": "2026-10-01T13:00:33.002Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "hashicorp/consul": {
       "github-issues": {
-        "lastSearched": "2026-09-26T11:21:33.661Z",
+        "lastSearched": "2026-10-01T13:00:34.126Z",
         "processedIds": [
           "gh:hashicorp/consul#8283",
           "gh:hashicorp/consul#10603",
@@ -2229,24 +2230,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-09-26T11:21:34.026Z",
+        "lastSearched": "2026-10-01T13:00:34.569Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-09-26T11:21:50.096Z",
+        "lastSearched": "2026-10-01T13:00:50.654Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-09-26T11:21:56.288Z",
+        "lastSearched": "2026-10-01T13:00:56.831Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "cilium/tetragon": {
       "github-issues": {
-        "lastSearched": "2026-09-26T11:21:59.335Z",
+        "lastSearched": "2026-10-01T13:00:58.000Z",
         "processedIds": [
           "gh:cilium/tetragon#4935",
           "gh:cilium/tetragon#679"
@@ -2254,24 +2255,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-09-26T11:21:59.659Z",
+        "lastSearched": "2026-10-01T13:00:58.409Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-09-26T11:22:07.748Z",
+        "lastSearched": "2026-10-01T13:01:06.534Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-09-26T11:22:09.931Z",
+        "lastSearched": "2026-10-01T13:01:08.678Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "minio/minio": {
       "github-issues": {
-        "lastSearched": "2026-09-26T11:22:12.866Z",
+        "lastSearched": "2026-10-01T13:01:09.853Z",
         "processedIds": [
           "gh:minio/minio#4166",
           "gh:minio/minio#9726",
@@ -2285,24 +2286,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-09-26T11:22:15.531Z",
+        "lastSearched": "2026-10-01T13:01:12.725Z",
         "processedIds": [],
-        "cursor": "Y3Vyc29yOnYyOpK0MjAyNS0wMy0yN1QxOTowNzoxNVrOAE0JFA=="
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyNC0xMC0yNFQwOTo0NTo0MlrOAHBUvQ=="
       },
       "reddit": {
-        "lastSearched": "2026-09-26T11:22:23.593Z",
+        "lastSearched": "2026-10-01T13:01:20.789Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-09-26T11:22:25.739Z",
+        "lastSearched": "2026-10-01T13:01:22.923Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "seaweedfs/seaweedfs": {
       "github-issues": {
-        "lastSearched": "2026-09-26T11:22:26.745Z",
+        "lastSearched": "2026-10-01T13:01:24.123Z",
         "processedIds": [
           "gh:seaweedfs/seaweedfs#7649",
           "gh:seaweedfs/seaweedfs#2445",
@@ -2311,24 +2312,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-09-26T11:22:30.001Z",
+        "lastSearched": "2026-10-01T13:01:27.849Z",
         "processedIds": [],
-        "cursor": "Y3Vyc29yOnYyOpK0MjAyNC0wNy0wNVQwMTozMTozNlrOAGk77w=="
+        "cursor": "Y3Vyc29yOnYyOpK0MjAyMi0wMi0yNlQyMDowNzo0NVrOADuNMw=="
       },
       "reddit": {
-        "lastSearched": "2026-09-26T11:22:46.074Z",
+        "lastSearched": "2026-10-01T13:01:43.925Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-09-26T11:22:48.208Z",
+        "lastSearched": "2026-10-01T13:01:46.048Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "n8n-io/n8n": {
       "github-issues": {
-        "lastSearched": "2026-09-26T11:22:54.564Z",
+        "lastSearched": "2026-10-01T13:01:47.230Z",
         "processedIds": [
           "gh:n8n-io/n8n#40",
           "gh:n8n-io/n8n#22706",
@@ -2352,24 +2353,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-09-26T11:22:54.913Z",
+        "lastSearched": "2026-10-01T13:01:47.664Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-09-26T11:23:03.041Z",
+        "lastSearched": "2026-10-01T13:01:55.726Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-09-26T11:23:05.214Z",
+        "lastSearched": "2026-10-01T13:01:57.881Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "temporalio/temporal": {
       "github-issues": {
-        "lastSearched": "2026-09-26T11:23:07.752Z",
+        "lastSearched": "2026-10-01T13:01:59.087Z",
         "processedIds": [
           "gh:temporalio/temporal#2582",
           "gh:temporalio/temporal#1305",
@@ -2379,24 +2380,24 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-09-26T11:23:08.418Z",
+        "lastSearched": "2026-10-01T13:01:59.881Z",
         "processedIds": [],
         "cursor": null
       },
       "reddit": {
-        "lastSearched": "2026-09-26T11:23:24.472Z",
+        "lastSearched": "2026-10-01T13:02:15.954Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-09-26T11:23:30.685Z",
+        "lastSearched": "2026-10-01T13:02:22.162Z",
         "processedIds": [],
         "cursor": null
       }
     },
     "goharbor/harbor": {
       "github-issues": {
-        "lastSearched": "2026-09-26T11:23:45.291Z",
+        "lastSearched": "2026-10-01T13:02:35.228Z",
         "processedIds": [
           "gh:goharbor/harbor#13231",
           "gh:goharbor/harbor#13223",
@@ -2420,17 +2421,17 @@
         "cursor": null
       },
       "github-discussions": {
-        "lastSearched": "2026-09-26T11:23:47.948Z",
+        "lastSearched": "2026-10-01T13:02:36.511Z",
         "processedIds": [],
         "cursor": "Y3Vyc29yOnYyOpK0MjAyMi0xMS0xNlQwOTo1OTowNFrOAEWzDQ=="
       },
       "reddit": {
-        "lastSearched": "2026-09-26T11:23:56.024Z",
+        "lastSearched": "2026-10-01T13:02:44.739Z",
         "processedIds": [],
         "cursor": null
       },
       "stackoverflow": {
-        "lastSearched": "2026-09-26T11:23:58.191Z",
+        "lastSearched": "2026-10-01T13:02:46.976Z",
         "processedIds": [],
         "cursor": null
       }
